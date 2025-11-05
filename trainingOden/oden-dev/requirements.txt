@@ -1,0 +1,6 @@
+Flask
+psycopg2-binary
+requests
+flask_session
+redis
+google-cloud-storage

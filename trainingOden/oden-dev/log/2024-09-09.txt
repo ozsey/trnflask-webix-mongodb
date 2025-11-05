@@ -1,0 +1,1893 @@
+INFO | 2024-09-09 | 11:35:39 | [PreSelect - DEPARTEMEN] - 0:00:00.000034
+INFO | 2024-09-09 | 11:35:39 | [MainSelect - DEPARTEMEN] - 0:00:00.004005
+INFO | 2024-09-09 | 11:35:39 | [PostSelect - DEPARTEMEN - 0:00:00.000021
+INFO | 2024-09-09 | 11:35:39 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004529
+INFO | 2024-09-09 | 11:35:39 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7dff7f7cf580>]
+INFO | 2024-09-09 | 11:35:39 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004999
+INFO | 2024-09-09 | 11:35:53 | [PreSelect - DEPARTEMEN] - 0:00:00.000042
+INFO | 2024-09-09 | 11:35:53 | [MainSelect - DEPARTEMEN] - 0:00:00.003894
+INFO | 2024-09-09 | 11:35:53 | [PostSelect - DEPARTEMEN - 0:00:00.000021
+INFO | 2024-09-09 | 11:35:53 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004313
+INFO | 2024-09-09 | 11:35:53 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7dff7f7cea10>]
+INFO | 2024-09-09 | 11:35:53 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004611
+INFO | 2024-09-09 | 11:36:46 | [PreSelect - DEPARTEMEN] - 0:00:00.000040
+INFO | 2024-09-09 | 11:36:46 | [MainSelect - DEPARTEMEN] - 0:00:00.002941
+INFO | 2024-09-09 | 11:36:46 | [PostSelect - DEPARTEMEN - 0:00:00.000024
+INFO | 2024-09-09 | 11:36:46 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003532
+INFO | 2024-09-09 | 11:36:46 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7dff7f7e2b00>]
+INFO | 2024-09-09 | 11:36:46 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.003859
+INFO | 2024-09-09 | 11:38:12 | [PreSelect - DEPARTEMEN] - 0:00:00.000045
+INFO | 2024-09-09 | 11:38:12 | [MainSelect - DEPARTEMEN] - 0:00:00.004822
+INFO | 2024-09-09 | 11:38:12 | [PostSelect - DEPARTEMEN - 0:00:00.000038
+INFO | 2024-09-09 | 11:38:12 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005565
+INFO | 2024-09-09 | 11:38:12 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7dff7f7ce680>]
+INFO | 2024-09-09 | 11:38:12 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006085
+INFO | 2024-09-09 | 11:59:39 | [PreSelect - DEPARTEMEN] - 0:00:00.000036
+INFO | 2024-09-09 | 11:59:39 | [MainSelect - DEPARTEMEN] - 0:00:00.004113
+INFO | 2024-09-09 | 11:59:39 | [PostSelect - DEPARTEMEN - 0:00:00.000028
+INFO | 2024-09-09 | 11:59:39 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004695
+INFO | 2024-09-09 | 11:59:39 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x767e2274f400>]
+INFO | 2024-09-09 | 11:59:39 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005192
+INFO | 2024-09-09 | 12:00:54 | [PreSelect - DEPARTEMEN] - 0:00:00.000050
+INFO | 2024-09-09 | 12:00:54 | [MainSelect - DEPARTEMEN] - 0:00:00.003987
+INFO | 2024-09-09 | 12:00:54 | [PostSelect - DEPARTEMEN - 0:00:00.000036
+INFO | 2024-09-09 | 12:00:54 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004705
+INFO | 2024-09-09 | 12:00:54 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x75e52515b400>]
+INFO | 2024-09-09 | 12:00:54 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005686
+INFO | 2024-09-09 | 12:02:15 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 12:02:15 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 12:02:15 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '43', 'deptname': 'joni', 'deptkepala': 'JONATHAN'}} - DEPARTEMEN - 0:00:00.004295
+INFO | 2024-09-09 | 12:02:15 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 12:02:15 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '43', 'deptname': 'joni', 'deptkepala': 'JONATHAN'}} - 0:00:00.037621
+INFO | 2024-09-09 | 12:02:49 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 12:02:49 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 12:02:49 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '43', 'deptname': 'JONIIIII', 'deptkepala': 'JONATHAN'}} - DEPARTEMEN - 0:00:00.009278
+INFO | 2024-09-09 | 12:02:49 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 12:02:49 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '43', 'deptname': 'JONIIIII', 'deptkepala': 'JONATHAN'}} - 0:00:00.040545
+INFO | 2024-09-09 | 12:02:59 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 12:02:59 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 12:02:59 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '43', 'deptname': 'joni', 'deptkepala': 'JONATHAN'}} - DEPARTEMEN - 0:00:00.003397
+INFO | 2024-09-09 | 12:02:59 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 12:02:59 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '43', 'deptname': 'joni', 'deptkepala': 'JONATHAN'}} - 0:00:00.029724
+INFO | 2024-09-09 | 12:03:40 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 12:03:40 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 12:03:40 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '43', 'deptname': 'jonii', 'deptkepala': 'JONATHAN'}} - DEPARTEMEN - 0:00:00.003586
+INFO | 2024-09-09 | 12:03:40 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 12:03:40 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '43', 'deptname': 'jonii', 'deptkepala': 'JONATHAN'}} - 0:00:00.035112
+INFO | 2024-09-09 | 12:52:10 | [PreSelect - DEPARTEMEN] - 0:00:00.000037
+INFO | 2024-09-09 | 12:52:10 | [MainSelect - DEPARTEMEN] - 0:00:00.004255
+INFO | 2024-09-09 | 12:52:10 | [PostSelect - DEPARTEMEN - 0:00:00.000026
+INFO | 2024-09-09 | 12:52:10 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004812
+INFO | 2024-09-09 | 12:52:10 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x777f3314e980>]
+INFO | 2024-09-09 | 12:52:10 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005169
+INFO | 2024-09-09 | 12:53:10 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 12:54:37 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 12:54:45 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 13:01:37 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 13:26:10 | 2209116 | GAGAL GET VFORM IN CONTAINER | Error on line 25, ('KeyError',) 'vForm' redis session tidak ditemukan
+ERROR | 2024-09-09 | 13:26:10 | 2209116 | GAGAL UPDATE DATA IN CONTAINER | Error on line 86, ('AttributeError',) 'dict' object has no attribute 'setDataUpdate'
+ERROR | 2024-09-09 | 13:26:17 | 2209116 | GAGAL GET VFORM IN CONTAINER | Error on line 25, ('KeyError',) 'vForm' session:c778f997-5642-43aa-bec8-e7d39112ae13
+ERROR | 2024-09-09 | 13:26:17 | 2209116 | GAGAL SELECT DATA IN CONTAINER | Error on line 50, ('AttributeError',) 'dict' object has no attribute 'dataBlocks'
+INFO | 2024-09-09 | 13:27:00 | [PreSelect - DEPARTEMEN] - 0:00:00.000037
+INFO | 2024-09-09 | 13:27:00 | [MainSelect - DEPARTEMEN] - 0:00:00.003689
+INFO | 2024-09-09 | 13:27:00 | [PostSelect - DEPARTEMEN - 0:00:00.000042
+INFO | 2024-09-09 | 13:27:00 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004314
+INFO | 2024-09-09 | 13:27:00 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7baf6214d660>]
+INFO | 2024-09-09 | 13:27:00 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004864
+INFO | 2024-09-09 | 13:27:22 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 13:36:27 | 2209116 | GAGAL GET VFORM IN CONTAINER | Error on line 25, ('KeyError',) 'vForm' session:c778f997-5642-43aa-bec8-e7d39112ae13
+ERROR | 2024-09-09 | 13:36:27 | 2209116 | GAGAL SELECT DATA IN CONTAINER | Error on line 50, ('AttributeError',) 'dict' object has no attribute 'dataBlocks'
+INFO | 2024-09-09 | 13:36:44 | [PreSelect - DEPARTEMEN] - 0:00:00.000193
+INFO | 2024-09-09 | 13:36:44 | [MainSelect - DEPARTEMEN] - 0:00:00.004369
+INFO | 2024-09-09 | 13:36:44 | [PostSelect - DEPARTEMEN - 0:00:00.000030
+INFO | 2024-09-09 | 13:36:44 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005112
+INFO | 2024-09-09 | 13:36:44 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7a46e676a4a0>]
+INFO | 2024-09-09 | 13:36:44 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005654
+INFO | 2024-09-09 | 13:36:55 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 13:42:29 | [PreSelect - DEPARTEMEN] - 0:00:00.000048
+INFO | 2024-09-09 | 13:42:29 | [MainSelect - DEPARTEMEN] - 0:00:00.007016
+INFO | 2024-09-09 | 13:42:29 | [PostSelect - DEPARTEMEN - 0:00:00.000391
+INFO | 2024-09-09 | 13:42:29 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.009112
+INFO | 2024-09-09 | 13:42:29 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7e8f1fb4f8e0>]
+INFO | 2024-09-09 | 13:42:29 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.011356
+INFO | 2024-09-09 | 13:43:31 | [PreSelect - DEPARTEMEN] - 0:00:00.000034
+INFO | 2024-09-09 | 13:43:31 | [MainSelect - DEPARTEMEN] - 0:00:00.004214
+INFO | 2024-09-09 | 13:43:31 | [PostSelect - DEPARTEMEN - 0:00:00.000160
+INFO | 2024-09-09 | 13:43:31 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008026
+INFO | 2024-09-09 | 13:43:31 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7e8f1fbbe2f0>]
+INFO | 2024-09-09 | 13:43:31 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009106
+INFO | 2024-09-09 | 13:44:53 | [PreSelect - DEPARTEMEN] - 0:00:00.000238
+INFO | 2024-09-09 | 13:44:53 | [MainSelect - DEPARTEMEN] - 0:00:00.008335
+INFO | 2024-09-09 | 13:44:53 | [PostSelect - DEPARTEMEN - 0:00:00.000144
+INFO | 2024-09-09 | 13:44:53 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.009390
+INFO | 2024-09-09 | 13:44:53 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7c5e48f5b430>]
+INFO | 2024-09-09 | 13:44:53 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.015325
+INFO | 2024-09-09 | 13:45:32 | [PreSelect - DEPARTEMEN] - 0:00:00.000034
+INFO | 2024-09-09 | 13:45:32 | [MainSelect - DEPARTEMEN] - 0:00:00.004842
+INFO | 2024-09-09 | 13:45:32 | [PostSelect - DEPARTEMEN - 0:00:00.000149
+INFO | 2024-09-09 | 13:45:32 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005558
+INFO | 2024-09-09 | 13:45:32 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x74abb2553400>]
+INFO | 2024-09-09 | 13:45:32 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.014663
+INFO | 2024-09-09 | 13:46:18 | [PreSelect - DEPARTEMEN] - 0:00:00.000078
+INFO | 2024-09-09 | 13:46:18 | [MainSelect - DEPARTEMEN] - 0:00:00.003504
+INFO | 2024-09-09 | 13:46:18 | [PostSelect - DEPARTEMEN - 0:00:00.000076
+INFO | 2024-09-09 | 13:46:18 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004270
+INFO | 2024-09-09 | 13:46:18 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x74abb25d2770>]
+INFO | 2024-09-09 | 13:46:18 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005030
+INFO | 2024-09-09 | 13:47:35 | [PreSelect - DEPARTEMEN] - 0:00:00.000048
+INFO | 2024-09-09 | 13:47:35 | [MainSelect - DEPARTEMEN] - 0:00:00.005045
+INFO | 2024-09-09 | 13:47:35 | [PostSelect - DEPARTEMEN - 0:00:00.000228
+INFO | 2024-09-09 | 13:47:35 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006155
+INFO | 2024-09-09 | 13:47:35 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7dd84374f550>]
+INFO | 2024-09-09 | 13:47:35 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006653
+INFO | 2024-09-09 | 13:49:50 | [PreSelect - DEPARTEMEN] - 0:00:00.000063
+INFO | 2024-09-09 | 13:49:50 | [MainSelect - DEPARTEMEN] - 0:00:00.005650
+INFO | 2024-09-09 | 13:49:50 | [PostSelect - DEPARTEMEN - 0:00:00.002868
+INFO | 2024-09-09 | 13:49:50 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.009345
+INFO | 2024-09-09 | 13:49:50 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7bf6abd57a60>]
+INFO | 2024-09-09 | 13:49:50 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009840
+INFO | 2024-09-09 | 13:49:53 | [PreSelect - DEPARTEMEN] - 0:00:00.000040
+INFO | 2024-09-09 | 13:49:53 | [MainSelect - DEPARTEMEN] - 0:00:00.004358
+INFO | 2024-09-09 | 13:49:53 | [PostSelect - DEPARTEMEN - 0:00:00.000027
+INFO | 2024-09-09 | 13:49:53 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004928
+INFO | 2024-09-09 | 13:49:53 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7bf6abd56f80>]
+INFO | 2024-09-09 | 13:49:53 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005299
+INFO | 2024-09-09 | 13:50:13 | [PreSelect - DEPARTEMEN] - 0:00:00.000054
+INFO | 2024-09-09 | 13:50:13 | [MainSelect - DEPARTEMEN] - 0:00:00.005060
+INFO | 2024-09-09 | 13:50:13 | [PostSelect - DEPARTEMEN - 0:00:00.000155
+INFO | 2024-09-09 | 13:50:13 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005998
+INFO | 2024-09-09 | 13:50:13 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7bf6abdd0ee0>]
+INFO | 2024-09-09 | 13:50:13 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006788
+INFO | 2024-09-09 | 13:50:19 | [PreSelect - DEPARTEMEN] - 0:00:00.000149
+INFO | 2024-09-09 | 13:50:19 | [MainSelect - DEPARTEMEN] - 0:00:00.003516
+INFO | 2024-09-09 | 13:50:19 | [PostSelect - DEPARTEMEN - 0:00:00.000050
+INFO | 2024-09-09 | 13:50:19 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006016
+INFO | 2024-09-09 | 13:50:19 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7bf6abdd22f0>]
+INFO | 2024-09-09 | 13:50:19 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008971
+INFO | 2024-09-09 | 13:50:30 | [PreSelect - DEPARTEMEN] - 0:00:00.000048
+INFO | 2024-09-09 | 13:50:30 | [MainSelect - DEPARTEMEN] - 0:00:00.002842
+INFO | 2024-09-09 | 13:50:30 | [PostSelect - DEPARTEMEN - 0:00:00.000061
+INFO | 2024-09-09 | 13:50:30 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003552
+INFO | 2024-09-09 | 13:50:30 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7bf6abdd1420>]
+INFO | 2024-09-09 | 13:50:30 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004131
+INFO | 2024-09-09 | 14:01:06 | [PreSelect - DEPARTEMEN] - 0:00:00.000033
+INFO | 2024-09-09 | 14:01:06 | [MainSelect - DEPARTEMEN] - 0:00:00.004777
+INFO | 2024-09-09 | 14:01:06 | [PostSelect - DEPARTEMEN - 0:00:00.000034
+INFO | 2024-09-09 | 14:01:06 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005409
+INFO | 2024-09-09 | 14:01:06 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x70f5f6d4f040>]
+INFO | 2024-09-09 | 14:01:06 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005835
+INFO | 2024-09-09 | 14:10:54 | [PreSelect - DEPARTEMEN] - 0:00:00.000112
+INFO | 2024-09-09 | 14:10:54 | [MainSelect - DEPARTEMEN] - 0:00:00.004239
+INFO | 2024-09-09 | 14:10:54 | [PostSelect - DEPARTEMEN - 0:00:00.000027
+INFO | 2024-09-09 | 14:10:54 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006127
+INFO | 2024-09-09 | 14:10:54 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7ed2fbd5dc90>]
+INFO | 2024-09-09 | 14:10:54 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006598
+INFO | 2024-09-09 | 14:10:54 | [PreSelect - PEGAWAI] - 0:00:00.000050
+INFO | 2024-09-09 | 14:10:54 | [MainSelect - PEGAWAI] - 0:00:00.004809
+INFO | 2024-09-09 | 14:10:54 | [PostSelect - PEGAWAI - 0:00:00.000041
+INFO | 2024-09-09 | 14:10:54 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005526
+INFO | 2024-09-09 | 14:10:54 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:10:54 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006182
+INFO | 2024-09-09 | 14:11:09 | [PreSelect - DEPARTEMEN] - 0:00:00.000040
+INFO | 2024-09-09 | 14:11:09 | [MainSelect - DEPARTEMEN] - 0:00:00.005896
+INFO | 2024-09-09 | 14:11:09 | [PostSelect - DEPARTEMEN - 0:00:00.000228
+INFO | 2024-09-09 | 14:11:09 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006802
+INFO | 2024-09-09 | 14:11:09 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7ed2fbdd6a70>]
+INFO | 2024-09-09 | 14:11:09 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007697
+INFO | 2024-09-09 | 14:11:09 | [PreSelect - PEGAWAI] - 0:00:00.000036
+INFO | 2024-09-09 | 14:11:09 | [MainSelect - PEGAWAI] - 0:00:00.005715
+INFO | 2024-09-09 | 14:11:09 | [PostSelect - PEGAWAI - 0:00:00.000125
+INFO | 2024-09-09 | 14:11:09 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006453
+INFO | 2024-09-09 | 14:11:09 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:11:09 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006939
+INFO | 2024-09-09 | 14:11:10 | [PreSelect - DEPARTEMEN] - 0:00:00.000047
+INFO | 2024-09-09 | 14:11:10 | [MainSelect - DEPARTEMEN] - 0:00:00.004143
+INFO | 2024-09-09 | 14:11:10 | [PostSelect - DEPARTEMEN - 0:00:00.000035
+INFO | 2024-09-09 | 14:11:10 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004757
+INFO | 2024-09-09 | 14:11:10 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7ed2fbd5c670>]
+INFO | 2024-09-09 | 14:11:10 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005257
+INFO | 2024-09-09 | 14:11:10 | [PreSelect - PEGAWAI] - 0:00:00.000064
+INFO | 2024-09-09 | 14:11:10 | [MainSelect - PEGAWAI] - 0:00:00.004427
+INFO | 2024-09-09 | 14:11:10 | [PostSelect - PEGAWAI - 0:00:00.000025
+INFO | 2024-09-09 | 14:11:10 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005061
+INFO | 2024-09-09 | 14:11:10 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:11:10 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005473
+INFO | 2024-09-09 | 14:12:33 | [PreSelect - DEPARTEMEN] - 0:00:00.000038
+INFO | 2024-09-09 | 14:12:33 | [MainSelect - DEPARTEMEN] - 0:00:00.004518
+INFO | 2024-09-09 | 14:12:33 | [PostSelect - DEPARTEMEN - 0:00:00.000049
+INFO | 2024-09-09 | 14:12:33 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005190
+INFO | 2024-09-09 | 14:12:33 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f1c33159e40>]
+INFO | 2024-09-09 | 14:12:33 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005781
+INFO | 2024-09-09 | 14:12:33 | [PreSelect - PEGAWAI] - 0:00:00.000062
+INFO | 2024-09-09 | 14:12:33 | [MainSelect - PEGAWAI] - 0:00:00.005204
+INFO | 2024-09-09 | 14:12:33 | [PostSelect - PEGAWAI - 0:00:00.000045
+INFO | 2024-09-09 | 14:12:33 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006116
+INFO | 2024-09-09 | 14:12:33 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:12:33 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006704
+INFO | 2024-09-09 | 14:13:03 | [PreSelect - DEPARTEMEN] - 0:00:00.000050
+INFO | 2024-09-09 | 14:13:03 | [MainSelect - DEPARTEMEN] - 0:00:00.005177
+INFO | 2024-09-09 | 14:13:03 | [PostSelect - DEPARTEMEN - 0:00:00.000034
+INFO | 2024-09-09 | 14:13:03 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005787
+INFO | 2024-09-09 | 14:13:03 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7f1c331586a0>]
+INFO | 2024-09-09 | 14:13:03 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006220
+INFO | 2024-09-09 | 14:13:04 | [PreSelect - DEPARTEMEN] - 0:00:00.000055
+INFO | 2024-09-09 | 14:13:04 | [MainSelect - DEPARTEMEN] - 0:00:00.014363
+INFO | 2024-09-09 | 14:13:04 | [PostSelect - DEPARTEMEN - 0:00:00.000122
+INFO | 2024-09-09 | 14:13:04 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.015098
+INFO | 2024-09-09 | 14:13:04 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f1c331acbe0>]
+INFO | 2024-09-09 | 14:13:04 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.015934
+INFO | 2024-09-09 | 14:13:04 | [PreSelect - PEGAWAI] - 0:00:00.000057
+INFO | 2024-09-09 | 14:13:04 | [MainSelect - PEGAWAI] - 0:00:00.005241
+INFO | 2024-09-09 | 14:13:04 | [PostSelect - PEGAWAI - 0:00:00.000037
+INFO | 2024-09-09 | 14:13:04 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005864
+INFO | 2024-09-09 | 14:13:04 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:13:04 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006109
+INFO | 2024-09-09 | 14:15:12 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 14:15:12 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 14:15:12 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '6', 'deptname': 'OPERATIONS', 'deptkepala': 'TEGUH PRASETYO UWU', 'deptlokasi': 'SEMARANG', 'deptkeuangan': '18000000', 'deptnomortelp': '024-4443210', 'deptemail': 'ops@company.com', 'deptdesc': 'OPERATIONS DEPARTMENT', 'deptdate': '2024-09-11'}} - DEPARTEMEN - 0:00:00.008116
+INFO | 2024-09-09 | 14:15:12 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 14:15:12 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '6', 'deptname': 'OPERATIONS', 'deptkepala': 'TEGUH PRASETYO UWU', 'deptlokasi': 'SEMARANG', 'deptkeuangan': '18000000', 'deptnomortelp': '024-4443210', 'deptemail': 'ops@company.com', 'deptdesc': 'OPERATIONS DEPARTMENT', 'deptdate': '2024-09-11'}} - 0:00:00.046358
+INFO | 2024-09-09 | 14:15:17 | [PreSelect - DEPARTEMEN] - 0:00:00.000125
+INFO | 2024-09-09 | 14:15:17 | [MainSelect - DEPARTEMEN] - 0:00:00.005081
+INFO | 2024-09-09 | 14:15:17 | [PostSelect - DEPARTEMEN - 0:00:00.000159
+INFO | 2024-09-09 | 14:15:17 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006131
+INFO | 2024-09-09 | 14:15:17 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f1c331ac640>]
+INFO | 2024-09-09 | 14:15:17 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006995
+INFO | 2024-09-09 | 14:15:17 | [PreSelect - PEGAWAI] - 0:00:00.000045
+INFO | 2024-09-09 | 14:15:17 | [MainSelect - PEGAWAI] - 0:00:00.003097
+INFO | 2024-09-09 | 14:15:17 | [PostSelect - PEGAWAI - 0:00:00.000035
+INFO | 2024-09-09 | 14:15:17 | [SelectStatementBlock - PEGAWAI] - 0:00:00.003676
+INFO | 2024-09-09 | 14:15:17 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:15:17 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.003999
+INFO | 2024-09-09 | 14:15:33 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 14:15:33 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 14:15:33 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '7', 'deptname': 'LOGISTICS', 'deptkepala': 'PUTRI ANANDA', 'deptlokasi': 'MEDAN', 'deptkeuangan': '16000000', 'deptnomortelp': '061-5556789', 'deptemail': 'logistics@company.com', 'deptdesc': 'LOGISTICS DEPARTMENT', 'deptdate': '2024-10-04'}} - DEPARTEMEN - 0:00:00.004799
+INFO | 2024-09-09 | 14:15:33 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 14:15:33 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '7', 'deptname': 'LOGISTICS', 'deptkepala': 'PUTRI ANANDA', 'deptlokasi': 'MEDAN', 'deptkeuangan': '16000000', 'deptnomortelp': '061-5556789', 'deptemail': 'logistics@company.com', 'deptdesc': 'LOGISTICS DEPARTMENT', 'deptdate': '2024-10-04'}} - 0:00:00.041972
+INFO | 2024-09-09 | 14:15:36 | [PreSelect - DEPARTEMEN] - 0:00:00.000088
+INFO | 2024-09-09 | 14:15:36 | [MainSelect - DEPARTEMEN] - 0:00:00.004050
+INFO | 2024-09-09 | 14:15:36 | [PostSelect - DEPARTEMEN - 0:00:00.000065
+INFO | 2024-09-09 | 14:15:36 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004786
+INFO | 2024-09-09 | 14:15:36 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7f1c331af8b0>]
+INFO | 2024-09-09 | 14:15:36 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005457
+INFO | 2024-09-09 | 14:15:37 | [PreSelect - DEPARTEMEN] - 0:00:00.000038
+INFO | 2024-09-09 | 14:15:37 | [MainSelect - DEPARTEMEN] - 0:00:00.004102
+INFO | 2024-09-09 | 14:15:37 | [PostSelect - DEPARTEMEN - 0:00:00.000037
+INFO | 2024-09-09 | 14:15:37 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004678
+INFO | 2024-09-09 | 14:15:37 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f1c33158e80>]
+INFO | 2024-09-09 | 14:15:37 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005246
+INFO | 2024-09-09 | 14:15:37 | [PreSelect - PEGAWAI] - 0:00:00.000039
+INFO | 2024-09-09 | 14:15:37 | [MainSelect - PEGAWAI] - 0:00:00.004512
+INFO | 2024-09-09 | 14:15:37 | [PostSelect - PEGAWAI - 0:00:00.000027
+INFO | 2024-09-09 | 14:15:37 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005082
+INFO | 2024-09-09 | 14:15:37 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:15:37 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005376
+INFO | 2024-09-09 | 14:19:10 | [PreSelect - DEPARTEMEN] - 0:00:00.000149
+INFO | 2024-09-09 | 14:19:10 | [MainSelect - DEPARTEMEN] - 0:00:00.008604
+INFO | 2024-09-09 | 14:19:10 | [PostSelect - DEPARTEMEN - 0:00:00.000163
+INFO | 2024-09-09 | 14:19:10 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.011140
+INFO | 2024-09-09 | 14:19:10 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7b4249146680>]
+INFO | 2024-09-09 | 14:19:10 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.011674
+INFO | 2024-09-09 | 14:19:11 | [PreSelect - DEPARTEMEN] - 0:00:00.000033
+INFO | 2024-09-09 | 14:19:11 | [MainSelect - DEPARTEMEN] - 0:00:00.004210
+INFO | 2024-09-09 | 14:19:11 | [PostSelect - DEPARTEMEN - 0:00:00.000107
+INFO | 2024-09-09 | 14:19:11 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004978
+INFO | 2024-09-09 | 14:19:11 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7b42491c6e90>]
+INFO | 2024-09-09 | 14:19:11 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006658
+INFO | 2024-09-09 | 14:19:11 | [PreSelect - PEGAWAI] - 0:00:00.000034
+INFO | 2024-09-09 | 14:19:11 | [MainSelect - PEGAWAI] - 0:00:00.005719
+INFO | 2024-09-09 | 14:19:11 | [PostSelect - PEGAWAI - 0:00:00.000166
+INFO | 2024-09-09 | 14:19:11 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006607
+INFO | 2024-09-09 | 14:19:11 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:19:11 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007182
+INFO | 2024-09-09 | 14:20:13 | [PreSelect - DEPARTEMEN] - 0:00:00.000030
+INFO | 2024-09-09 | 14:20:13 | [MainSelect - DEPARTEMEN] - 0:00:00.003815
+INFO | 2024-09-09 | 14:20:13 | [PostSelect - DEPARTEMEN - 0:00:00.000018
+INFO | 2024-09-09 | 14:20:13 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004347
+INFO | 2024-09-09 | 14:20:13 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7b42491c6680>]
+INFO | 2024-09-09 | 14:20:13 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005023
+INFO | 2024-09-09 | 14:20:13 | [PreSelect - PEGAWAI] - 0:00:00.000162
+INFO | 2024-09-09 | 14:20:13 | [MainSelect - PEGAWAI] - 0:00:00.005789
+INFO | 2024-09-09 | 14:20:13 | [PostSelect - PEGAWAI - 0:00:00.000040
+INFO | 2024-09-09 | 14:20:13 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006706
+INFO | 2024-09-09 | 14:20:13 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7b42491c5ea0>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c6d70>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c5a50>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c7eb0>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c4d60>]
+INFO | 2024-09-09 | 14:20:13 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.016264
+INFO | 2024-09-09 | 14:25:24 | [PreSelect - DEPARTEMEN] - 0:00:00.000041
+INFO | 2024-09-09 | 14:25:24 | [MainSelect - DEPARTEMEN] - 0:00:00.005263
+INFO | 2024-09-09 | 14:25:24 | [PostSelect - DEPARTEMEN - 0:00:00.000026
+INFO | 2024-09-09 | 14:25:24 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005877
+INFO | 2024-09-09 | 14:25:24 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7b42491c6aa0>]
+INFO | 2024-09-09 | 14:25:24 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006274
+INFO | 2024-09-09 | 14:25:24 | [PreSelect - PEGAWAI] - 0:00:00.000034
+INFO | 2024-09-09 | 14:25:24 | [MainSelect - PEGAWAI] - 0:00:00.004833
+INFO | 2024-09-09 | 14:25:24 | [PostSelect - PEGAWAI - 0:00:00.000042
+INFO | 2024-09-09 | 14:25:24 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005415
+INFO | 2024-09-09 | 14:25:24 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7b42491ecf10>, <__main__.MSDE_CRecordPegawai object at 0x7b42491eca00>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c7d00>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c55a0>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c7be0>]
+INFO | 2024-09-09 | 14:25:24 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007306
+INFO | 2024-09-09 | 14:25:35 | [PreSelect - DEPARTEMEN] - 0:00:00.000035
+INFO | 2024-09-09 | 14:25:35 | [MainSelect - DEPARTEMEN] - 0:00:00.004497
+INFO | 2024-09-09 | 14:25:35 | [PostSelect - DEPARTEMEN - 0:00:00.000037
+INFO | 2024-09-09 | 14:25:35 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005115
+INFO | 2024-09-09 | 14:25:35 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7b42491ee500>]
+INFO | 2024-09-09 | 14:25:35 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005679
+INFO | 2024-09-09 | 14:25:35 | [PreSelect - PEGAWAI] - 0:00:00.000031
+INFO | 2024-09-09 | 14:25:35 | [MainSelect - PEGAWAI] - 0:00:00.003936
+INFO | 2024-09-09 | 14:25:35 | [PostSelect - PEGAWAI - 0:00:00.000031
+INFO | 2024-09-09 | 14:25:35 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004497
+INFO | 2024-09-09 | 14:25:35 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:25:35 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.004821
+INFO | 2024-09-09 | 14:25:56 | [PreSelect - DEPARTEMEN] - 0:00:00.000037
+INFO | 2024-09-09 | 14:25:56 | [MainSelect - DEPARTEMEN] - 0:00:00.004341
+INFO | 2024-09-09 | 14:25:56 | [PostSelect - DEPARTEMEN - 0:00:00.000030
+INFO | 2024-09-09 | 14:25:56 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004956
+INFO | 2024-09-09 | 14:25:56 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7b42491474f0>]
+INFO | 2024-09-09 | 14:25:56 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005505
+INFO | 2024-09-09 | 14:25:56 | [PreSelect - PEGAWAI] - 0:00:00.000058
+INFO | 2024-09-09 | 14:25:56 | [MainSelect - PEGAWAI] - 0:00:00.004958
+INFO | 2024-09-09 | 14:25:56 | [PostSelect - PEGAWAI - 0:00:00.000028
+INFO | 2024-09-09 | 14:25:56 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005511
+INFO | 2024-09-09 | 14:25:56 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:25:56 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007513
+INFO | 2024-09-09 | 14:26:03 | [PreSelect - DEPARTEMEN] - 0:00:00.000051
+INFO | 2024-09-09 | 14:26:03 | [MainSelect - DEPARTEMEN] - 0:00:00.003545
+INFO | 2024-09-09 | 14:26:03 | [PostSelect - DEPARTEMEN - 0:00:00.000031
+INFO | 2024-09-09 | 14:26:03 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004128
+INFO | 2024-09-09 | 14:26:03 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7b42491478e0>]
+INFO | 2024-09-09 | 14:26:03 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004578
+INFO | 2024-09-09 | 14:26:03 | [PreSelect - PEGAWAI] - 0:00:00.000049
+INFO | 2024-09-09 | 14:26:03 | [MainSelect - PEGAWAI] - 0:00:00.004603
+INFO | 2024-09-09 | 14:26:03 | [PostSelect - PEGAWAI - 0:00:00.000046
+INFO | 2024-09-09 | 14:26:03 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005254
+INFO | 2024-09-09 | 14:26:03 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:26:03 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005557
+INFO | 2024-09-09 | 14:26:08 | [PreSelect - DEPARTEMEN] - 0:00:00.000042
+INFO | 2024-09-09 | 14:26:08 | [MainSelect - DEPARTEMEN] - 0:00:00.003753
+INFO | 2024-09-09 | 14:26:08 | [PostSelect - DEPARTEMEN - 0:00:00.000042
+INFO | 2024-09-09 | 14:26:08 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004528
+INFO | 2024-09-09 | 14:26:08 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7b42491c5c90>]
+INFO | 2024-09-09 | 14:26:08 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007920
+INFO | 2024-09-09 | 14:26:08 | [PreSelect - PEGAWAI] - 0:00:00.000117
+INFO | 2024-09-09 | 14:26:08 | [MainSelect - PEGAWAI] - 0:00:00.004541
+INFO | 2024-09-09 | 14:26:08 | [PostSelect - PEGAWAI - 0:00:00.000062
+INFO | 2024-09-09 | 14:26:08 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005639
+INFO | 2024-09-09 | 14:26:08 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7b42491c79d0>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c7b50>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c54e0>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c7ca0>, <__main__.MSDE_CRecordPegawai object at 0x7b42491c5630>]
+INFO | 2024-09-09 | 14:26:08 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007677
+INFO | 2024-09-09 | 14:45:24 | [PreSelect - DEPARTEMEN] - 0:00:00.000037
+INFO | 2024-09-09 | 14:45:24 | [MainSelect - DEPARTEMEN] - 0:00:00.004855
+INFO | 2024-09-09 | 14:45:24 | [PostSelect - DEPARTEMEN - 0:00:00.000040
+INFO | 2024-09-09 | 14:45:24 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005552
+INFO | 2024-09-09 | 14:45:24 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7028d236c550>]
+INFO | 2024-09-09 | 14:45:24 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006080
+INFO | 2024-09-09 | 14:45:24 | [PreSelect - PEGAWAI] - 0:00:00.000032
+INFO | 2024-09-09 | 14:45:24 | [MainSelect - PEGAWAI] - 0:00:00.006660
+INFO | 2024-09-09 | 14:45:24 | [PostSelect - PEGAWAI - 0:00:00.000035
+INFO | 2024-09-09 | 14:45:24 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007226
+INFO | 2024-09-09 | 14:45:24 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:45:24 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007506
+INFO | 2024-09-09 | 14:45:33 | [PreSelect - DEPARTEMEN] - 0:00:00.000068
+INFO | 2024-09-09 | 14:45:33 | [MainSelect - DEPARTEMEN] - 0:00:00.004337
+INFO | 2024-09-09 | 14:45:33 | [PostSelect - DEPARTEMEN - 0:00:00.000127
+INFO | 2024-09-09 | 14:45:33 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005195
+INFO | 2024-09-09 | 14:45:33 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7028d23bfa00>]
+INFO | 2024-09-09 | 14:45:33 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006027
+INFO | 2024-09-09 | 14:45:33 | [PreSelect - PEGAWAI] - 0:00:00.000024
+INFO | 2024-09-09 | 14:45:33 | [MainSelect - PEGAWAI] - 0:00:00.005169
+INFO | 2024-09-09 | 14:45:33 | [PostSelect - PEGAWAI - 0:00:00.000156
+INFO | 2024-09-09 | 14:45:33 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006021
+INFO | 2024-09-09 | 14:45:33 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7028d236e350>, <__main__.MSDE_CRecordPegawai object at 0x7028d236eb00>, <__main__.MSDE_CRecordPegawai object at 0x7028d236e2c0>, <__main__.MSDE_CRecordPegawai object at 0x7028d236c6d0>, <__main__.MSDE_CRecordPegawai object at 0x7028d23bec80>]
+INFO | 2024-09-09 | 14:45:33 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.010999
+INFO | 2024-09-09 | 14:48:24 | [PreSelect - DEPARTEMEN] - 0:00:00.000063
+INFO | 2024-09-09 | 14:48:24 | [MainSelect - DEPARTEMEN] - 0:00:00.005568
+INFO | 2024-09-09 | 14:48:24 | [PostSelect - DEPARTEMEN - 0:00:00.000142
+INFO | 2024-09-09 | 14:48:24 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006399
+INFO | 2024-09-09 | 14:48:24 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7028d238ee60>]
+INFO | 2024-09-09 | 14:48:24 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007299
+INFO | 2024-09-09 | 14:48:31 | [PreSelect - DEPARTEMEN] - 0:00:00.000071
+INFO | 2024-09-09 | 14:48:31 | [MainSelect - DEPARTEMEN] - 0:00:00.007245
+INFO | 2024-09-09 | 14:48:31 | [PostSelect - DEPARTEMEN - 0:00:00.000171
+INFO | 2024-09-09 | 14:48:31 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008230
+INFO | 2024-09-09 | 14:48:31 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7028d23bf5e0>]
+INFO | 2024-09-09 | 14:48:31 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009219
+INFO | 2024-09-09 | 14:48:31 | [PreSelect - PEGAWAI] - 0:00:00.000042
+INFO | 2024-09-09 | 14:48:31 | [MainSelect - PEGAWAI] - 0:00:00.006008
+INFO | 2024-09-09 | 14:48:31 | [PostSelect - PEGAWAI - 0:00:00.000180
+INFO | 2024-09-09 | 14:48:31 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006950
+INFO | 2024-09-09 | 14:48:31 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 14:48:31 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007411
+ERROR | 2024-09-09 | 15:03:33 | 2209116 | GAGAL GET VFORM IN CONTAINER | Error on line 25, ('KeyError',) 'vForm' redis session tidak ditemukan
+ERROR | 2024-09-09 | 15:03:33 | 2209116 | GAGAL SELECT DATA IN CONTAINER | Error on line 50, ('AttributeError',) 'dict' object has no attribute 'dataBlocks'
+INFO | 2024-09-09 | 15:03:45 | [PreSelect - DEPARTEMEN] - 0:00:00.000038
+INFO | 2024-09-09 | 15:03:45 | [MainSelect - DEPARTEMEN] - 0:00:00.009464
+INFO | 2024-09-09 | 15:03:45 | [PostSelect - DEPARTEMEN - 0:00:00.000363
+INFO | 2024-09-09 | 15:03:45 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.010847
+INFO | 2024-09-09 | 15:03:45 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x732e2ab826e0>]
+INFO | 2024-09-09 | 15:03:45 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.011902
+INFO | 2024-09-09 | 15:03:47 | [PreSelect - DEPARTEMEN] - 0:00:00.000036
+INFO | 2024-09-09 | 15:03:47 | [MainSelect - DEPARTEMEN] - 0:00:00.005631
+INFO | 2024-09-09 | 15:03:47 | [PostSelect - DEPARTEMEN - 0:00:00.000045
+INFO | 2024-09-09 | 15:03:47 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006210
+INFO | 2024-09-09 | 15:03:47 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x732e2ab8f9d0>]
+INFO | 2024-09-09 | 15:03:47 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006978
+INFO | 2024-09-09 | 15:03:47 | [PreSelect - PEGAWAI] - 0:00:00.000039
+INFO | 2024-09-09 | 15:03:47 | [MainSelect - PEGAWAI] - 0:00:00.004708
+INFO | 2024-09-09 | 15:03:47 | [PostSelect - PEGAWAI - 0:00:00.000026
+INFO | 2024-09-09 | 15:03:47 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005278
+INFO | 2024-09-09 | 15:03:47 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:03:47 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005507
+INFO | 2024-09-09 | 15:05:21 | [PreSelect - DEPARTEMEN] - 0:00:00.000123
+INFO | 2024-09-09 | 15:05:21 | [MainSelect - DEPARTEMEN] - 0:00:00.005415
+INFO | 2024-09-09 | 15:05:21 | [PostSelect - DEPARTEMEN - 0:00:00.000179
+INFO | 2024-09-09 | 15:05:21 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006436
+INFO | 2024-09-09 | 15:05:21 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7334ddd4f340>]
+INFO | 2024-09-09 | 15:05:21 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007218
+INFO | 2024-09-09 | 15:05:23 | [PreSelect - DEPARTEMEN] - 0:00:00.000032
+INFO | 2024-09-09 | 15:05:23 | [MainSelect - DEPARTEMEN] - 0:00:00.003750
+INFO | 2024-09-09 | 15:05:23 | [PostSelect - DEPARTEMEN - 0:00:00.000026
+INFO | 2024-09-09 | 15:05:23 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004238
+INFO | 2024-09-09 | 15:05:23 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334dddd2770>]
+INFO | 2024-09-09 | 15:05:23 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004644
+INFO | 2024-09-09 | 15:05:23 | [PreSelect - PEGAWAI] - 0:00:00.000073
+INFO | 2024-09-09 | 15:05:23 | [MainSelect - PEGAWAI] - 0:00:00.006978
+INFO | 2024-09-09 | 15:05:23 | [PostSelect - PEGAWAI - 0:00:00.000032
+INFO | 2024-09-09 | 15:05:23 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007638
+INFO | 2024-09-09 | 15:05:23 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:05:23 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007887
+INFO | 2024-09-09 | 15:05:36 | [PreSelect - DEPARTEMEN] - 0:00:00.000047
+INFO | 2024-09-09 | 15:05:36 | [MainSelect - DEPARTEMEN] - 0:00:00.004550
+INFO | 2024-09-09 | 15:05:36 | [PostSelect - DEPARTEMEN - 0:00:00.000041
+INFO | 2024-09-09 | 15:05:36 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005180
+INFO | 2024-09-09 | 15:05:36 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334dddd19f0>]
+INFO | 2024-09-09 | 15:05:36 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005744
+INFO | 2024-09-09 | 15:05:36 | [PreSelect - PEGAWAI] - 0:00:00.000173
+INFO | 2024-09-09 | 15:05:36 | [MainSelect - PEGAWAI] - 0:00:00.005437
+INFO | 2024-09-09 | 15:05:36 | [PostSelect - PEGAWAI - 0:00:00.000215
+INFO | 2024-09-09 | 15:05:36 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006433
+INFO | 2024-09-09 | 15:05:36 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7334dddd2bc0>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd1690>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd3760>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd3bb0>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd3f40>]
+INFO | 2024-09-09 | 15:05:36 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.010437
+INFO | 2024-09-09 | 15:08:54 | [PreSelect - DEPARTEMEN] - 0:00:00.000047
+INFO | 2024-09-09 | 15:08:54 | [MainSelect - DEPARTEMEN] - 0:00:00.005586
+INFO | 2024-09-09 | 15:08:54 | [PostSelect - DEPARTEMEN - 0:00:00.000142
+INFO | 2024-09-09 | 15:08:54 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006428
+INFO | 2024-09-09 | 15:08:54 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7334dddd2aa0>]
+INFO | 2024-09-09 | 15:08:54 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007135
+INFO | 2024-09-09 | 15:08:55 | [PreSelect - DEPARTEMEN] - 0:00:00.000041
+INFO | 2024-09-09 | 15:08:55 | [MainSelect - DEPARTEMEN] - 0:00:00.003404
+INFO | 2024-09-09 | 15:08:55 | [PostSelect - DEPARTEMEN - 0:00:00.000053
+INFO | 2024-09-09 | 15:08:55 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004652
+INFO | 2024-09-09 | 15:08:55 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334dddd0550>]
+INFO | 2024-09-09 | 15:08:55 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005110
+INFO | 2024-09-09 | 15:08:55 | [PreSelect - PEGAWAI] - 0:00:00.000078
+INFO | 2024-09-09 | 15:08:55 | [MainSelect - PEGAWAI] - 0:00:00.004788
+INFO | 2024-09-09 | 15:08:55 | [PostSelect - PEGAWAI - 0:00:00.000036
+INFO | 2024-09-09 | 15:08:55 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005482
+INFO | 2024-09-09 | 15:08:55 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:08:55 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005733
+INFO | 2024-09-09 | 15:08:56 | [PreSelect - DEPARTEMEN] - 0:00:00.000034
+INFO | 2024-09-09 | 15:08:56 | [MainSelect - DEPARTEMEN] - 0:00:00.003297
+INFO | 2024-09-09 | 15:08:56 | [PostSelect - DEPARTEMEN - 0:00:00.000041
+INFO | 2024-09-09 | 15:08:56 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003938
+INFO | 2024-09-09 | 15:08:56 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7334dddd3cd0>]
+INFO | 2024-09-09 | 15:08:56 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004474
+INFO | 2024-09-09 | 15:08:58 | [PreSelect - DEPARTEMEN] - 0:00:00.000199
+INFO | 2024-09-09 | 15:08:58 | [MainSelect - DEPARTEMEN] - 0:00:00.006977
+INFO | 2024-09-09 | 15:08:58 | [PostSelect - DEPARTEMEN - 0:00:00.000191
+INFO | 2024-09-09 | 15:08:58 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008323
+INFO | 2024-09-09 | 15:08:58 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334ddd4f580>]
+INFO | 2024-09-09 | 15:08:58 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009491
+INFO | 2024-09-09 | 15:08:58 | [PreSelect - PEGAWAI] - 0:00:00.001129
+INFO | 2024-09-09 | 15:08:58 | [MainSelect - PEGAWAI] - 0:00:00.005009
+INFO | 2024-09-09 | 15:08:58 | [PostSelect - PEGAWAI - 0:00:00.000058
+INFO | 2024-09-09 | 15:08:58 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007084
+INFO | 2024-09-09 | 15:08:58 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:08:58 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007375
+INFO | 2024-09-09 | 15:09:11 | [PreSelect - DEPARTEMEN] - 0:00:00.000058
+INFO | 2024-09-09 | 15:09:11 | [MainSelect - DEPARTEMEN] - 0:00:00.006651
+INFO | 2024-09-09 | 15:09:11 | [PostSelect - DEPARTEMEN - 0:00:00.000064
+INFO | 2024-09-09 | 15:09:11 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007345
+INFO | 2024-09-09 | 15:09:11 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334dddd1e70>]
+INFO | 2024-09-09 | 15:09:11 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007865
+INFO | 2024-09-09 | 15:09:11 | [PreSelect - PEGAWAI] - 0:00:00.000048
+INFO | 2024-09-09 | 15:09:11 | [MainSelect - PEGAWAI] - 0:00:00.012109
+INFO | 2024-09-09 | 15:09:11 | [PostSelect - PEGAWAI - 0:00:00.000027
+INFO | 2024-09-09 | 15:09:11 | [SelectStatementBlock - PEGAWAI] - 0:00:00.012701
+INFO | 2024-09-09 | 15:09:11 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7334dddd2950>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd07c0>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd1d50>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd3250>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd14e0>]
+INFO | 2024-09-09 | 15:09:11 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.014543
+INFO | 2024-09-09 | 15:09:51 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:09:51 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_jenis_kelamin = %(pgjeniskelamin)s, pg_hobi = %(pghobi)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2: ...     SET pg_jenis_kelamin = 'L', pg_hobi = 'HB5', pg.update_...
+                                                             ^
+ 
+INFO | 2024-09-09 | 15:09:51 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:09:51 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.008339
+INFO | 2024-09-09 | 15:09:51 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:09:51 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.008448
+INFO | 2024-09-09 | 15:09:51 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:09:51 | 42703<br>undefined_column'} - 0:00:00.052184
+INFO | 2024-09-09 | 15:10:05 | [PreSelect - DEPARTEMEN] - 0:00:00.000087
+INFO | 2024-09-09 | 15:10:05 | [MainSelect - DEPARTEMEN] - 0:00:00.005749
+INFO | 2024-09-09 | 15:10:05 | [PostSelect - DEPARTEMEN - 0:00:00.000063
+INFO | 2024-09-09 | 15:10:05 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006661
+INFO | 2024-09-09 | 15:10:05 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334ddd4f790>]
+INFO | 2024-09-09 | 15:10:05 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007473
+INFO | 2024-09-09 | 15:10:05 | [PreSelect - PEGAWAI] - 0:00:00.000028
+INFO | 2024-09-09 | 15:10:05 | [MainSelect - PEGAWAI] - 0:00:00.006665
+INFO | 2024-09-09 | 15:10:05 | [PostSelect - PEGAWAI - 0:00:00.000035
+INFO | 2024-09-09 | 15:10:05 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007280
+INFO | 2024-09-09 | 15:10:05 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7334dddf4670>, <__main__.MSDE_CRecordPegawai object at 0x7334dddf4580>, <__main__.MSDE_CRecordPegawai object at 0x7334dddf4310>, <__main__.MSDE_CRecordPegawai object at 0x7334dddf4c10>, <__main__.MSDE_CRecordPegawai object at 0x7334dddf5b10>]
+INFO | 2024-09-09 | 15:10:05 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009101
+INFO | 2024-09-09 | 15:10:42 | [PreSelect - DEPARTEMEN] - 0:00:00.000023
+INFO | 2024-09-09 | 15:10:42 | [MainSelect - DEPARTEMEN] - 0:00:00.003901
+INFO | 2024-09-09 | 15:10:42 | [PostSelect - DEPARTEMEN - 0:00:00.000147
+INFO | 2024-09-09 | 15:10:42 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004655
+INFO | 2024-09-09 | 15:10:42 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334dddf5660>]
+INFO | 2024-09-09 | 15:10:42 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005613
+INFO | 2024-09-09 | 15:10:42 | [PreSelect - PEGAWAI] - 0:00:00.000032
+INFO | 2024-09-09 | 15:10:42 | [MainSelect - PEGAWAI] - 0:00:00.003092
+INFO | 2024-09-09 | 15:10:42 | [PostSelect - PEGAWAI - 0:00:00.000021
+INFO | 2024-09-09 | 15:10:42 | [SelectStatementBlock - PEGAWAI] - 0:00:00.003656
+INFO | 2024-09-09 | 15:10:42 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7334dddd3970>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd2680>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd3670>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd2e00>, <__main__.MSDE_CRecordPegawai object at 0x7334dddd1e70>]
+INFO | 2024-09-09 | 15:10:42 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005413
+INFO | 2024-09-09 | 15:12:57 | [PreSelect - PEGAWAI] - 0:00:00.000105
+INFO | 2024-09-09 | 15:12:57 | [MainSelect - PEGAWAI] - 0:00:00.005514
+INFO | 2024-09-09 | 15:12:57 | [PostSelect - PEGAWAI - 0:00:00.000035
+INFO | 2024-09-09 | 15:12:57 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006304
+INFO | 2024-09-09 | 15:12:57 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7334ddc20c40>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc20730>, <__main__.MSDE_CRecordPegawai object at 0x7334dddf7f40>, <__main__.MSDE_CRecordPegawai object at 0x7334dddf7f70>, <__main__.MSDE_CRecordPegawai object at 0x7334dddf7df0>]
+INFO | 2024-09-09 | 15:12:57 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.008480
+INFO | 2024-09-09 | 15:13:03 | [PreSelect - DEPARTEMEN] - 0:00:00.000035
+INFO | 2024-09-09 | 15:13:03 | [MainSelect - DEPARTEMEN] - 0:00:00.002821
+INFO | 2024-09-09 | 15:13:03 | [PostSelect - DEPARTEMEN - 0:00:00.000132
+INFO | 2024-09-09 | 15:13:03 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004180
+INFO | 2024-09-09 | 15:13:03 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7334dddd3df0>]
+INFO | 2024-09-09 | 15:13:03 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004850
+INFO | 2024-09-09 | 15:13:04 | [PreSelect - DEPARTEMEN] - 0:00:00.000038
+INFO | 2024-09-09 | 15:13:04 | [MainSelect - DEPARTEMEN] - 0:00:00.003749
+INFO | 2024-09-09 | 15:13:04 | [PostSelect - DEPARTEMEN - 0:00:00.000034
+INFO | 2024-09-09 | 15:13:04 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004376
+INFO | 2024-09-09 | 15:13:04 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334ddc20ac0>]
+INFO | 2024-09-09 | 15:13:04 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004905
+INFO | 2024-09-09 | 15:13:04 | [PreSelect - PEGAWAI] - 0:00:00.000058
+INFO | 2024-09-09 | 15:13:04 | [MainSelect - PEGAWAI] - 0:00:00.005348
+INFO | 2024-09-09 | 15:13:04 | [PostSelect - PEGAWAI - 0:00:00.000030
+INFO | 2024-09-09 | 15:13:04 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006000
+INFO | 2024-09-09 | 15:13:04 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:13:04 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006316
+INFO | 2024-09-09 | 15:13:14 | [PreSelect - DEPARTEMEN] - 0:00:00.000038
+INFO | 2024-09-09 | 15:13:14 | [MainSelect - DEPARTEMEN] - 0:00:00.003398
+INFO | 2024-09-09 | 15:13:14 | [PostSelect - DEPARTEMEN - 0:00:00.000172
+INFO | 2024-09-09 | 15:13:14 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004403
+INFO | 2024-09-09 | 15:13:14 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334ddc233a0>]
+INFO | 2024-09-09 | 15:13:14 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005456
+INFO | 2024-09-09 | 15:13:14 | [PreSelect - PEGAWAI] - 0:00:00.000026
+INFO | 2024-09-09 | 15:13:14 | [MainSelect - PEGAWAI] - 0:00:00.002804
+INFO | 2024-09-09 | 15:13:14 | [PostSelect - PEGAWAI - 0:00:00.000161
+INFO | 2024-09-09 | 15:13:14 | [SelectStatementBlock - PEGAWAI] - 0:00:00.003535
+INFO | 2024-09-09 | 15:13:14 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7334ddc22260>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc224a0>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc23c10>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc227a0>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc229b0>]
+INFO | 2024-09-09 | 15:13:14 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006060
+INFO | 2024-09-09 | 15:14:23 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:14:23 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_hobi = %(pghobi)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_hobi = 'HB12', pg.update_user = '2209116'
+                                      ^
+ 
+INFO | 2024-09-09 | 15:14:23 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:14:23 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006098
+INFO | 2024-09-09 | 15:14:23 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:14:23 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006263
+INFO | 2024-09-09 | 15:14:23 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:14:23 | 42703<br>undefined_column'} - 0:00:00.039185
+INFO | 2024-09-09 | 15:14:34 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:14:34 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_hobi = %(pghobi)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_hobi = 'HB12', pg.update_user = '2209116'
+                                      ^
+ 
+INFO | 2024-09-09 | 15:14:34 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:14:34 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006191
+INFO | 2024-09-09 | 15:14:34 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:14:34 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006338
+INFO | 2024-09-09 | 15:14:34 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:14:34 | 42703<br>undefined_column'} - 0:00:00.043479
+INFO | 2024-09-09 | 15:14:44 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:14:44 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_hobi = %(pghobi)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_hobi = 'HB12', pg.update_user = '2209116'
+                                      ^
+ 
+INFO | 2024-09-09 | 15:14:44 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:14:44 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.009672
+INFO | 2024-09-09 | 15:14:44 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:14:44 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.009858
+INFO | 2024-09-09 | 15:14:44 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:14:44 | 42703<br>undefined_column'} - 0:00:00.048756
+INFO | 2024-09-09 | 15:14:52 | [PreSelect - DEPARTEMEN] - 0:00:00.000034
+INFO | 2024-09-09 | 15:14:52 | [MainSelect - DEPARTEMEN] - 0:00:00.004595
+INFO | 2024-09-09 | 15:14:52 | [PostSelect - DEPARTEMEN - 0:00:00.000108
+INFO | 2024-09-09 | 15:14:52 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005277
+INFO | 2024-09-09 | 15:14:52 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334ddc45a50>]
+INFO | 2024-09-09 | 15:14:52 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005838
+INFO | 2024-09-09 | 15:14:53 | [PreSelect - PEGAWAI] - 0:00:00.000241
+INFO | 2024-09-09 | 15:14:53 | [MainSelect - PEGAWAI] - 0:00:00.004305
+INFO | 2024-09-09 | 15:14:53 | [PostSelect - PEGAWAI - 0:00:00.000034
+INFO | 2024-09-09 | 15:14:53 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005161
+INFO | 2024-09-09 | 15:14:53 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7334ddc22c20>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc226e0>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc23b20>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc222f0>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc44d60>]
+INFO | 2024-09-09 | 15:14:53 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006605
+INFO | 2024-09-09 | 15:17:28 | [PreSelect - DEPARTEMEN] - 0:00:00.000040
+INFO | 2024-09-09 | 15:17:28 | [MainSelect - DEPARTEMEN] - 0:00:00.004292
+INFO | 2024-09-09 | 15:17:28 | [PostSelect - DEPARTEMEN - 0:00:00.000306
+INFO | 2024-09-09 | 15:17:28 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005586
+INFO | 2024-09-09 | 15:17:28 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334ddc23370>]
+INFO | 2024-09-09 | 15:17:28 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006562
+INFO | 2024-09-09 | 15:17:29 | [PreSelect - PEGAWAI] - 0:00:00.000210
+INFO | 2024-09-09 | 15:17:29 | [MainSelect - PEGAWAI] - 0:00:00.009540
+INFO | 2024-09-09 | 15:17:29 | [PostSelect - PEGAWAI - 0:00:00.000032
+INFO | 2024-09-09 | 15:17:29 | [SelectStatementBlock - PEGAWAI] - 0:00:00.010317
+INFO | 2024-09-09 | 15:17:29 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:17:29 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.010624
+INFO | 2024-09-09 | 15:17:29 | [PreSelect - DEPARTEMEN] - 0:00:00.000192
+INFO | 2024-09-09 | 15:17:29 | [MainSelect - DEPARTEMEN] - 0:00:00.006397
+INFO | 2024-09-09 | 15:17:29 | [PostSelect - DEPARTEMEN - 0:00:00.000035
+INFO | 2024-09-09 | 15:17:29 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007172
+INFO | 2024-09-09 | 15:17:29 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334ddc205b0>]
+INFO | 2024-09-09 | 15:17:29 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007655
+INFO | 2024-09-09 | 15:17:30 | [PreSelect - PEGAWAI] - 0:00:00.000054
+INFO | 2024-09-09 | 15:17:30 | [MainSelect - PEGAWAI] - 0:00:00.004648
+INFO | 2024-09-09 | 15:17:30 | [PostSelect - PEGAWAI - 0:00:00.000036
+INFO | 2024-09-09 | 15:17:30 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005249
+INFO | 2024-09-09 | 15:17:30 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:17:30 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005532
+INFO | 2024-09-09 | 15:17:43 | [PreSelect - DEPARTEMEN] - 0:00:00.000105
+INFO | 2024-09-09 | 15:17:43 | [MainSelect - DEPARTEMEN] - 0:00:00.005458
+INFO | 2024-09-09 | 15:17:43 | [PostSelect - DEPARTEMEN - 0:00:00.000173
+INFO | 2024-09-09 | 15:17:43 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006417
+INFO | 2024-09-09 | 15:17:43 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7334ddc214e0>]
+INFO | 2024-09-09 | 15:17:43 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007138
+INFO | 2024-09-09 | 15:17:44 | [PreSelect - PEGAWAI] - 0:00:00.000051
+INFO | 2024-09-09 | 15:17:44 | [MainSelect - PEGAWAI] - 0:00:00.007809
+INFO | 2024-09-09 | 15:17:44 | [PostSelect - PEGAWAI - 0:00:00.000034
+INFO | 2024-09-09 | 15:17:44 | [SelectStatementBlock - PEGAWAI] - 0:00:00.008342
+INFO | 2024-09-09 | 15:17:44 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7334ddc21d20>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc21690>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc22800>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc21840>, <__main__.MSDE_CRecordPegawai object at 0x7334ddc23610>]
+INFO | 2024-09-09 | 15:17:44 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009877
+INFO | 2024-09-09 | 15:29:53 | [PreSelect - DEPARTEMEN] - 0:00:00.000160
+INFO | 2024-09-09 | 15:29:53 | [MainSelect - DEPARTEMEN] - 0:00:00.007867
+INFO | 2024-09-09 | 15:29:53 | [PostSelect - DEPARTEMEN - 0:00:00.000032
+INFO | 2024-09-09 | 15:29:53 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008585
+INFO | 2024-09-09 | 15:29:53 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x78ce9234e080>]
+INFO | 2024-09-09 | 15:29:53 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009120
+INFO | 2024-09-09 | 15:29:54 | [PreSelect - DEPARTEMEN] - 0:00:00.000035
+INFO | 2024-09-09 | 15:29:54 | [MainSelect - DEPARTEMEN] - 0:00:00.004346
+INFO | 2024-09-09 | 15:29:54 | [PostSelect - DEPARTEMEN - 0:00:00.000033
+INFO | 2024-09-09 | 15:29:54 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007406
+INFO | 2024-09-09 | 15:29:54 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce9237f910>]
+INFO | 2024-09-09 | 15:29:54 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007899
+INFO | 2024-09-09 | 15:29:54 | [PreSelect - PEGAWAI] - 0:00:00.000034
+INFO | 2024-09-09 | 15:29:54 | [MainSelect - PEGAWAI] - 0:00:00.006034
+INFO | 2024-09-09 | 15:29:54 | [PostSelect - PEGAWAI - 0:00:00.000032
+INFO | 2024-09-09 | 15:29:54 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006587
+INFO | 2024-09-09 | 15:29:54 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:29:54 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006888
+INFO | 2024-09-09 | 15:30:01 | [PreSelect - DEPARTEMEN] - 0:00:00.000190
+INFO | 2024-09-09 | 15:30:01 | [MainSelect - DEPARTEMEN] - 0:00:00.006396
+INFO | 2024-09-09 | 15:30:01 | [PostSelect - DEPARTEMEN - 0:00:00.000121
+INFO | 2024-09-09 | 15:30:01 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007814
+INFO | 2024-09-09 | 15:30:01 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce9234e950>]
+INFO | 2024-09-09 | 15:30:01 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008939
+INFO | 2024-09-09 | 15:30:01 | [PreSelect - PEGAWAI] - 0:00:00.000085
+INFO | 2024-09-09 | 15:30:01 | [MainSelect - PEGAWAI] - 0:00:00.005166
+INFO | 2024-09-09 | 15:30:01 | [PostSelect - PEGAWAI - 0:00:00.000072
+INFO | 2024-09-09 | 15:30:01 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005930
+INFO | 2024-09-09 | 15:30:01 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x78ce923034c0>, <__main__.MSDE_CRecordPegawai object at 0x78ce92303250>, <__main__.MSDE_CRecordPegawai object at 0x78ce9237e950>, <__main__.MSDE_CRecordPegawai object at 0x78ce9237ee90>, <__main__.MSDE_CRecordPegawai object at 0x78ce9237f610>]
+INFO | 2024-09-09 | 15:30:01 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.014135
+INFO | 2024-09-09 | 15:31:19 | [PreSelect - DEPARTEMEN] - 0:00:00.000179
+INFO | 2024-09-09 | 15:31:19 | [MainSelect - DEPARTEMEN] - 0:00:00.005123
+INFO | 2024-09-09 | 15:31:19 | [PostSelect - DEPARTEMEN - 0:00:00.000246
+INFO | 2024-09-09 | 15:31:19 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006307
+INFO | 2024-09-09 | 15:31:19 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce9234e350>]
+INFO | 2024-09-09 | 15:31:19 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007326
+INFO | 2024-09-09 | 15:31:19 | [PreSelect - PEGAWAI] - 0:00:00.000039
+INFO | 2024-09-09 | 15:31:19 | [MainSelect - PEGAWAI] - 0:00:00.004354
+INFO | 2024-09-09 | 15:31:19 | [PostSelect - PEGAWAI - 0:00:00.000028
+INFO | 2024-09-09 | 15:31:19 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004936
+INFO | 2024-09-09 | 15:31:19 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x78ce9237c2e0>, <__main__.MSDE_CRecordPegawai object at 0x78ce9237c100>, <__main__.MSDE_CRecordPegawai object at 0x78ce923d9000>, <__main__.MSDE_CRecordPegawai object at 0x78ce923d8fa0>, <__main__.MSDE_CRecordPegawai object at 0x78ce923d98d0>]
+INFO | 2024-09-09 | 15:31:19 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006182
+INFO | 2024-09-09 | 15:31:33 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:31:33 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_jenis_kelamin = %(pgjeniskelamin)s, pg_hobi = %(pghobi)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2: ...    SET pg_jenis_kelamin = 'L', pg_hobi = 'HB10', pg.update_...
+                                                             ^
+ 
+INFO | 2024-09-09 | 15:31:33 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:31:33 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.004917
+INFO | 2024-09-09 | 15:31:33 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:31:33 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.005110
+INFO | 2024-09-09 | 15:31:33 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:31:33 | 42703<br>undefined_column'} - 0:00:00.038471
+INFO | 2024-09-09 | 15:31:45 | [PreSelect - DEPARTEMEN] - 0:00:00.000063
+INFO | 2024-09-09 | 15:31:45 | [MainSelect - DEPARTEMEN] - 0:00:00.004568
+INFO | 2024-09-09 | 15:31:45 | [PostSelect - DEPARTEMEN - 0:00:00.000062
+INFO | 2024-09-09 | 15:31:45 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005282
+INFO | 2024-09-09 | 15:31:45 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce9237ea70>]
+INFO | 2024-09-09 | 15:31:45 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005908
+INFO | 2024-09-09 | 15:31:45 | [PreSelect - PEGAWAI] - 0:00:00.000040
+INFO | 2024-09-09 | 15:31:45 | [MainSelect - PEGAWAI] - 0:00:00.006322
+INFO | 2024-09-09 | 15:31:45 | [PostSelect - PEGAWAI - 0:00:00.000052
+INFO | 2024-09-09 | 15:31:45 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007062
+INFO | 2024-09-09 | 15:31:45 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x78ce923d99c0>, <__main__.MSDE_CRecordPegawai object at 0x78ce923d9de0>, <__main__.MSDE_CRecordPegawai object at 0x78ce923d9990>, <__main__.MSDE_CRecordPegawai object at 0x78ce923700a0>, <__main__.MSDE_CRecordPegawai object at 0x78ce92370430>]
+INFO | 2024-09-09 | 15:31:45 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.008892
+INFO | 2024-09-09 | 15:31:57 | [PreSelect - PEGAWAI] - 0:00:00.000030
+INFO | 2024-09-09 | 15:31:57 | [MainSelect - PEGAWAI] - 0:00:00.006960
+INFO | 2024-09-09 | 15:31:57 | [PostSelect - PEGAWAI - 0:00:00.000034
+INFO | 2024-09-09 | 15:31:57 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007636
+INFO | 2024-09-09 | 15:31:57 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:31:57 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007946
+INFO | 2024-09-09 | 15:32:01 | [PreSelect - DEPARTEMEN] - 0:00:00.000154
+INFO | 2024-09-09 | 15:32:01 | [MainSelect - DEPARTEMEN] - 0:00:00.007060
+INFO | 2024-09-09 | 15:32:01 | [PostSelect - DEPARTEMEN - 0:00:00.000098
+INFO | 2024-09-09 | 15:32:01 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008827
+INFO | 2024-09-09 | 15:32:01 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce9237c430>]
+INFO | 2024-09-09 | 15:32:01 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.010650
+INFO | 2024-09-09 | 15:32:01 | [PreSelect - PEGAWAI] - 0:00:00.000079
+INFO | 2024-09-09 | 15:32:01 | [MainSelect - PEGAWAI] - 0:00:00.005430
+INFO | 2024-09-09 | 15:32:01 | [PostSelect - PEGAWAI - 0:00:00.000079
+INFO | 2024-09-09 | 15:32:01 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006897
+INFO | 2024-09-09 | 15:32:01 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:32:01 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007615
+INFO | 2024-09-09 | 15:32:04 | [PreSelect - DEPARTEMEN] - 0:00:00.000081
+INFO | 2024-09-09 | 15:32:04 | [MainSelect - DEPARTEMEN] - 0:00:00.005656
+INFO | 2024-09-09 | 15:32:04 | [PostSelect - DEPARTEMEN - 0:00:00.000051
+INFO | 2024-09-09 | 15:32:04 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006409
+INFO | 2024-09-09 | 15:32:04 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce92373100>]
+INFO | 2024-09-09 | 15:32:04 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007049
+INFO | 2024-09-09 | 15:32:05 | [PreSelect - PEGAWAI] - 0:00:00.000031
+INFO | 2024-09-09 | 15:32:05 | [MainSelect - PEGAWAI] - 0:00:00.004766
+INFO | 2024-09-09 | 15:32:05 | [PostSelect - PEGAWAI - 0:00:00.000129
+INFO | 2024-09-09 | 15:32:05 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005570
+INFO | 2024-09-09 | 15:32:05 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x78ce92371de0>, <__main__.MSDE_CRecordPegawai object at 0x78ce92372ce0>, <__main__.MSDE_CRecordPegawai object at 0x78ce923720e0>, <__main__.MSDE_CRecordPegawai object at 0x78ce923d9f00>, <__main__.MSDE_CRecordPegawai object at 0x78ce923d9a20>]
+INFO | 2024-09-09 | 15:32:05 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.008449
+INFO | 2024-09-09 | 15:32:33 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:32:33 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_jenis_kelamin = %(pgjeniskelamin)s, pg_hobi = %(pghobi)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2: ...     SET pg_jenis_kelamin = 'P', pg_hobi = 'HB9', pg.update_...
+                                                             ^
+ 
+INFO | 2024-09-09 | 15:32:33 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:32:33 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006272
+INFO | 2024-09-09 | 15:32:33 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:32:33 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006602
+INFO | 2024-09-09 | 15:32:33 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:32:33 | 42703<br>undefined_column'} - 0:00:00.044081
+INFO | 2024-09-09 | 15:34:40 | [PreSelect - DEPARTEMEN] - 0:00:00.000024
+INFO | 2024-09-09 | 15:34:40 | [MainSelect - DEPARTEMEN] - 0:00:00.007210
+INFO | 2024-09-09 | 15:34:40 | [PostSelect - DEPARTEMEN - 0:00:00.000105
+INFO | 2024-09-09 | 15:34:40 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007896
+INFO | 2024-09-09 | 15:34:40 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x78ce92371330>]
+INFO | 2024-09-09 | 15:34:40 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008387
+INFO | 2024-09-09 | 15:34:45 | [PreSelect - DEPARTEMEN] - 0:00:00.000068
+INFO | 2024-09-09 | 15:34:45 | [MainSelect - DEPARTEMEN] - 0:00:00.006432
+INFO | 2024-09-09 | 15:34:45 | [PostSelect - DEPARTEMEN - 0:00:00.000030
+INFO | 2024-09-09 | 15:34:45 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007105
+INFO | 2024-09-09 | 15:34:45 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x78ce92260ac0>]
+INFO | 2024-09-09 | 15:34:45 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007642
+INFO | 2024-09-09 | 15:34:51 | [PreSelect - DEPARTEMEN] - 0:00:00.000170
+INFO | 2024-09-09 | 15:34:51 | [MainSelect - DEPARTEMEN] - 0:00:00.003603
+INFO | 2024-09-09 | 15:34:51 | [PostSelect - DEPARTEMEN - 0:00:00.002080
+INFO | 2024-09-09 | 15:34:51 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006532
+INFO | 2024-09-09 | 15:34:51 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce9237f7c0>]
+INFO | 2024-09-09 | 15:34:51 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007075
+INFO | 2024-09-09 | 15:34:51 | [PreSelect - PEGAWAI] - 0:00:00.000038
+INFO | 2024-09-09 | 15:34:51 | [MainSelect - PEGAWAI] - 0:00:00.003337
+INFO | 2024-09-09 | 15:34:51 | [PostSelect - PEGAWAI - 0:00:00.000031
+INFO | 2024-09-09 | 15:34:51 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004402
+INFO | 2024-09-09 | 15:34:51 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:34:51 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.004650
+INFO | 2024-09-09 | 15:34:55 | [PreSelect - DEPARTEMEN] - 0:00:00.000037
+INFO | 2024-09-09 | 15:34:55 | [MainSelect - DEPARTEMEN] - 0:00:00.004680
+INFO | 2024-09-09 | 15:34:55 | [PostSelect - DEPARTEMEN - 0:00:00.000034
+INFO | 2024-09-09 | 15:34:55 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005351
+INFO | 2024-09-09 | 15:34:55 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce922605b0>]
+INFO | 2024-09-09 | 15:34:55 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005891
+INFO | 2024-09-09 | 15:34:55 | [PreSelect - PEGAWAI] - 0:00:00.000055
+INFO | 2024-09-09 | 15:34:55 | [MainSelect - PEGAWAI] - 0:00:00.003686
+INFO | 2024-09-09 | 15:34:55 | [PostSelect - PEGAWAI - 0:00:00.000034
+INFO | 2024-09-09 | 15:34:55 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004335
+INFO | 2024-09-09 | 15:34:55 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x78ce92263190>, <__main__.MSDE_CRecordPegawai object at 0x78ce922639d0>, <__main__.MSDE_CRecordPegawai object at 0x78ce9237f5b0>, <__main__.MSDE_CRecordPegawai object at 0x78ce9237caf0>, <__main__.MSDE_CRecordPegawai object at 0x78ce923d8ca0>]
+INFO | 2024-09-09 | 15:34:55 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.008809
+INFO | 2024-09-09 | 15:35:17 | [PreSelect - DEPARTEMEN] - 0:00:00.000049
+INFO | 2024-09-09 | 15:35:17 | [MainSelect - DEPARTEMEN] - 0:00:00.005054
+INFO | 2024-09-09 | 15:35:17 | [PostSelect - DEPARTEMEN - 0:00:00.001195
+INFO | 2024-09-09 | 15:35:17 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007511
+INFO | 2024-09-09 | 15:35:17 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x78ce92373100>]
+INFO | 2024-09-09 | 15:35:17 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008348
+INFO | 2024-09-09 | 15:35:20 | [PreSelect - DEPARTEMEN] - 0:00:00.000027
+INFO | 2024-09-09 | 15:35:20 | [MainSelect - DEPARTEMEN] - 0:00:00.004463
+INFO | 2024-09-09 | 15:35:20 | [PostSelect - DEPARTEMEN - 0:00:00.000033
+INFO | 2024-09-09 | 15:35:20 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005068
+INFO | 2024-09-09 | 15:35:20 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce92263ac0>]
+INFO | 2024-09-09 | 15:35:20 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005553
+INFO | 2024-09-09 | 15:35:20 | [PreSelect - PEGAWAI] - 0:00:00.000043
+INFO | 2024-09-09 | 15:35:20 | [MainSelect - PEGAWAI] - 0:00:00.004800
+INFO | 2024-09-09 | 15:35:20 | [PostSelect - PEGAWAI - 0:00:00.000191
+INFO | 2024-09-09 | 15:35:20 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005684
+INFO | 2024-09-09 | 15:35:20 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:35:20 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006055
+INFO | 2024-09-09 | 15:35:50 | [PreSelect - DEPARTEMEN] - 0:00:00.000031
+INFO | 2024-09-09 | 15:35:50 | [MainSelect - DEPARTEMEN] - 0:00:00.005072
+INFO | 2024-09-09 | 15:35:50 | [PostSelect - DEPARTEMEN - 0:00:00.000031
+INFO | 2024-09-09 | 15:35:50 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005661
+INFO | 2024-09-09 | 15:35:50 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x78ce92371810>]
+INFO | 2024-09-09 | 15:35:50 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007725
+INFO | 2024-09-09 | 15:35:51 | [PreSelect - DEPARTEMEN] - 0:00:00.000036
+INFO | 2024-09-09 | 15:35:51 | [MainSelect - DEPARTEMEN] - 0:00:00.004366
+INFO | 2024-09-09 | 15:35:51 | [PostSelect - DEPARTEMEN - 0:00:00.000031
+INFO | 2024-09-09 | 15:35:51 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005000
+INFO | 2024-09-09 | 15:35:51 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce923728c0>]
+INFO | 2024-09-09 | 15:35:51 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005400
+INFO | 2024-09-09 | 15:35:51 | [PreSelect - PEGAWAI] - 0:00:00.000050
+INFO | 2024-09-09 | 15:35:51 | [MainSelect - PEGAWAI] - 0:00:00.003219
+INFO | 2024-09-09 | 15:35:51 | [PostSelect - PEGAWAI - 0:00:00.000186
+INFO | 2024-09-09 | 15:35:51 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004133
+INFO | 2024-09-09 | 15:35:51 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:35:51 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.004740
+INFO | 2024-09-09 | 15:36:01 | [PreSelect - DEPARTEMEN] - 0:00:00.000434
+INFO | 2024-09-09 | 15:36:01 | [MainSelect - DEPARTEMEN] - 0:00:00.005663
+INFO | 2024-09-09 | 15:36:01 | [PostSelect - DEPARTEMEN - 0:00:00.000155
+INFO | 2024-09-09 | 15:36:01 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007006
+INFO | 2024-09-09 | 15:36:01 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x78ce92370820>]
+INFO | 2024-09-09 | 15:36:01 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007498
+INFO | 2024-09-09 | 15:36:02 | [PreSelect - DEPARTEMEN] - 0:00:00.000233
+INFO | 2024-09-09 | 15:36:02 | [MainSelect - DEPARTEMEN] - 0:00:00.004137
+INFO | 2024-09-09 | 15:36:02 | [PostSelect - DEPARTEMEN - 0:00:00.000037
+INFO | 2024-09-09 | 15:36:02 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005028
+INFO | 2024-09-09 | 15:36:02 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce92373c10>]
+INFO | 2024-09-09 | 15:36:02 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005561
+INFO | 2024-09-09 | 15:36:02 | [PreSelect - PEGAWAI] - 0:00:00.000051
+INFO | 2024-09-09 | 15:36:02 | [MainSelect - PEGAWAI] - 0:00:00.004859
+INFO | 2024-09-09 | 15:36:02 | [PostSelect - PEGAWAI - 0:00:00.000185
+INFO | 2024-09-09 | 15:36:02 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005812
+INFO | 2024-09-09 | 15:36:02 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:36:02 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006333
+INFO | 2024-09-09 | 15:36:19 | [PreSelect - DEPARTEMEN] - 0:00:00.000043
+INFO | 2024-09-09 | 15:36:19 | [MainSelect - DEPARTEMEN] - 0:00:00.004221
+INFO | 2024-09-09 | 15:36:19 | [PostSelect - DEPARTEMEN - 0:00:00.000021
+INFO | 2024-09-09 | 15:36:19 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004729
+INFO | 2024-09-09 | 15:36:19 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce92372950>]
+INFO | 2024-09-09 | 15:36:19 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005027
+INFO | 2024-09-09 | 15:36:20 | [PreSelect - PEGAWAI] - 0:00:00.000040
+INFO | 2024-09-09 | 15:36:20 | [MainSelect - PEGAWAI] - 0:00:00.004332
+INFO | 2024-09-09 | 15:36:20 | [PostSelect - PEGAWAI - 0:00:00.000034
+INFO | 2024-09-09 | 15:36:20 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004972
+INFO | 2024-09-09 | 15:36:20 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x78ce92372380>, <__main__.MSDE_CRecordPegawai object at 0x78ce92373040>, <__main__.MSDE_CRecordPegawai object at 0x78ce92372500>, <__main__.MSDE_CRecordPegawai object at 0x78ce92372ce0>, <__main__.MSDE_CRecordPegawai object at 0x78ce92373d00>]
+INFO | 2024-09-09 | 15:36:20 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006506
+INFO | 2024-09-09 | 15:36:38 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:36:38 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_jenis_kelamin = %(pgjeniskelamin)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_jenis_kelamin = 'P', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 15:36:38 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:36:38 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.008535
+INFO | 2024-09-09 | 15:36:38 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:36:38 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.008727
+INFO | 2024-09-09 | 15:36:38 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:36:38 | 42703<br>undefined_column'} - 0:00:00.042152
+INFO | 2024-09-09 | 15:37:33 | [PreSelect - DEPARTEMEN] - 0:00:00.000033
+INFO | 2024-09-09 | 15:37:33 | [MainSelect - DEPARTEMEN] - 0:00:00.007901
+INFO | 2024-09-09 | 15:37:33 | [PostSelect - DEPARTEMEN - 0:00:00.000185
+INFO | 2024-09-09 | 15:37:33 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008916
+INFO | 2024-09-09 | 15:37:33 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce92370520>]
+INFO | 2024-09-09 | 15:37:33 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009841
+INFO | 2024-09-09 | 15:37:34 | [PreSelect - PEGAWAI] - 0:00:00.000032
+INFO | 2024-09-09 | 15:37:34 | [MainSelect - PEGAWAI] - 0:00:00.006147
+INFO | 2024-09-09 | 15:37:34 | [PostSelect - PEGAWAI - 0:00:00.000035
+INFO | 2024-09-09 | 15:37:34 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006849
+INFO | 2024-09-09 | 15:37:34 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:37:34 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007154
+INFO | 2024-09-09 | 15:37:40 | [PreSelect - DEPARTEMEN] - 0:00:00.000193
+INFO | 2024-09-09 | 15:37:40 | [MainSelect - DEPARTEMEN] - 0:00:00.005572
+INFO | 2024-09-09 | 15:37:40 | [PostSelect - DEPARTEMEN - 0:00:00.000102
+INFO | 2024-09-09 | 15:37:40 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006528
+INFO | 2024-09-09 | 15:37:40 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x78ce923d8ee0>]
+INFO | 2024-09-09 | 15:37:40 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007330
+INFO | 2024-09-09 | 15:37:40 | [PreSelect - PEGAWAI] - 0:00:00.000169
+INFO | 2024-09-09 | 15:37:40 | [MainSelect - PEGAWAI] - 0:00:00.003678
+INFO | 2024-09-09 | 15:37:40 | [PostSelect - PEGAWAI - 0:00:00.000116
+INFO | 2024-09-09 | 15:37:40 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004737
+INFO | 2024-09-09 | 15:37:40 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:37:40 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005317
+INFO | 2024-09-09 | 15:37:56 | [PreSelect - DEPARTEMEN] - 0:00:00.000146
+INFO | 2024-09-09 | 15:37:56 | [MainSelect - DEPARTEMEN] - 0:00:00.003880
+INFO | 2024-09-09 | 15:37:56 | [PostSelect - DEPARTEMEN - 0:00:00.000186
+INFO | 2024-09-09 | 15:37:56 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004934
+INFO | 2024-09-09 | 15:37:56 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421d5480>]
+INFO | 2024-09-09 | 15:37:56 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005938
+INFO | 2024-09-09 | 15:37:56 | [PreSelect - PEGAWAI] - 0:00:00.000055
+INFO | 2024-09-09 | 15:37:56 | [MainSelect - PEGAWAI] - 0:00:00.005014
+INFO | 2024-09-09 | 15:37:56 | [PostSelect - PEGAWAI - 0:00:00.000040
+INFO | 2024-09-09 | 15:37:56 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005794
+INFO | 2024-09-09 | 15:37:56 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:37:56 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006108
+INFO | 2024-09-09 | 15:38:06 | [PreSelect - DEPARTEMEN] - 0:00:00.000196
+INFO | 2024-09-09 | 15:38:06 | [MainSelect - DEPARTEMEN] - 0:00:00.006948
+INFO | 2024-09-09 | 15:38:06 | [PostSelect - DEPARTEMEN - 0:00:00.000168
+INFO | 2024-09-09 | 15:38:06 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008045
+INFO | 2024-09-09 | 15:38:06 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421d6bf0>]
+INFO | 2024-09-09 | 15:38:06 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008838
+INFO | 2024-09-09 | 15:38:06 | [PreSelect - PEGAWAI] - 0:00:00.000033
+INFO | 2024-09-09 | 15:38:06 | [MainSelect - PEGAWAI] - 0:00:00.004347
+INFO | 2024-09-09 | 15:38:06 | [PostSelect - PEGAWAI - 0:00:00.000028
+INFO | 2024-09-09 | 15:38:06 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004919
+INFO | 2024-09-09 | 15:38:06 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa421d7820>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d6fe0>, <__main__.MSDE_CRecordPegawai object at 0x75aa42158b50>, <__main__.MSDE_CRecordPegawai object at 0x75aa42158820>, <__main__.MSDE_CRecordPegawai object at 0x75aa42158f70>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d6290>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d6b00>]
+INFO | 2024-09-09 | 15:38:06 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009749
+INFO | 2024-09-09 | 15:41:58 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:41:58 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_hobi = %(pghobi)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_hobi = 'HB2', pg.update_user = '2209116'
+                                     ^
+ 
+INFO | 2024-09-09 | 15:41:58 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:41:58 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.004830
+INFO | 2024-09-09 | 15:41:58 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:41:58 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.004999
+INFO | 2024-09-09 | 15:41:58 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:41:58 | 42703<br>undefined_column'} - 0:00:00.040107
+INFO | 2024-09-09 | 15:46:00 | [PreSelect - DEPARTEMEN] - 0:00:00.000043
+INFO | 2024-09-09 | 15:46:00 | [MainSelect - DEPARTEMEN] - 0:00:00.005120
+INFO | 2024-09-09 | 15:46:00 | [PostSelect - DEPARTEMEN - 0:00:00.000027
+INFO | 2024-09-09 | 15:46:00 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005741
+INFO | 2024-09-09 | 15:46:00 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421ff3d0>]
+INFO | 2024-09-09 | 15:46:00 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006139
+INFO | 2024-09-09 | 15:46:00 | [PreSelect - PEGAWAI] - 0:00:00.000058
+INFO | 2024-09-09 | 15:46:00 | [MainSelect - PEGAWAI] - 0:00:00.004066
+INFO | 2024-09-09 | 15:46:00 | [PostSelect - PEGAWAI - 0:00:00.000028
+INFO | 2024-09-09 | 15:46:00 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004699
+INFO | 2024-09-09 | 15:46:00 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa421fd3f0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fd720>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fcee0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fd780>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fccd0>]
+INFO | 2024-09-09 | 15:46:00 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006089
+INFO | 2024-09-09 | 15:46:28 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:46:28 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_bahasa = %(pgbahasa)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_bahasa = 'TEST', pg.update_user = '2209116'
+                                        ^
+ 
+INFO | 2024-09-09 | 15:46:28 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:46:28 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006265
+INFO | 2024-09-09 | 15:46:28 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:46:28 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006429
+INFO | 2024-09-09 | 15:46:28 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:46:28 | 42703<br>undefined_column'} - 0:00:00.039931
+INFO | 2024-09-09 | 15:46:35 | [PreSelect - DEPARTEMEN] - 0:00:00.000302
+INFO | 2024-09-09 | 15:46:35 | [MainSelect - DEPARTEMEN] - 0:00:00.005545
+INFO | 2024-09-09 | 15:46:35 | [PostSelect - DEPARTEMEN - 0:00:00.000039
+INFO | 2024-09-09 | 15:46:35 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006433
+INFO | 2024-09-09 | 15:46:35 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421d5ae0>]
+INFO | 2024-09-09 | 15:46:35 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006962
+INFO | 2024-09-09 | 15:46:35 | [PreSelect - PEGAWAI] - 0:00:00.000035
+INFO | 2024-09-09 | 15:46:35 | [MainSelect - PEGAWAI] - 0:00:00.004562
+INFO | 2024-09-09 | 15:46:35 | [PostSelect - PEGAWAI - 0:00:00.000052
+INFO | 2024-09-09 | 15:46:35 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005218
+INFO | 2024-09-09 | 15:46:35 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:46:35 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005491
+INFO | 2024-09-09 | 15:46:38 | [PreSelect - DEPARTEMEN] - 0:00:00.000334
+INFO | 2024-09-09 | 15:46:38 | [MainSelect - DEPARTEMEN] - 0:00:00.005969
+INFO | 2024-09-09 | 15:46:38 | [PostSelect - DEPARTEMEN - 0:00:00.000421
+INFO | 2024-09-09 | 15:46:38 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007479
+INFO | 2024-09-09 | 15:46:38 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421ff940>]
+INFO | 2024-09-09 | 15:46:38 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008247
+INFO | 2024-09-09 | 15:46:39 | [PreSelect - PEGAWAI] - 0:00:00.000035
+INFO | 2024-09-09 | 15:46:39 | [MainSelect - PEGAWAI] - 0:00:00.004956
+INFO | 2024-09-09 | 15:46:39 | [PostSelect - PEGAWAI - 0:00:00.000029
+INFO | 2024-09-09 | 15:46:39 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005580
+INFO | 2024-09-09 | 15:46:39 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa421d5f00>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d5630>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d58a0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d7d60>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d5480>]
+INFO | 2024-09-09 | 15:46:39 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006891
+INFO | 2024-09-09 | 15:47:29 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:47:29 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'HOSEA', pg.update_user = '22091...
+                                             ^
+ 
+INFO | 2024-09-09 | 15:47:29 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:47:29 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.011388
+INFO | 2024-09-09 | 15:47:29 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:47:29 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.011515
+INFO | 2024-09-09 | 15:47:29 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:47:29 | 42703<br>undefined_column'} - 0:00:00.049483
+INFO | 2024-09-09 | 15:47:39 | [PreSelect - DEPARTEMEN] - 0:00:00.000040
+INFO | 2024-09-09 | 15:47:39 | [MainSelect - DEPARTEMEN] - 0:00:00.004497
+INFO | 2024-09-09 | 15:47:39 | [PostSelect - DEPARTEMEN - 0:00:00.000045
+INFO | 2024-09-09 | 15:47:39 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005015
+INFO | 2024-09-09 | 15:47:39 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa42158ac0>]
+INFO | 2024-09-09 | 15:47:39 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005303
+INFO | 2024-09-09 | 15:47:39 | [PreSelect - PEGAWAI] - 0:00:00.000066
+INFO | 2024-09-09 | 15:47:39 | [MainSelect - PEGAWAI] - 0:00:00.004766
+INFO | 2024-09-09 | 15:47:39 | [PostSelect - PEGAWAI - 0:00:00.000166
+INFO | 2024-09-09 | 15:47:39 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005718
+INFO | 2024-09-09 | 15:47:39 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:47:39 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006206
+INFO | 2024-09-09 | 15:47:45 | [PreSelect - DEPARTEMEN] - 0:00:00.000076
+INFO | 2024-09-09 | 15:47:45 | [MainSelect - DEPARTEMEN] - 0:00:00.003565
+INFO | 2024-09-09 | 15:47:45 | [PostSelect - DEPARTEMEN - 0:00:00.000208
+INFO | 2024-09-09 | 15:47:45 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004513
+INFO | 2024-09-09 | 15:47:45 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421d6a10>]
+INFO | 2024-09-09 | 15:47:45 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005088
+INFO | 2024-09-09 | 15:47:46 | [PreSelect - PEGAWAI] - 0:00:00.000025
+INFO | 2024-09-09 | 15:47:46 | [MainSelect - PEGAWAI] - 0:00:00.004953
+INFO | 2024-09-09 | 15:47:46 | [PostSelect - PEGAWAI - 0:00:00.000154
+INFO | 2024-09-09 | 15:47:46 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005889
+INFO | 2024-09-09 | 15:47:46 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa421d6e60>, <__main__.MSDE_CRecordPegawai object at 0x75aa421ff520>, <__main__.MSDE_CRecordPegawai object at 0x75aa421ff160>, <__main__.MSDE_CRecordPegawai object at 0x75aa421feb60>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fec50>]
+INFO | 2024-09-09 | 15:47:46 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.008113
+INFO | 2024-09-09 | 15:48:17 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:48:17 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'OKTO', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 15:48:17 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:48:17 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.007463
+INFO | 2024-09-09 | 15:48:17 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:48:17 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.007608
+INFO | 2024-09-09 | 15:48:17 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:48:17 | 42703<br>undefined_column'} - 0:00:00.046649
+INFO | 2024-09-09 | 15:48:21 | [PreSelect - DEPARTEMEN] - 0:00:00.000035
+INFO | 2024-09-09 | 15:48:21 | [MainSelect - DEPARTEMEN] - 0:00:00.005706
+INFO | 2024-09-09 | 15:48:21 | [PostSelect - DEPARTEMEN - 0:00:00.000169
+INFO | 2024-09-09 | 15:48:21 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006830
+INFO | 2024-09-09 | 15:48:21 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421593c0>]
+INFO | 2024-09-09 | 15:48:21 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007877
+INFO | 2024-09-09 | 15:48:21 | [PreSelect - PEGAWAI] - 0:00:00.000407
+INFO | 2024-09-09 | 15:48:21 | [MainSelect - PEGAWAI] - 0:00:00.003872
+INFO | 2024-09-09 | 15:48:21 | [PostSelect - PEGAWAI - 0:00:00.000156
+INFO | 2024-09-09 | 15:48:21 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005309
+INFO | 2024-09-09 | 15:48:21 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:48:21 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005758
+INFO | 2024-09-09 | 15:48:26 | [PreSelect - DEPARTEMEN] - 0:00:00.000168
+INFO | 2024-09-09 | 15:48:26 | [MainSelect - DEPARTEMEN] - 0:00:00.004902
+INFO | 2024-09-09 | 15:48:26 | [PostSelect - DEPARTEMEN - 0:00:00.000262
+INFO | 2024-09-09 | 15:48:26 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006141
+INFO | 2024-09-09 | 15:48:26 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421d6bc0>]
+INFO | 2024-09-09 | 15:48:26 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006930
+INFO | 2024-09-09 | 15:48:27 | [PreSelect - PEGAWAI] - 0:00:00.000058
+INFO | 2024-09-09 | 15:48:27 | [MainSelect - PEGAWAI] - 0:00:00.004127
+INFO | 2024-09-09 | 15:48:27 | [PostSelect - PEGAWAI - 0:00:00.000459
+INFO | 2024-09-09 | 15:48:27 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005423
+INFO | 2024-09-09 | 15:48:27 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa42158e50>, <__main__.MSDE_CRecordPegawai object at 0x75aa421591e0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fe6b0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fc400>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fdde0>]
+INFO | 2024-09-09 | 15:48:27 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.008561
+INFO | 2024-09-09 | 15:48:40 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:48:40 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'OKTOMIGO', pg.update_user = '22...
+                                                ^
+ 
+INFO | 2024-09-09 | 15:48:40 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:48:40 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.005928
+INFO | 2024-09-09 | 15:48:40 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:48:40 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006284
+INFO | 2024-09-09 | 15:48:40 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:48:40 | 42703<br>undefined_column'} - 0:00:00.040474
+INFO | 2024-09-09 | 15:48:53 | [PreSelect - DEPARTEMEN] - 0:00:00.000029
+INFO | 2024-09-09 | 15:48:53 | [MainSelect - DEPARTEMEN] - 0:00:00.004496
+INFO | 2024-09-09 | 15:48:53 | [PostSelect - DEPARTEMEN - 0:00:00.000045
+INFO | 2024-09-09 | 15:48:53 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005172
+INFO | 2024-09-09 | 15:48:53 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4215a560>]
+INFO | 2024-09-09 | 15:48:53 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005763
+INFO | 2024-09-09 | 15:48:53 | [PreSelect - PEGAWAI] - 0:00:00.000082
+INFO | 2024-09-09 | 15:48:53 | [MainSelect - PEGAWAI] - 0:00:00.005127
+INFO | 2024-09-09 | 15:48:53 | [PostSelect - PEGAWAI - 0:00:00.000108
+INFO | 2024-09-09 | 15:48:53 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005846
+INFO | 2024-09-09 | 15:48:53 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:48:53 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006265
+INFO | 2024-09-09 | 15:49:00 | [PreSelect - DEPARTEMEN] - 0:00:00.000043
+INFO | 2024-09-09 | 15:49:00 | [MainSelect - DEPARTEMEN] - 0:00:00.006915
+INFO | 2024-09-09 | 15:49:00 | [PostSelect - DEPARTEMEN - 0:00:00.000154
+INFO | 2024-09-09 | 15:49:00 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008639
+INFO | 2024-09-09 | 15:49:00 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa42019330>]
+INFO | 2024-09-09 | 15:49:00 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009738
+INFO | 2024-09-09 | 15:49:01 | [PreSelect - PEGAWAI] - 0:00:00.000042
+INFO | 2024-09-09 | 15:49:01 | [MainSelect - PEGAWAI] - 0:00:00.003948
+INFO | 2024-09-09 | 15:49:01 | [PostSelect - PEGAWAI - 0:00:00.000027
+INFO | 2024-09-09 | 15:49:01 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004515
+INFO | 2024-09-09 | 15:49:01 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa4201b010>, <__main__.MSDE_CRecordPegawai object at 0x75aa42018340>, <__main__.MSDE_CRecordPegawai object at 0x75aa4201b670>, <__main__.MSDE_CRecordPegawai object at 0x75aa4201ae90>, <__main__.MSDE_CRecordPegawai object at 0x75aa4201ab00>]
+INFO | 2024-09-09 | 15:49:01 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006330
+INFO | 2024-09-09 | 15:49:16 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:49:16 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'OKTOVERGUSO', pg.update_user = ...
+                                                   ^
+ 
+INFO | 2024-09-09 | 15:49:16 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:49:16 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.007990
+INFO | 2024-09-09 | 15:49:16 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:49:16 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.008299
+INFO | 2024-09-09 | 15:49:16 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:49:16 | 42703<br>undefined_column'} - 0:00:00.037831
+INFO | 2024-09-09 | 15:49:22 | [PreSelect - DEPARTEMEN] - 0:00:00.000135
+INFO | 2024-09-09 | 15:49:22 | [MainSelect - DEPARTEMEN] - 0:00:00.005805
+INFO | 2024-09-09 | 15:49:22 | [PostSelect - DEPARTEMEN - 0:00:00.000038
+INFO | 2024-09-09 | 15:49:22 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006590
+INFO | 2024-09-09 | 15:49:22 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4201baf0>]
+INFO | 2024-09-09 | 15:49:22 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007122
+INFO | 2024-09-09 | 15:49:22 | [PreSelect - PEGAWAI] - 0:00:00.000055
+INFO | 2024-09-09 | 15:49:22 | [MainSelect - PEGAWAI] - 0:00:00.003666
+INFO | 2024-09-09 | 15:49:22 | [PostSelect - PEGAWAI - 0:00:00.000036
+INFO | 2024-09-09 | 15:49:22 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004336
+INFO | 2024-09-09 | 15:49:22 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa4204c610>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204ca90>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204c880>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204cd00>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204d090>]
+INFO | 2024-09-09 | 15:49:22 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005904
+INFO | 2024-09-09 | 15:49:32 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:49:32 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'OKTOVIGO', pg.update_user = '22...
+                                                ^
+ 
+INFO | 2024-09-09 | 15:49:32 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:49:32 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.005832
+INFO | 2024-09-09 | 15:49:32 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:49:32 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006136
+INFO | 2024-09-09 | 15:49:32 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:49:32 | 42703<br>undefined_column'} - 0:00:00.049285
+INFO | 2024-09-09 | 15:49:36 | [PreSelect - DEPARTEMEN] - 0:00:00.000044
+INFO | 2024-09-09 | 15:49:36 | [MainSelect - DEPARTEMEN] - 0:00:00.005546
+INFO | 2024-09-09 | 15:49:36 | [PostSelect - DEPARTEMEN - 0:00:00.000138
+INFO | 2024-09-09 | 15:49:36 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006505
+INFO | 2024-09-09 | 15:49:36 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4201b640>]
+INFO | 2024-09-09 | 15:49:36 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007255
+INFO | 2024-09-09 | 15:49:36 | [PreSelect - PEGAWAI] - 0:00:00.000054
+INFO | 2024-09-09 | 15:49:36 | [MainSelect - PEGAWAI] - 0:00:00.006468
+INFO | 2024-09-09 | 15:49:36 | [PostSelect - PEGAWAI - 0:00:00.000178
+INFO | 2024-09-09 | 15:49:36 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007574
+INFO | 2024-09-09 | 15:49:36 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:49:36 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.008019
+INFO | 2024-09-09 | 15:49:40 | [PreSelect - DEPARTEMEN] - 0:00:00.000132
+INFO | 2024-09-09 | 15:49:40 | [MainSelect - DEPARTEMEN] - 0:00:00.005012
+INFO | 2024-09-09 | 15:49:40 | [PostSelect - DEPARTEMEN - 0:00:00.000056
+INFO | 2024-09-09 | 15:49:40 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006257
+INFO | 2024-09-09 | 15:49:40 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa42018ee0>]
+INFO | 2024-09-09 | 15:49:40 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006817
+INFO | 2024-09-09 | 15:49:40 | [PreSelect - PEGAWAI] - 0:00:00.000061
+INFO | 2024-09-09 | 15:49:40 | [MainSelect - PEGAWAI] - 0:00:00.004676
+INFO | 2024-09-09 | 15:49:40 | [PostSelect - PEGAWAI - 0:00:00.000151
+INFO | 2024-09-09 | 15:49:40 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005558
+INFO | 2024-09-09 | 15:49:40 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa421586d0>, <__main__.MSDE_CRecordPegawai object at 0x75aa4215acb0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421593c0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421583d0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421593f0>]
+INFO | 2024-09-09 | 15:49:40 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007729
+INFO | 2024-09-09 | 15:49:50 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:49:50 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'OKTO', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 15:49:50 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:49:50 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006409
+INFO | 2024-09-09 | 15:49:50 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:49:50 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006591
+INFO | 2024-09-09 | 15:49:50 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:49:50 | 42703<br>undefined_column'} - 0:00:00.043084
+INFO | 2024-09-09 | 15:54:13 | [PreSelect - DEPARTEMEN] - 0:00:00.000182
+INFO | 2024-09-09 | 15:54:13 | [MainSelect - DEPARTEMEN] - 0:00:00.006664
+INFO | 2024-09-09 | 15:54:13 | [PostSelect - DEPARTEMEN - 0:00:00.000032
+INFO | 2024-09-09 | 15:54:13 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008598
+INFO | 2024-09-09 | 15:54:13 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421d6500>]
+INFO | 2024-09-09 | 15:54:13 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009135
+INFO | 2024-09-09 | 15:54:14 | [PreSelect - PEGAWAI] - 0:00:00.000038
+INFO | 2024-09-09 | 15:54:14 | [MainSelect - PEGAWAI] - 0:00:00.003888
+INFO | 2024-09-09 | 15:54:14 | [PostSelect - PEGAWAI - 0:00:00.002446
+INFO | 2024-09-09 | 15:54:14 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007197
+INFO | 2024-09-09 | 15:54:14 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:54:14 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007611
+INFO | 2024-09-09 | 15:54:16 | [PreSelect - DEPARTEMEN] - 0:00:00.000027
+INFO | 2024-09-09 | 15:54:16 | [MainSelect - DEPARTEMEN] - 0:00:00.003771
+INFO | 2024-09-09 | 15:54:16 | [PostSelect - DEPARTEMEN - 0:00:00.000130
+INFO | 2024-09-09 | 15:54:16 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004482
+INFO | 2024-09-09 | 15:54:16 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4201bf70>]
+INFO | 2024-09-09 | 15:54:16 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005342
+INFO | 2024-09-09 | 15:54:16 | [PreSelect - PEGAWAI] - 0:00:00.000062
+INFO | 2024-09-09 | 15:54:16 | [MainSelect - PEGAWAI] - 0:00:00.005513
+INFO | 2024-09-09 | 15:54:16 | [PostSelect - PEGAWAI - 0:00:00.000045
+INFO | 2024-09-09 | 15:54:16 | [SelectStatementBlock - PEGAWAI] - 0:00:00.008863
+INFO | 2024-09-09 | 15:54:16 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:54:16 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009253
+INFO | 2024-09-09 | 15:54:20 | [PreSelect - DEPARTEMEN] - 0:00:00.000029
+INFO | 2024-09-09 | 15:54:20 | [MainSelect - DEPARTEMEN] - 0:00:00.005710
+INFO | 2024-09-09 | 15:54:20 | [PostSelect - DEPARTEMEN - 0:00:00.000139
+INFO | 2024-09-09 | 15:54:20 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006526
+INFO | 2024-09-09 | 15:54:20 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4201b640>]
+INFO | 2024-09-09 | 15:54:20 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007246
+INFO | 2024-09-09 | 15:54:20 | [PreSelect - PEGAWAI] - 0:00:00.000024
+INFO | 2024-09-09 | 15:54:20 | [MainSelect - PEGAWAI] - 0:00:00.003760
+INFO | 2024-09-09 | 15:54:20 | [PostSelect - PEGAWAI - 0:00:00.000125
+INFO | 2024-09-09 | 15:54:20 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004607
+INFO | 2024-09-09 | 15:54:20 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa42158e50>, <__main__.MSDE_CRecordPegawai object at 0x75aa42158940>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d7430>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d6530>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d7f40>]
+INFO | 2024-09-09 | 15:54:20 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006791
+INFO | 2024-09-09 | 15:54:28 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:54:29 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'JOVI', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 15:54:29 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:54:29 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006074
+INFO | 2024-09-09 | 15:54:29 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:54:29 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006269
+INFO | 2024-09-09 | 15:54:29 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:54:29 | 42703<br>undefined_column'} - 0:00:00.042018
+INFO | 2024-09-09 | 15:54:33 | [PreSelect - DEPARTEMEN] - 0:00:00.000154
+INFO | 2024-09-09 | 15:54:33 | [MainSelect - DEPARTEMEN] - 0:00:00.006111
+INFO | 2024-09-09 | 15:54:33 | [PostSelect - DEPARTEMEN - 0:00:00.001329
+INFO | 2024-09-09 | 15:54:33 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008380
+INFO | 2024-09-09 | 15:54:33 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421d7430>]
+INFO | 2024-09-09 | 15:54:33 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009133
+INFO | 2024-09-09 | 15:54:33 | [PreSelect - PEGAWAI] - 0:00:00.000063
+INFO | 2024-09-09 | 15:54:33 | [MainSelect - PEGAWAI] - 0:00:00.004766
+INFO | 2024-09-09 | 15:54:33 | [PostSelect - PEGAWAI - 0:00:00.000199
+INFO | 2024-09-09 | 15:54:33 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005724
+INFO | 2024-09-09 | 15:54:33 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:54:33 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006150
+INFO | 2024-09-09 | 15:54:36 | [PreSelect - DEPARTEMEN] - 0:00:00.000033
+INFO | 2024-09-09 | 15:54:36 | [MainSelect - DEPARTEMEN] - 0:00:00.003486
+INFO | 2024-09-09 | 15:54:36 | [PostSelect - DEPARTEMEN - 0:00:00.000027
+INFO | 2024-09-09 | 15:54:36 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004184
+INFO | 2024-09-09 | 15:54:36 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421fe920>]
+INFO | 2024-09-09 | 15:54:36 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004609
+INFO | 2024-09-09 | 15:54:36 | [PreSelect - PEGAWAI] - 0:00:00.000041
+INFO | 2024-09-09 | 15:54:36 | [MainSelect - PEGAWAI] - 0:00:00.004778
+INFO | 2024-09-09 | 15:54:36 | [PostSelect - PEGAWAI - 0:00:00.000049
+INFO | 2024-09-09 | 15:54:36 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005461
+INFO | 2024-09-09 | 15:54:36 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa421fec50>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fdbd0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d7df0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d77c0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421d75b0>]
+INFO | 2024-09-09 | 15:54:36 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009206
+INFO | 2024-09-09 | 15:54:42 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:54:42 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'JOVI', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 15:54:42 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:54:42 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006117
+INFO | 2024-09-09 | 15:54:42 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:54:42 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006412
+INFO | 2024-09-09 | 15:54:42 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:54:42 | 42703<br>undefined_column'} - 0:00:00.040174
+INFO | 2024-09-09 | 15:54:50 | [PreSelect - DEPARTEMEN] - 0:00:00.000032
+INFO | 2024-09-09 | 15:54:50 | [MainSelect - DEPARTEMEN] - 0:00:00.003523
+INFO | 2024-09-09 | 15:54:50 | [PostSelect - DEPARTEMEN - 0:00:00.000025
+INFO | 2024-09-09 | 15:54:50 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004270
+INFO | 2024-09-09 | 15:54:50 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4201a6e0>]
+INFO | 2024-09-09 | 15:54:50 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004673
+INFO | 2024-09-09 | 15:54:50 | [PreSelect - PEGAWAI] - 0:00:00.000038
+INFO | 2024-09-09 | 15:54:50 | [MainSelect - PEGAWAI] - 0:00:00.003704
+INFO | 2024-09-09 | 15:54:50 | [PostSelect - PEGAWAI - 0:00:00.000029
+INFO | 2024-09-09 | 15:54:50 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004268
+INFO | 2024-09-09 | 15:54:50 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa421ff040>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fdba0>, <__main__.MSDE_CRecordPegawai object at 0x75aa421fc730>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204d990>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204d570>]
+INFO | 2024-09-09 | 15:54:50 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005967
+INFO | 2024-09-09 | 15:54:53 | [PreSelect - DEPARTEMEN] - 0:00:00.000036
+INFO | 2024-09-09 | 15:54:53 | [MainSelect - DEPARTEMEN] - 0:00:00.004488
+INFO | 2024-09-09 | 15:54:53 | [PostSelect - DEPARTEMEN - 0:00:00.000598
+INFO | 2024-09-09 | 15:54:53 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005779
+INFO | 2024-09-09 | 15:54:53 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa421d69e0>]
+INFO | 2024-09-09 | 15:54:53 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006553
+INFO | 2024-09-09 | 15:54:54 | [PreSelect - PEGAWAI] - 0:00:00.000040
+INFO | 2024-09-09 | 15:54:54 | [MainSelect - PEGAWAI] - 0:00:00.003568
+INFO | 2024-09-09 | 15:54:54 | [PostSelect - PEGAWAI - 0:00:00.000033
+INFO | 2024-09-09 | 15:54:54 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004176
+INFO | 2024-09-09 | 15:54:54 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:54:54 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.004508
+INFO | 2024-09-09 | 15:54:58 | [PreSelect - DEPARTEMEN] - 0:00:00.000029
+INFO | 2024-09-09 | 15:54:58 | [MainSelect - DEPARTEMEN] - 0:00:00.005113
+INFO | 2024-09-09 | 15:54:58 | [PostSelect - DEPARTEMEN - 0:00:00.000142
+INFO | 2024-09-09 | 15:54:58 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005919
+INFO | 2024-09-09 | 15:54:58 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4204ca90>]
+INFO | 2024-09-09 | 15:54:58 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006484
+INFO | 2024-09-09 | 15:54:58 | [PreSelect - PEGAWAI] - 0:00:00.000062
+INFO | 2024-09-09 | 15:54:58 | [MainSelect - PEGAWAI] - 0:00:00.004686
+INFO | 2024-09-09 | 15:54:58 | [PostSelect - PEGAWAI - 0:00:00.000052
+INFO | 2024-09-09 | 15:54:58 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005451
+INFO | 2024-09-09 | 15:54:58 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa4204efe0>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204d3f0>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204f880>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204edd0>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204ea40>]
+INFO | 2024-09-09 | 15:54:58 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.011547
+INFO | 2024-09-09 | 15:55:05 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 15:55:05 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'JOVI', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 15:55:05 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:55:05 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006407
+INFO | 2024-09-09 | 15:55:05 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 15:55:05 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006572
+INFO | 2024-09-09 | 15:55:05 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 15:55:05 | 42703<br>undefined_column'} - 0:00:00.041813
+INFO | 2024-09-09 | 15:55:16 | [PreSelect - DEPARTEMEN] - 0:00:00.000037
+INFO | 2024-09-09 | 15:55:16 | [MainSelect - DEPARTEMEN] - 0:00:00.003753
+INFO | 2024-09-09 | 15:55:16 | [PostSelect - DEPARTEMEN - 0:00:00.000034
+INFO | 2024-09-09 | 15:55:16 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004501
+INFO | 2024-09-09 | 15:55:16 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x75aa4204cb80>]
+INFO | 2024-09-09 | 15:55:16 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004979
+INFO | 2024-09-09 | 15:55:16 | [PreSelect - DEPARTEMEN] - 0:00:00.000041
+INFO | 2024-09-09 | 15:55:16 | [MainSelect - DEPARTEMEN] - 0:00:00.004989
+INFO | 2024-09-09 | 15:55:16 | [PostSelect - DEPARTEMEN - 0:00:00.000032
+INFO | 2024-09-09 | 15:55:16 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005688
+INFO | 2024-09-09 | 15:55:16 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4215a590>]
+INFO | 2024-09-09 | 15:55:16 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006659
+INFO | 2024-09-09 | 15:55:17 | [PreSelect - PEGAWAI] - 0:00:00.000035
+INFO | 2024-09-09 | 15:55:17 | [MainSelect - PEGAWAI] - 0:00:00.003072
+INFO | 2024-09-09 | 15:55:17 | [PostSelect - PEGAWAI - 0:00:00.000952
+INFO | 2024-09-09 | 15:55:17 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004775
+INFO | 2024-09-09 | 15:55:17 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:55:17 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005077
+INFO | 2024-09-09 | 15:55:18 | [PreSelect - DEPARTEMEN] - 0:00:00.000072
+INFO | 2024-09-09 | 15:55:18 | [MainSelect - DEPARTEMEN] - 0:00:00.005613
+INFO | 2024-09-09 | 15:55:18 | [PostSelect - DEPARTEMEN - 0:00:00.000056
+INFO | 2024-09-09 | 15:55:18 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006373
+INFO | 2024-09-09 | 15:55:18 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa42158400>]
+INFO | 2024-09-09 | 15:55:18 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008246
+INFO | 2024-09-09 | 15:55:18 | [PreSelect - PEGAWAI] - 0:00:00.000035
+INFO | 2024-09-09 | 15:55:18 | [MainSelect - PEGAWAI] - 0:00:00.004551
+INFO | 2024-09-09 | 15:55:18 | [PostSelect - PEGAWAI - 0:00:00.000019
+INFO | 2024-09-09 | 15:55:18 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005089
+INFO | 2024-09-09 | 15:55:18 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 15:55:18 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005298
+INFO | 2024-09-09 | 15:55:22 | [PreSelect - DEPARTEMEN] - 0:00:00.000085
+INFO | 2024-09-09 | 15:55:22 | [MainSelect - DEPARTEMEN] - 0:00:00.004660
+INFO | 2024-09-09 | 15:55:22 | [PostSelect - DEPARTEMEN - 0:00:00.001446
+INFO | 2024-09-09 | 15:55:22 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006882
+INFO | 2024-09-09 | 15:55:22 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x75aa4201ba00>]
+INFO | 2024-09-09 | 15:55:22 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007519
+INFO | 2024-09-09 | 15:55:22 | [PreSelect - PEGAWAI] - 0:00:00.000129
+INFO | 2024-09-09 | 15:55:22 | [MainSelect - PEGAWAI] - 0:00:00.003599
+INFO | 2024-09-09 | 15:55:22 | [PostSelect - PEGAWAI - 0:00:00.000162
+INFO | 2024-09-09 | 15:55:22 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004697
+INFO | 2024-09-09 | 15:55:22 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x75aa4201a890>, <__main__.MSDE_CRecordPegawai object at 0x75aa4201be50>, <__main__.MSDE_CRecordPegawai object at 0x75aa4204dd80>, <__main__.MSDE_CRecordPegawai object at 0x75aa4201acb0>, <__main__.MSDE_CRecordPegawai object at 0x75aa4201ab00>]
+INFO | 2024-09-09 | 15:55:22 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007165
+INFO | 2024-09-09 | 16:31:31 | [PreSelect - DEPARTEMEN] - 0:00:00.000164
+INFO | 2024-09-09 | 16:31:31 | [MainSelect - DEPARTEMEN] - 0:00:00.006869
+INFO | 2024-09-09 | 16:31:31 | [PostSelect - DEPARTEMEN - 0:00:00.000132
+INFO | 2024-09-09 | 16:31:31 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007835
+INFO | 2024-09-09 | 16:31:31 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7f6874d4fa30>]
+INFO | 2024-09-09 | 16:31:31 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008726
+INFO | 2024-09-09 | 16:31:32 | [PreSelect - DEPARTEMEN] - 0:00:00.000039
+INFO | 2024-09-09 | 16:31:32 | [MainSelect - DEPARTEMEN] - 0:00:00.004582
+INFO | 2024-09-09 | 16:31:32 | [PostSelect - DEPARTEMEN - 0:00:00.000069
+INFO | 2024-09-09 | 16:31:32 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005401
+INFO | 2024-09-09 | 16:31:32 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f6874d83790>]
+INFO | 2024-09-09 | 16:31:32 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006023
+INFO | 2024-09-09 | 16:31:32 | [PreSelect - PEGAWAI] - 0:00:00.000066
+INFO | 2024-09-09 | 16:31:32 | [MainSelect - PEGAWAI] - 0:00:00.004705
+INFO | 2024-09-09 | 16:31:32 | [PostSelect - PEGAWAI - 0:00:00.000106
+INFO | 2024-09-09 | 16:31:32 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005483
+INFO | 2024-09-09 | 16:31:32 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:31:32 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005860
+INFO | 2024-09-09 | 16:31:54 | [PreSelect - DEPARTEMEN] - 0:00:00.000067
+INFO | 2024-09-09 | 16:31:54 | [MainSelect - DEPARTEMEN] - 0:00:00.005595
+INFO | 2024-09-09 | 16:31:54 | [PostSelect - DEPARTEMEN - 0:00:00.000126
+INFO | 2024-09-09 | 16:31:54 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006691
+INFO | 2024-09-09 | 16:31:54 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f6874d4f850>]
+INFO | 2024-09-09 | 16:31:54 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007495
+INFO | 2024-09-09 | 16:31:54 | [PreSelect - PEGAWAI] - 0:00:00.000031
+INFO | 2024-09-09 | 16:31:54 | [MainSelect - PEGAWAI] - 0:00:00.004345
+INFO | 2024-09-09 | 16:31:54 | [PostSelect - PEGAWAI - 0:00:00.000033
+INFO | 2024-09-09 | 16:31:54 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004951
+INFO | 2024-09-09 | 16:31:54 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7f68751ff0a0>, <__main__.MSDE_CRecordPegawai object at 0x7f68751ff250>, <__main__.MSDE_CRecordPegawai object at 0x7f6874d828c0>, <__main__.MSDE_CRecordPegawai object at 0x7f6874d82cb0>, <__main__.MSDE_CRecordPegawai object at 0x7f6874d83850>]
+INFO | 2024-09-09 | 16:31:54 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.010305
+INFO | 2024-09-09 | 16:33:59 | [PreSelect - DEPARTEMEN] - 0:00:00.000060
+INFO | 2024-09-09 | 16:33:59 | [MainSelect - DEPARTEMEN] - 0:00:00.006674
+INFO | 2024-09-09 | 16:33:59 | [PostSelect - DEPARTEMEN - 0:00:00.000041
+INFO | 2024-09-09 | 16:33:59 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007333
+INFO | 2024-09-09 | 16:33:59 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7f6874d82ef0>]
+INFO | 2024-09-09 | 16:33:59 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007935
+INFO | 2024-09-09 | 16:34:00 | [PreSelect - DEPARTEMEN] - 0:00:00.000039
+INFO | 2024-09-09 | 16:34:00 | [MainSelect - DEPARTEMEN] - 0:00:00.003278
+INFO | 2024-09-09 | 16:34:00 | [PostSelect - DEPARTEMEN - 0:00:00.000031
+INFO | 2024-09-09 | 16:34:00 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003865
+INFO | 2024-09-09 | 16:34:00 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f6874d82830>]
+INFO | 2024-09-09 | 16:34:00 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004258
+INFO | 2024-09-09 | 16:34:00 | [PreSelect - PEGAWAI] - 0:00:00.000042
+INFO | 2024-09-09 | 16:34:00 | [MainSelect - PEGAWAI] - 0:00:00.004189
+INFO | 2024-09-09 | 16:34:00 | [PostSelect - PEGAWAI - 0:00:00.000022
+INFO | 2024-09-09 | 16:34:00 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004768
+INFO | 2024-09-09 | 16:34:00 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:34:00 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005132
+INFO | 2024-09-09 | 16:34:05 | [PreSelect - DEPARTEMEN] - 0:00:00.000028
+INFO | 2024-09-09 | 16:34:05 | [MainSelect - DEPARTEMEN] - 0:00:00.003398
+INFO | 2024-09-09 | 16:34:05 | [PostSelect - DEPARTEMEN - 0:00:00.000032
+INFO | 2024-09-09 | 16:34:05 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003974
+INFO | 2024-09-09 | 16:34:05 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f6874dc2620>]
+INFO | 2024-09-09 | 16:34:05 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004401
+INFO | 2024-09-09 | 16:34:05 | [PreSelect - PEGAWAI] - 0:00:00.000037
+INFO | 2024-09-09 | 16:34:05 | [MainSelect - PEGAWAI] - 0:00:00.003380
+INFO | 2024-09-09 | 16:34:05 | [PostSelect - PEGAWAI - 0:00:00.000026
+INFO | 2024-09-09 | 16:34:05 | [SelectStatementBlock - PEGAWAI] - 0:00:00.003932
+INFO | 2024-09-09 | 16:34:05 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7f6874dc3610>, <__main__.MSDE_CRecordPegawai object at 0x7f6874dc2a10>, <__main__.MSDE_CRecordPegawai object at 0x7f6874d81de0>, <__main__.MSDE_CRecordPegawai object at 0x7f6874d81fc0>, <__main__.MSDE_CRecordPegawai object at 0x7f6874d81e70>]
+INFO | 2024-09-09 | 16:34:05 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005781
+INFO | 2024-09-09 | 16:34:13 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 16:34:13 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'JOVI', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 16:34:13 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 16:34:13 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.003600
+INFO | 2024-09-09 | 16:34:13 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 16:34:13 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.003746
+INFO | 2024-09-09 | 16:34:13 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 16:34:13 | 42703<br>undefined_column'} - 0:00:00.037993
+INFO | 2024-09-09 | 16:34:18 | [PreSelect - DEPARTEMEN] - 0:00:00.002572
+INFO | 2024-09-09 | 16:34:18 | [MainSelect - DEPARTEMEN] - 0:00:00.009247
+INFO | 2024-09-09 | 16:34:18 | [PostSelect - DEPARTEMEN - 0:00:00.000024
+INFO | 2024-09-09 | 16:34:18 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.012396
+INFO | 2024-09-09 | 16:34:18 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f6874dc0730>]
+INFO | 2024-09-09 | 16:34:18 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.012891
+INFO | 2024-09-09 | 16:34:18 | [PreSelect - PEGAWAI] - 0:00:00.000052
+INFO | 2024-09-09 | 16:34:18 | [MainSelect - PEGAWAI] - 0:00:00.006598
+INFO | 2024-09-09 | 16:34:18 | [PostSelect - PEGAWAI - 0:00:00.000034
+INFO | 2024-09-09 | 16:34:18 | [SelectStatementBlock - PEGAWAI] - 0:00:00.010138
+INFO | 2024-09-09 | 16:34:18 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:34:18 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.010844
+INFO | 2024-09-09 | 16:34:22 | [PreSelect - DEPARTEMEN] - 0:00:00.000022
+INFO | 2024-09-09 | 16:34:22 | [MainSelect - DEPARTEMEN] - 0:00:00.006255
+INFO | 2024-09-09 | 16:34:22 | [PostSelect - DEPARTEMEN - 0:00:00.000033
+INFO | 2024-09-09 | 16:34:22 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006826
+INFO | 2024-09-09 | 16:34:22 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f6874dc0c40>]
+INFO | 2024-09-09 | 16:34:22 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007303
+INFO | 2024-09-09 | 16:34:22 | [PreSelect - PEGAWAI] - 0:00:00.000033
+INFO | 2024-09-09 | 16:34:22 | [MainSelect - PEGAWAI] - 0:00:00.003968
+INFO | 2024-09-09 | 16:34:22 | [PostSelect - PEGAWAI - 0:00:00.000034
+INFO | 2024-09-09 | 16:34:22 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004594
+INFO | 2024-09-09 | 16:34:22 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7f6874dc17b0>, <__main__.MSDE_CRecordPegawai object at 0x7f6874dc2230>, <__main__.MSDE_CRecordPegawai object at 0x7f6874dc2650>, <__main__.MSDE_CRecordPegawai object at 0x7f6874dc2770>, <__main__.MSDE_CRecordPegawai object at 0x7f6874c040d0>]
+INFO | 2024-09-09 | 16:34:22 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005984
+INFO | 2024-09-09 | 16:35:26 | [PreSelect - DEPARTEMEN] - 0:00:00.000038
+INFO | 2024-09-09 | 16:35:26 | [MainSelect - DEPARTEMEN] - 0:00:00.004305
+INFO | 2024-09-09 | 16:35:26 | [PostSelect - DEPARTEMEN - 0:00:00.000026
+INFO | 2024-09-09 | 16:35:26 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004844
+INFO | 2024-09-09 | 16:35:26 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7f6874c06d70>]
+INFO | 2024-09-09 | 16:35:26 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005233
+INFO | 2024-09-09 | 16:35:26 | [PreSelect - PEGAWAI] - 0:00:00.000030
+INFO | 2024-09-09 | 16:35:26 | [MainSelect - PEGAWAI] - 0:00:00.006824
+INFO | 2024-09-09 | 16:35:26 | [PostSelect - PEGAWAI - 0:00:00.000028
+INFO | 2024-09-09 | 16:35:26 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007400
+INFO | 2024-09-09 | 16:35:26 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:35:26 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007650
+ERROR | 2024-09-09 | 16:39:22 | 2209116 | GAGAL GET VFORM IN CONTAINER | Error on line 25, ('KeyError',) 'vForm' session:096f2dab-1744-4e19-acfe-e0f46edb1a70
+ERROR | 2024-09-09 | 16:39:22 | 2209116 | GAGAL SELECT DATA IN CONTAINER | Error on line 50, ('AttributeError',) 'dict' object has no attribute 'dataBlocks'
+INFO | 2024-09-09 | 16:39:43 | [PreSelect - DEPARTEMEN] - 0:00:00.000045
+INFO | 2024-09-09 | 16:39:43 | [MainSelect - DEPARTEMEN] - 0:00:00.004782
+INFO | 2024-09-09 | 16:39:43 | [PostSelect - DEPARTEMEN - 0:00:00.000027
+INFO | 2024-09-09 | 16:39:43 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005355
+INFO | 2024-09-09 | 16:39:43 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7954fbd76200>]
+INFO | 2024-09-09 | 16:39:43 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005909
+INFO | 2024-09-09 | 16:39:44 | [PreSelect - DEPARTEMEN] - 0:00:00.000048
+INFO | 2024-09-09 | 16:39:44 | [MainSelect - DEPARTEMEN] - 0:00:00.003212
+INFO | 2024-09-09 | 16:39:44 | [PostSelect - DEPARTEMEN - 0:00:00.000033
+INFO | 2024-09-09 | 16:39:44 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003769
+INFO | 2024-09-09 | 16:39:44 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7954fbc07850>]
+INFO | 2024-09-09 | 16:39:44 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004260
+INFO | 2024-09-09 | 16:39:44 | [PreSelect - PEGAWAI] - 0:00:00.000059
+INFO | 2024-09-09 | 16:39:44 | [MainSelect - PEGAWAI] - 0:00:00.007690
+INFO | 2024-09-09 | 16:39:44 | [PostSelect - PEGAWAI - 0:00:00.000041
+INFO | 2024-09-09 | 16:39:44 | [SelectStatementBlock - PEGAWAI] - 0:00:00.008253
+INFO | 2024-09-09 | 16:39:44 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:39:44 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.010098
+ERROR | 2024-09-09 | 16:40:05 | 2209116 | GAGAL GET VFORM IN CONTAINER | Error on line 25, ('KeyError',) 'vForm' session:096f2dab-1744-4e19-acfe-e0f46edb1a70
+ERROR | 2024-09-09 | 16:40:05 | 2209116 | GAGAL SELECT DATA IN CONTAINER | Error on line 50, ('AttributeError',) 'dict' object has no attribute 'dataBlocks'
+INFO | 2024-09-09 | 16:41:34 | [PreSelect - DEPARTEMEN] - 0:00:00.000034
+INFO | 2024-09-09 | 16:41:34 | [MainSelect - DEPARTEMEN] - 0:00:00.005073
+INFO | 2024-09-09 | 16:41:34 | [PostSelect - DEPARTEMEN - 0:00:00.000146
+INFO | 2024-09-09 | 16:41:34 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005903
+INFO | 2024-09-09 | 16:41:34 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7588be35b640>]
+INFO | 2024-09-09 | 16:41:34 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009218
+INFO | 2024-09-09 | 16:41:35 | [PreSelect - DEPARTEMEN] - 0:00:00.000022
+INFO | 2024-09-09 | 16:41:35 | [MainSelect - DEPARTEMEN] - 0:00:00.004139
+INFO | 2024-09-09 | 16:41:35 | [PostSelect - DEPARTEMEN - 0:00:00.000036
+INFO | 2024-09-09 | 16:41:35 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004657
+INFO | 2024-09-09 | 16:41:35 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be3d7ca0>]
+INFO | 2024-09-09 | 16:41:35 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005162
+INFO | 2024-09-09 | 16:41:35 | [PreSelect - PEGAWAI] - 0:00:00.000035
+INFO | 2024-09-09 | 16:41:35 | [MainSelect - PEGAWAI] - 0:00:00.003763
+INFO | 2024-09-09 | 16:41:35 | [PostSelect - PEGAWAI - 0:00:00.000052
+INFO | 2024-09-09 | 16:41:35 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004430
+INFO | 2024-09-09 | 16:41:35 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:41:35 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.004739
+INFO | 2024-09-09 | 16:41:39 | [PreSelect - DEPARTEMEN] - 0:00:00.000057
+INFO | 2024-09-09 | 16:41:39 | [MainSelect - DEPARTEMEN] - 0:00:00.004373
+INFO | 2024-09-09 | 16:41:39 | [PostSelect - DEPARTEMEN - 0:00:00.000063
+INFO | 2024-09-09 | 16:41:39 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005108
+INFO | 2024-09-09 | 16:41:39 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be3d5ff0>]
+INFO | 2024-09-09 | 16:41:39 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005668
+INFO | 2024-09-09 | 16:41:39 | [PreSelect - PEGAWAI] - 0:00:00.000027
+INFO | 2024-09-09 | 16:41:39 | [MainSelect - PEGAWAI] - 0:00:00.003050
+INFO | 2024-09-09 | 16:41:39 | [PostSelect - PEGAWAI - 0:00:00.000932
+INFO | 2024-09-09 | 16:41:39 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004766
+INFO | 2024-09-09 | 16:41:39 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7588be3d4af0>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d5f00>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d7250>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d5780>, <__main__.MSDE_CRecordPegawai object at 0x7588be35a3b0>]
+INFO | 2024-09-09 | 16:41:39 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009270
+INFO | 2024-09-09 | 16:43:20 | [PreSelect - DEPARTEMEN] - 0:00:00.000033
+INFO | 2024-09-09 | 16:43:20 | [MainSelect - DEPARTEMEN] - 0:00:00.004295
+INFO | 2024-09-09 | 16:43:20 | [PostSelect - DEPARTEMEN - 0:00:00.000025
+INFO | 2024-09-09 | 16:43:20 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005098
+INFO | 2024-09-09 | 16:43:20 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7588be3d6c50>]
+INFO | 2024-09-09 | 16:43:20 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007309
+INFO | 2024-09-09 | 16:43:21 | [PreSelect - DEPARTEMEN] - 0:00:00.000036
+INFO | 2024-09-09 | 16:43:21 | [MainSelect - DEPARTEMEN] - 0:00:00.005669
+INFO | 2024-09-09 | 16:43:21 | [PostSelect - DEPARTEMEN - 0:00:00.000068
+INFO | 2024-09-09 | 16:43:21 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006420
+INFO | 2024-09-09 | 16:43:21 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be3d79a0>]
+INFO | 2024-09-09 | 16:43:21 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006971
+INFO | 2024-09-09 | 16:43:21 | [PreSelect - PEGAWAI] - 0:00:00.000052
+INFO | 2024-09-09 | 16:43:21 | [MainSelect - PEGAWAI] - 0:00:00.004684
+INFO | 2024-09-09 | 16:43:21 | [PostSelect - PEGAWAI - 0:00:00.000035
+INFO | 2024-09-09 | 16:43:21 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005336
+INFO | 2024-09-09 | 16:43:21 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:43:21 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005628
+INFO | 2024-09-09 | 16:43:24 | [PreSelect - DEPARTEMEN] - 0:00:00.000059
+INFO | 2024-09-09 | 16:43:24 | [MainSelect - DEPARTEMEN] - 0:00:00.004400
+INFO | 2024-09-09 | 16:43:24 | [PostSelect - DEPARTEMEN - 0:00:00.000028
+INFO | 2024-09-09 | 16:43:24 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004970
+INFO | 2024-09-09 | 16:43:24 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be2041c0>]
+INFO | 2024-09-09 | 16:43:24 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005373
+INFO | 2024-09-09 | 16:43:24 | [PreSelect - PEGAWAI] - 0:00:00.000038
+INFO | 2024-09-09 | 16:43:24 | [MainSelect - PEGAWAI] - 0:00:00.002954
+INFO | 2024-09-09 | 16:43:24 | [PostSelect - PEGAWAI - 0:00:00.000048
+INFO | 2024-09-09 | 16:43:24 | [SelectStatementBlock - PEGAWAI] - 0:00:00.003671
+INFO | 2024-09-09 | 16:43:24 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7588be3d7820>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d7430>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d5600>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d73a0>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d5750>]
+INFO | 2024-09-09 | 16:43:24 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007374
+INFO | 2024-09-09 | 16:45:52 | [PreSelect - DEPARTEMEN] - 0:00:00.000037
+INFO | 2024-09-09 | 16:45:52 | [MainSelect - DEPARTEMEN] - 0:00:00.003828
+INFO | 2024-09-09 | 16:45:52 | [PostSelect - DEPARTEMEN - 0:00:00.000030
+INFO | 2024-09-09 | 16:45:52 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004338
+INFO | 2024-09-09 | 16:45:52 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be3d5600>]
+INFO | 2024-09-09 | 16:45:52 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004764
+INFO | 2024-09-09 | 16:45:52 | [PreSelect - PEGAWAI] - 0:00:00.000045
+INFO | 2024-09-09 | 16:45:52 | [MainSelect - PEGAWAI] - 0:00:00.006435
+INFO | 2024-09-09 | 16:45:52 | [PostSelect - PEGAWAI - 0:00:00.000031
+INFO | 2024-09-09 | 16:45:52 | [SelectStatementBlock - PEGAWAI] - 0:00:00.010575
+INFO | 2024-09-09 | 16:45:52 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:45:52 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.011155
+INFO | 2024-09-09 | 16:45:58 | [PreSelect - DEPARTEMEN] - 0:00:00.000023
+INFO | 2024-09-09 | 16:45:58 | [MainSelect - DEPARTEMEN] - 0:00:00.002812
+INFO | 2024-09-09 | 16:45:58 | [PostSelect - DEPARTEMEN - 0:00:00.000028
+INFO | 2024-09-09 | 16:45:58 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003355
+INFO | 2024-09-09 | 16:45:58 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be3d4af0>]
+INFO | 2024-09-09 | 16:45:58 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.003862
+INFO | 2024-09-09 | 16:45:58 | [PreSelect - PEGAWAI] - 0:00:00.000052
+INFO | 2024-09-09 | 16:45:58 | [MainSelect - PEGAWAI] - 0:00:00.004070
+INFO | 2024-09-09 | 16:45:58 | [PostSelect - PEGAWAI - 0:00:00.000056
+INFO | 2024-09-09 | 16:45:58 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004881
+INFO | 2024-09-09 | 16:45:58 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7588be3d5c00>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d6f20>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d7970>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d5330>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d7280>]
+INFO | 2024-09-09 | 16:45:58 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007391
+INFO | 2024-09-09 | 16:47:21 | [PreSelect - DEPARTEMEN] - 0:00:00.000038
+INFO | 2024-09-09 | 16:47:21 | [MainSelect - DEPARTEMEN] - 0:00:00.003162
+INFO | 2024-09-09 | 16:47:21 | [PostSelect - DEPARTEMEN - 0:00:00.000041
+INFO | 2024-09-09 | 16:47:21 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003863
+INFO | 2024-09-09 | 16:47:21 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be206cb0>]
+INFO | 2024-09-09 | 16:47:21 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004388
+INFO | 2024-09-09 | 16:47:21 | [PreSelect - PEGAWAI] - 0:00:00.000023
+INFO | 2024-09-09 | 16:47:21 | [MainSelect - PEGAWAI] - 0:00:00.005225
+INFO | 2024-09-09 | 16:47:21 | [PostSelect - PEGAWAI - 0:00:00.000015
+INFO | 2024-09-09 | 16:47:21 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005650
+INFO | 2024-09-09 | 16:47:21 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:47:21 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005796
+INFO | 2024-09-09 | 16:47:31 | [PreSelect - DEPARTEMEN] - 0:00:00.000030
+INFO | 2024-09-09 | 16:47:31 | [MainSelect - DEPARTEMEN] - 0:00:00.002589
+INFO | 2024-09-09 | 16:47:31 | [PostSelect - DEPARTEMEN - 0:00:00.000056
+INFO | 2024-09-09 | 16:47:31 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.003170
+INFO | 2024-09-09 | 16:47:31 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be204970>]
+INFO | 2024-09-09 | 16:47:31 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004675
+INFO | 2024-09-09 | 16:47:31 | [PreSelect - PEGAWAI] - 0:00:00.000040
+INFO | 2024-09-09 | 16:47:31 | [MainSelect - PEGAWAI] - 0:00:00.004497
+INFO | 2024-09-09 | 16:47:31 | [PostSelect - PEGAWAI - 0:00:00.000029
+INFO | 2024-09-09 | 16:47:31 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005098
+INFO | 2024-09-09 | 16:47:31 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 16:47:31 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005353
+INFO | 2024-09-09 | 16:47:35 | [PreSelect - DEPARTEMEN] - 0:00:00.000049
+INFO | 2024-09-09 | 16:47:35 | [MainSelect - DEPARTEMEN] - 0:00:00.003606
+INFO | 2024-09-09 | 16:47:35 | [PostSelect - DEPARTEMEN - 0:00:00.000188
+INFO | 2024-09-09 | 16:47:35 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004577
+INFO | 2024-09-09 | 16:47:35 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7588be2079d0>]
+INFO | 2024-09-09 | 16:47:35 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005286
+INFO | 2024-09-09 | 16:47:35 | [PreSelect - PEGAWAI] - 0:00:00.000046
+INFO | 2024-09-09 | 16:47:35 | [MainSelect - PEGAWAI] - 0:00:00.005552
+INFO | 2024-09-09 | 16:47:35 | [PostSelect - PEGAWAI - 0:00:00.000052
+INFO | 2024-09-09 | 16:47:35 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006179
+INFO | 2024-09-09 | 16:47:35 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7588be206bc0>, <__main__.MSDE_CRecordPegawai object at 0x7588be206710>, <__main__.MSDE_CRecordPegawai object at 0x7588be207490>, <__main__.MSDE_CRecordPegawai object at 0x7588be206fb0>, <__main__.MSDE_CRecordPegawai object at 0x7588be3d5720>]
+INFO | 2024-09-09 | 16:47:35 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007874
+INFO | 2024-09-09 | 16:49:46 | [PreSelect - DEPARTEMEN] - 0:00:00.000042
+INFO | 2024-09-09 | 16:49:46 | [MainSelect - DEPARTEMEN] - 0:00:00.003976
+INFO | 2024-09-09 | 16:49:46 | [PostSelect - DEPARTEMEN - 0:00:00.000060
+INFO | 2024-09-09 | 16:49:46 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004910
+INFO | 2024-09-09 | 16:49:46 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x72013c26d690>]
+INFO | 2024-09-09 | 16:49:46 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005544
+INFO | 2024-09-09 | 16:49:46 | [PreSelect - PEGAWAI] - 0:00:00.000036
+INFO | 2024-09-09 | 16:49:46 | [MainSelect - PEGAWAI] - 0:00:00.005344
+INFO | 2024-09-09 | 16:49:46 | [PostSelect - PEGAWAI - 0:00:00.000041
+INFO | 2024-09-09 | 16:49:46 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005982
+INFO | 2024-09-09 | 16:49:46 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x72013c26f610>]
+INFO | 2024-09-09 | 16:49:46 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.010070
+INFO | 2024-09-09 | 16:52:23 | [PreSelect - DEPARTEMEN] - 0:00:00.000040
+INFO | 2024-09-09 | 16:52:23 | [MainSelect - DEPARTEMEN] - 0:00:00.006266
+INFO | 2024-09-09 | 16:52:23 | [PostSelect - DEPARTEMEN - 0:00:00.000150
+INFO | 2024-09-09 | 16:52:23 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007095
+INFO | 2024-09-09 | 16:52:23 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x72013c262080>]
+INFO | 2024-09-09 | 16:52:23 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008037
+INFO | 2024-09-09 | 16:52:23 | [PreSelect - PEGAWAI] - 0:00:00.000043
+INFO | 2024-09-09 | 16:52:23 | [MainSelect - PEGAWAI] - 0:00:00.006472
+INFO | 2024-09-09 | 16:52:23 | [PostSelect - PEGAWAI - 0:00:00.000037
+INFO | 2024-09-09 | 16:52:23 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007108
+INFO | 2024-09-09 | 16:52:23 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x72013c26e440>]
+INFO | 2024-09-09 | 16:52:23 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007713
+INFO | 2024-09-09 | 16:55:55 | [PreSelect - DEPARTEMEN] - 0:00:00.000041
+INFO | 2024-09-09 | 16:55:55 | [MainSelect - DEPARTEMEN] - 0:00:00.005329
+INFO | 2024-09-09 | 16:55:55 | [PostSelect - DEPARTEMEN - 0:00:00.000035
+INFO | 2024-09-09 | 16:55:55 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005956
+INFO | 2024-09-09 | 16:55:55 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x74f11f3ff070>]
+INFO | 2024-09-09 | 16:55:55 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006498
+INFO | 2024-09-09 | 16:55:55 | [PreSelect - PEGAWAI] - 0:00:00.000026
+INFO | 2024-09-09 | 16:55:55 | [MainSelect - PEGAWAI] - 0:00:00.006428
+INFO | 2024-09-09 | 16:55:55 | [PostSelect - PEGAWAI - 0:00:00.000149
+INFO | 2024-09-09 | 16:55:55 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007258
+INFO | 2024-09-09 | 16:55:55 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x74f11f3ffdc0>]
+INFO | 2024-09-09 | 16:55:55 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.010969
+INFO | 2024-09-09 | 17:08:03 | [PreSelect - DEPARTEMEN] - 0:00:00.000076
+INFO | 2024-09-09 | 17:08:03 | [MainSelect - DEPARTEMEN] - 0:00:00.012926
+INFO | 2024-09-09 | 17:08:03 | [PostSelect - DEPARTEMEN - 0:00:00.000162
+INFO | 2024-09-09 | 17:08:03 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.013793
+INFO | 2024-09-09 | 17:08:03 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7343d3f4a9e0>]
+INFO | 2024-09-09 | 17:08:03 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.014626
+INFO | 2024-09-09 | 17:08:05 | [PreSelect - DEPARTEMEN] - 0:00:00.000045
+INFO | 2024-09-09 | 17:08:05 | [MainSelect - DEPARTEMEN] - 0:00:00.006087
+INFO | 2024-09-09 | 17:08:05 | [PostSelect - DEPARTEMEN - 0:00:00.000030
+INFO | 2024-09-09 | 17:08:05 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006671
+INFO | 2024-09-09 | 17:08:05 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7343d3faeec0>]
+INFO | 2024-09-09 | 17:08:05 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007188
+INFO | 2024-09-09 | 17:08:11 | [PreSelect - DEPARTEMEN] - 0:00:00.000058
+INFO | 2024-09-09 | 17:08:11 | [MainSelect - DEPARTEMEN] - 0:00:00.004429
+INFO | 2024-09-09 | 17:08:11 | [PostSelect - DEPARTEMEN - 0:00:00.000053
+INFO | 2024-09-09 | 17:08:11 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005063
+INFO | 2024-09-09 | 17:08:11 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7343d3fe5cf0>]
+INFO | 2024-09-09 | 17:08:11 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005551
+INFO | 2024-09-09 | 17:09:03 | [PreSelect - DEPARTEMEN] - 0:00:00.000042
+INFO | 2024-09-09 | 17:09:03 | [MainSelect - DEPARTEMEN] - 0:00:00.004507
+INFO | 2024-09-09 | 17:09:03 | [PostSelect - DEPARTEMEN - 0:00:00.000033
+INFO | 2024-09-09 | 17:09:03 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005134
+INFO | 2024-09-09 | 17:09:03 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x744bae74fbe0>]
+INFO | 2024-09-09 | 17:09:03 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005585
+INFO | 2024-09-09 | 17:09:59 | [PreSelect - DEPARTEMEN] - 0:00:00.000043
+INFO | 2024-09-09 | 17:09:59 | [MainSelect - DEPARTEMEN] - 0:00:00.003835
+INFO | 2024-09-09 | 17:09:59 | [PostSelect - DEPARTEMEN - 0:00:00.000037
+INFO | 2024-09-09 | 17:09:59 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004519
+INFO | 2024-09-09 | 17:09:59 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x71772f747bb0>]
+INFO | 2024-09-09 | 17:09:59 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005067
+INFO | 2024-09-09 | 17:10:32 | [PreSelect - DEPARTEMEN] - 0:00:00.000050
+INFO | 2024-09-09 | 17:10:32 | [MainSelect - DEPARTEMEN] - 0:00:00.004986
+INFO | 2024-09-09 | 17:10:32 | [PostSelect - DEPARTEMEN - 0:00:00.000047
+INFO | 2024-09-09 | 17:10:32 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005614
+INFO | 2024-09-09 | 17:10:32 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7d93417ef040>]
+INFO | 2024-09-09 | 17:10:32 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006169
+INFO | 2024-09-09 | 17:10:32 | [PreSelect - PEGAWAI] - 0:00:00.000053
+INFO | 2024-09-09 | 17:10:32 | [MainSelect - PEGAWAI] - 0:00:00.006528
+INFO | 2024-09-09 | 17:10:32 | [PostSelect - PEGAWAI - 0:00:00.003620
+INFO | 2024-09-09 | 17:10:32 | [SelectStatementBlock - PEGAWAI] - 0:00:00.010953
+INFO | 2024-09-09 | 17:10:32 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7d93417efd90>]
+INFO | 2024-09-09 | 17:10:32 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.018538
+INFO | 2024-09-09 | 17:12:35 | [PreSelect - PEGAWAI] - 0:00:00.000041
+INFO | 2024-09-09 | 17:12:35 | [MainSelect - PEGAWAI] - 0:00:00.007835
+INFO | 2024-09-09 | 17:12:35 | [PostSelect - PEGAWAI - 0:00:00.000061
+INFO | 2024-09-09 | 17:12:35 | [SelectStatementBlock - PEGAWAI] - 0:00:00.008526
+INFO | 2024-09-09 | 17:12:35 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 17:12:35 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.008813
+INFO | 2024-09-09 | 17:12:39 | [PreSelect - DEPARTEMEN] - 0:00:00.000036
+INFO | 2024-09-09 | 17:12:39 | [MainSelect - DEPARTEMEN] - 0:00:00.004290
+INFO | 2024-09-09 | 17:12:39 | [PostSelect - DEPARTEMEN - 0:00:00.000031
+INFO | 2024-09-09 | 17:12:39 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004842
+INFO | 2024-09-09 | 17:12:39 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7d93417c76d0>]
+INFO | 2024-09-09 | 17:12:39 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005293
+INFO | 2024-09-09 | 17:12:40 | [PreSelect - DEPARTEMEN] - 0:00:00.000036
+INFO | 2024-09-09 | 17:12:40 | [MainSelect - DEPARTEMEN] - 0:00:00.004894
+INFO | 2024-09-09 | 17:12:40 | [PostSelect - DEPARTEMEN - 0:00:00.000038
+INFO | 2024-09-09 | 17:12:40 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005530
+INFO | 2024-09-09 | 17:12:40 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7d93417c9660>]
+INFO | 2024-09-09 | 17:12:40 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006037
+INFO | 2024-09-09 | 17:12:40 | [PreSelect - PEGAWAI] - 0:00:00.000041
+INFO | 2024-09-09 | 17:12:40 | [MainSelect - PEGAWAI] - 0:00:00.003048
+INFO | 2024-09-09 | 17:12:40 | [PostSelect - PEGAWAI - 0:00:00.003032
+INFO | 2024-09-09 | 17:12:40 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006770
+INFO | 2024-09-09 | 17:12:40 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7d93417c6470>]
+INFO | 2024-09-09 | 17:12:40 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007559
+INFO | 2024-09-09 | 17:12:43 | [PreSelect - DEPARTEMEN] - 0:00:00.000035
+INFO | 2024-09-09 | 17:12:43 | [MainSelect - DEPARTEMEN] - 0:00:00.003946
+INFO | 2024-09-09 | 17:12:43 | [PostSelect - DEPARTEMEN - 0:00:00.000034
+INFO | 2024-09-09 | 17:12:43 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005650
+INFO | 2024-09-09 | 17:12:43 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7d93417c65c0>]
+INFO | 2024-09-09 | 17:12:43 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006382
+INFO | 2024-09-09 | 17:12:43 | [PreSelect - PEGAWAI] - 0:00:00.000040
+INFO | 2024-09-09 | 17:12:43 | [MainSelect - PEGAWAI] - 0:00:00.003929
+INFO | 2024-09-09 | 17:12:43 | [PostSelect - PEGAWAI - 0:00:00.021486
+INFO | 2024-09-09 | 17:12:43 | [SelectStatementBlock - PEGAWAI] - 0:00:00.026122
+INFO | 2024-09-09 | 17:12:43 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7d93417c5e40>, <__main__.MSDE_CRecordPegawai object at 0x7d93417c7a60>, <__main__.MSDE_CRecordPegawai object at 0x7d93417c92d0>, <__main__.MSDE_CRecordPegawai object at 0x7d93417c9300>, <__main__.MSDE_CRecordPegawai object at 0x7d93417c9870>]
+INFO | 2024-09-09 | 17:12:43 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.029586
+INFO | 2024-09-09 | 17:12:52 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 17:12:52 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'JOVI', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 17:12:52 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 17:12:52 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.007628
+INFO | 2024-09-09 | 17:12:52 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 17:12:52 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.007807
+INFO | 2024-09-09 | 17:12:52 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 17:12:52 | 42703<br>undefined_column'} - 0:00:00.056762
+INFO | 2024-09-09 | 17:13:18 | [PreSelect - DEPARTEMEN] - 0:00:00.000131
+INFO | 2024-09-09 | 17:13:18 | [MainSelect - DEPARTEMEN] - 0:00:00.005549
+INFO | 2024-09-09 | 17:13:18 | [PostSelect - DEPARTEMEN - 0:00:00.000150
+INFO | 2024-09-09 | 17:13:18 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006544
+INFO | 2024-09-09 | 17:13:18 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7d93417cad40>]
+INFO | 2024-09-09 | 17:13:18 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008122
+INFO | 2024-09-09 | 17:13:18 | [PreSelect - PEGAWAI] - 0:00:00.000038
+INFO | 2024-09-09 | 17:13:18 | [MainSelect - PEGAWAI] - 0:00:00.004783
+INFO | 2024-09-09 | 17:13:18 | [PostSelect - PEGAWAI - 0:00:00.006531
+INFO | 2024-09-09 | 17:13:18 | [SelectStatementBlock - PEGAWAI] - 0:00:00.011977
+INFO | 2024-09-09 | 17:13:18 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7d93417ca170>]
+INFO | 2024-09-09 | 17:13:18 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.012833
+INFO | 2024-09-09 | 17:13:23 | [PreSelect - DEPARTEMEN] - 0:00:00.000160
+INFO | 2024-09-09 | 17:13:23 | [MainSelect - DEPARTEMEN] - 0:00:00.005309
+INFO | 2024-09-09 | 17:13:23 | [PostSelect - DEPARTEMEN - 0:00:00.000033
+INFO | 2024-09-09 | 17:13:23 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006222
+INFO | 2024-09-09 | 17:13:23 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7d93417ca800>]
+INFO | 2024-09-09 | 17:13:23 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006841
+INFO | 2024-09-09 | 17:13:23 | [PreSelect - PEGAWAI] - 0:00:00.000035
+INFO | 2024-09-09 | 17:13:23 | [MainSelect - PEGAWAI] - 0:00:00.003187
+INFO | 2024-09-09 | 17:13:23 | [PostSelect - PEGAWAI - 0:00:00.020739
+INFO | 2024-09-09 | 17:13:23 | [SelectStatementBlock - PEGAWAI] - 0:00:00.024546
+INFO | 2024-09-09 | 17:13:23 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7d93417effa0>, <__main__.MSDE_CRecordPegawai object at 0x7d93417ef0d0>, <__main__.MSDE_CRecordPegawai object at 0x7d93417efeb0>, <__main__.MSDE_CRecordPegawai object at 0x7d93417eec20>, <__main__.MSDE_CRecordPegawai object at 0x7d93417ee8f0>]
+INFO | 2024-09-09 | 17:13:23 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.025989
+INFO | 2024-09-09 | 17:13:32 | [PreSelect - PEGAWAI] - 0:00:00.000034
+INFO | 2024-09-09 | 17:13:32 | [MainSelect - PEGAWAI] - 0:00:00.006368
+INFO | 2024-09-09 | 17:13:32 | [PostSelect - PEGAWAI - 0:00:00.000057
+INFO | 2024-09-09 | 17:13:32 | [SelectStatementBlock - PEGAWAI] - 0:00:00.007117
+INFO | 2024-09-09 | 17:13:32 | 2209116 | BERHASIL SELECT DATA PEGAWAI | []
+INFO | 2024-09-09 | 17:13:32 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007888
+INFO | 2024-09-09 | 17:13:35 | [PreSelect - DEPARTEMEN] - 0:00:00.000067
+INFO | 2024-09-09 | 17:13:35 | [MainSelect - DEPARTEMEN] - 0:00:00.006172
+INFO | 2024-09-09 | 17:13:35 | [PostSelect - DEPARTEMEN - 0:00:00.000044
+INFO | 2024-09-09 | 17:13:35 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006911
+INFO | 2024-09-09 | 17:13:35 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7d9341760160>]
+INFO | 2024-09-09 | 17:13:35 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.007511
+INFO | 2024-09-09 | 17:13:35 | [PreSelect - DEPARTEMEN] - 0:00:00.000035
+INFO | 2024-09-09 | 17:13:35 | [MainSelect - DEPARTEMEN] - 0:00:00.004260
+INFO | 2024-09-09 | 17:13:35 | [PostSelect - DEPARTEMEN - 0:00:00.000140
+INFO | 2024-09-09 | 17:13:35 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005138
+INFO | 2024-09-09 | 17:13:35 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7d93417c5930>]
+INFO | 2024-09-09 | 17:13:35 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005811
+INFO | 2024-09-09 | 17:13:35 | [PreSelect - PEGAWAI] - 0:00:00.000041
+INFO | 2024-09-09 | 17:13:35 | [MainSelect - PEGAWAI] - 0:00:00.004510
+INFO | 2024-09-09 | 17:13:35 | [PostSelect - PEGAWAI - 0:00:00.003086
+INFO | 2024-09-09 | 17:13:35 | [SelectStatementBlock - PEGAWAI] - 0:00:00.008297
+INFO | 2024-09-09 | 17:13:35 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7d93417c5db0>]
+INFO | 2024-09-09 | 17:13:35 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009073
+INFO | 2024-09-09 | 17:14:14 | [PreSelect - DEPARTEMEN] - 0:00:00.000036
+INFO | 2024-09-09 | 17:14:14 | [MainSelect - DEPARTEMEN] - 0:00:00.004756
+INFO | 2024-09-09 | 17:14:14 | [PostSelect - DEPARTEMEN - 0:00:00.000042
+INFO | 2024-09-09 | 17:14:14 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005374
+INFO | 2024-09-09 | 17:14:14 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7d93417c4670>]
+INFO | 2024-09-09 | 17:14:14 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005852
+INFO | 2024-09-09 | 17:14:14 | [PreSelect - PEGAWAI] - 0:00:00.000031
+INFO | 2024-09-09 | 17:14:14 | [MainSelect - PEGAWAI] - 0:00:00.005219
+INFO | 2024-09-09 | 17:14:14 | [PostSelect - PEGAWAI - 0:00:00.004738
+INFO | 2024-09-09 | 17:14:14 | [SelectStatementBlock - PEGAWAI] - 0:00:00.010774
+INFO | 2024-09-09 | 17:14:14 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7d93417ee380>]
+INFO | 2024-09-09 | 17:14:14 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.011728
+INFO | 2024-09-09 | 17:14:25 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 17:14:25 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_last_name = %(pglastname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_last_name = 'JOVI', pg.update_user = '2209116...
+                                           ^
+ 
+INFO | 2024-09-09 | 17:14:25 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 17:14:25 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.004686
+INFO | 2024-09-09 | 17:14:25 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 17:14:25 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.005003
+INFO | 2024-09-09 | 17:14:25 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 17:14:25 | 42703<br>undefined_column'} - 0:00:00.036867
+INFO | 2024-09-09 | 17:14:35 | [PreSelect - DEPARTEMEN] - 0:00:00.000096
+INFO | 2024-09-09 | 17:14:35 | [MainSelect - DEPARTEMEN] - 0:00:00.004214
+INFO | 2024-09-09 | 17:14:35 | [PostSelect - DEPARTEMEN - 0:00:00.000040
+INFO | 2024-09-09 | 17:14:35 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004874
+INFO | 2024-09-09 | 17:14:35 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7d93417c4d00>]
+INFO | 2024-09-09 | 17:14:35 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005407
+INFO | 2024-09-09 | 17:14:35 | [PreSelect - PEGAWAI] - 0:00:00.000037
+INFO | 2024-09-09 | 17:14:35 | [MainSelect - PEGAWAI] - 0:00:00.004640
+INFO | 2024-09-09 | 17:14:35 | [PostSelect - PEGAWAI - 0:00:00.003836
+INFO | 2024-09-09 | 17:14:35 | [SelectStatementBlock - PEGAWAI] - 0:00:00.009053
+INFO | 2024-09-09 | 17:14:35 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7d93417c52d0>]
+INFO | 2024-09-09 | 17:14:35 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009747
+INFO | 2024-09-09 | 21:53:29 | [PreSelect - DEPARTEMEN] - 0:00:00.000034
+INFO | 2024-09-09 | 21:53:29 | [MainSelect - DEPARTEMEN] - 0:00:00.006663
+INFO | 2024-09-09 | 21:53:29 | [PostSelect - DEPARTEMEN - 0:00:00.000039
+INFO | 2024-09-09 | 21:53:29 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008578
+INFO | 2024-09-09 | 21:53:29 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7af99582e0b0>]
+INFO | 2024-09-09 | 21:53:29 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009121
+INFO | 2024-09-09 | 21:53:38 | [PreSelect - DEPARTEMEN] - 0:00:00.000062
+INFO | 2024-09-09 | 21:53:38 | [MainSelect - DEPARTEMEN] - 0:00:00.004195
+INFO | 2024-09-09 | 21:53:38 | [PostSelect - DEPARTEMEN - 0:00:00.000058
+INFO | 2024-09-09 | 21:53:38 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005060
+INFO | 2024-09-09 | 21:53:38 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODEN_CRecordDepartemen object at 0x7af99582f910>]
+INFO | 2024-09-09 | 21:53:38 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005806
+INFO | 2024-09-09 | 21:55:46 | [PreSelect - DEPARTEMEN] - 0:00:00.000071
+INFO | 2024-09-09 | 21:55:46 | [MainSelect - DEPARTEMEN] - 0:00:00.005190
+INFO | 2024-09-09 | 21:55:46 | [PostSelect - DEPARTEMEN - 0:00:00.001441
+INFO | 2024-09-09 | 21:55:46 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007388
+INFO | 2024-09-09 | 21:55:46 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7af99582f1f0>]
+INFO | 2024-09-09 | 21:55:46 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008066
+INFO | 2024-09-09 | 21:55:46 | [PreSelect - PEGAWAI] - 0:00:00.000041
+INFO | 2024-09-09 | 21:55:46 | [MainSelect - PEGAWAI] - 0:00:00.009140
+INFO | 2024-09-09 | 21:55:46 | [PostSelect - PEGAWAI - 0:00:00.003410
+INFO | 2024-09-09 | 21:55:46 | [SelectStatementBlock - PEGAWAI] - 0:00:00.013281
+INFO | 2024-09-09 | 21:55:46 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7af9959f5b70>]
+INFO | 2024-09-09 | 21:55:46 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.017894
+INFO | 2024-09-09 | 21:55:58 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 21:55:58 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'HOSE', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 21:55:58 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 21:55:58 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.008920
+INFO | 2024-09-09 | 21:55:58 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 21:55:58 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.009074
+INFO | 2024-09-09 | 21:55:58 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 21:55:58 | 42703<br>undefined_column'} - 0:00:00.040814
+INFO | 2024-09-09 | 21:56:59 | [PreSelect - DEPARTEMEN] - 0:00:00.000037
+INFO | 2024-09-09 | 21:56:59 | [MainSelect - DEPARTEMEN] - 0:00:00.004078
+INFO | 2024-09-09 | 21:56:59 | [PostSelect - DEPARTEMEN - 0:00:00.000036
+INFO | 2024-09-09 | 21:56:59 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004722
+INFO | 2024-09-09 | 21:56:59 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7af99583a8f0>]
+INFO | 2024-09-09 | 21:56:59 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005335
+INFO | 2024-09-09 | 21:56:59 | [PreSelect - PEGAWAI] - 0:00:00.000276
+INFO | 2024-09-09 | 21:56:59 | [MainSelect - PEGAWAI] - 0:00:00.003803
+INFO | 2024-09-09 | 21:56:59 | [PostSelect - PEGAWAI - 0:00:00.007059
+INFO | 2024-09-09 | 21:56:59 | [SelectStatementBlock - PEGAWAI] - 0:00:00.011978
+INFO | 2024-09-09 | 21:56:59 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7af995838430>]
+INFO | 2024-09-09 | 21:56:59 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.013171
+INFO | 2024-09-09 | 21:59:02 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 21:59:02 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_last_name = %(pglastname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_last_name = 'HOSE', pg.update_user = '2209116...
+                                           ^
+ 
+INFO | 2024-09-09 | 21:59:02 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 21:59:02 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006234
+INFO | 2024-09-09 | 21:59:02 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 21:59:02 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.006595
+INFO | 2024-09-09 | 21:59:02 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 21:59:02 | 42703<br>undefined_column'} - 0:00:00.042738
+INFO | 2024-09-09 | 22:02:57 | [PreSelect - DEPARTEMEN] - 0:00:00.000039
+INFO | 2024-09-09 | 22:02:57 | [MainSelect - DEPARTEMEN] - 0:00:00.004089
+INFO | 2024-09-09 | 22:02:57 | [PostSelect - DEPARTEMEN - 0:00:00.000150
+INFO | 2024-09-09 | 22:02:57 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004967
+INFO | 2024-09-09 | 22:02:57 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x7af99582e050>]
+INFO | 2024-09-09 | 22:02:57 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005950
+INFO | 2024-09-09 | 22:02:58 | [PreSelect - PEGAWAI] - 0:00:00.000109
+INFO | 2024-09-09 | 22:02:58 | [MainSelect - PEGAWAI] - 0:00:00.005617
+INFO | 2024-09-09 | 22:02:58 | [PostSelect - PEGAWAI - 0:00:00.004068
+INFO | 2024-09-09 | 22:02:58 | [SelectStatementBlock - PEGAWAI] - 0:00:00.010544
+INFO | 2024-09-09 | 22:02:58 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x7af995860fa0>]
+INFO | 2024-09-09 | 22:02:58 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.011394
+INFO | 2024-09-09 | 22:03:05 | 2209116 | BERHASIL SET DATA UPDATE |
+ERROR | 2024-09-09 | 22:03:05 | Log Error PGCode : 42703 - query: UPDATE public.pegawai
+        SET pg_first_name = %(pgfirstname)s, pg.update_user = %(updateUser)s
+        WHERE  pg_id = %(pgid)s
+         - PGError : ERROR:  column "pg" of relation "pegawai" does not exist
+LINE 2:         SET pg_first_name = 'HOSE', pg.update_user = '220911...
+                                            ^
+ 
+INFO | 2024-09-09 | 22:03:05 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 22:03:05 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.004290
+INFO | 2024-09-09 | 22:03:05 | [Update Block] - {'status': False, 'msg': '09-09-2024 | 22:03:05 | 42703<br>undefined_column'} - PEGAWAI - 0:00:00.004437
+INFO | 2024-09-09 | 22:03:05 | [Total UpdateDataStatement] - {'status': False, 'msg': '09-09-2024 | 22:03:05 | 42703<br>undefined_column'} - 0:00:00.036550
+INFO | 2024-09-09 | 22:15:25 | [PreSelect - DEPARTEMEN] - 0:00:00.000049
+INFO | 2024-09-09 | 22:15:25 | [MainSelect - DEPARTEMEN] - 0:00:00.004936
+INFO | 2024-09-09 | 22:15:25 | [PostSelect - DEPARTEMEN - 0:00:00.000066
+INFO | 2024-09-09 | 22:15:25 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005678
+INFO | 2024-09-09 | 22:15:25 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x71089c3fe9b0>]
+INFO | 2024-09-09 | 22:15:25 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006185
+INFO | 2024-09-09 | 22:15:25 | [PreSelect - PEGAWAI] - 0:00:00.000082
+INFO | 2024-09-09 | 22:15:25 | [MainSelect - PEGAWAI] - 0:00:00.007163
+INFO | 2024-09-09 | 22:15:25 | [PostSelect - PEGAWAI - 0:00:00.005906
+INFO | 2024-09-09 | 22:15:25 | [SelectStatementBlock - PEGAWAI] - 0:00:00.013979
+INFO | 2024-09-09 | 22:15:25 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x71089c3ff700>]
+INFO | 2024-09-09 | 22:15:25 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.017666
+INFO | 2024-09-09 | 22:15:32 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 22:15:32 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 22:15:32 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '9', 'deptname': 'LEGAL', 'deptkepala': 'RATNA SARI', 'deptlokasi': 'MAKASSAR', 'deptkeuangan': '21000000', 'deptnomortelp': '0411-8765432', 'deptemail': 'legal@company.com', 'deptdesc': 'LEGAL DEPARTMENT'}} - PEGAWAI - 0:00:00.007741
+INFO | 2024-09-09 | 22:15:32 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 22:15:32 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '9', 'deptname': 'LEGAL', 'deptkepala': 'RATNA SARI', 'deptlokasi': 'MAKASSAR', 'deptkeuangan': '21000000', 'deptnomortelp': '0411-8765432', 'deptemail': 'legal@company.com', 'deptdesc': 'LEGAL DEPARTMENT'}} - 0:00:00.043714
+INFO | 2024-09-09 | 22:15:37 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 22:15:38 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 22:15:38 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '9', 'deptname': 'LEGAL', 'deptkepala': 'RATNA SARI', 'deptlokasi': 'MAKASSAR', 'deptkeuangan': '21000000', 'deptnomortelp': '0411-8765432', 'deptemail': 'legal@company.com', 'deptdesc': 'LEGAL DEPARTMENT'}} - PEGAWAI - 0:00:00.007125
+INFO | 2024-09-09 | 22:15:38 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 22:15:38 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '9', 'deptname': 'LEGAL', 'deptkepala': 'RATNA SARI', 'deptlokasi': 'MAKASSAR', 'deptkeuangan': '21000000', 'deptnomortelp': '0411-8765432', 'deptemail': 'legal@company.com', 'deptdesc': 'LEGAL DEPARTMENT'}} - 0:00:00.061584
+INFO | 2024-09-09 | 22:15:47 | [PreSelect - DEPARTEMEN] - 0:00:00.000065
+INFO | 2024-09-09 | 22:15:47 | [MainSelect - DEPARTEMEN] - 0:00:00.005802
+INFO | 2024-09-09 | 22:15:47 | [PostSelect - DEPARTEMEN - 0:00:00.000078
+INFO | 2024-09-09 | 22:15:47 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007198
+INFO | 2024-09-09 | 22:15:47 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.MSDE_CRecordDepartemen object at 0x71089c3685b0>]
+INFO | 2024-09-09 | 22:15:47 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008942
+INFO | 2024-09-09 | 22:15:47 | [PreSelect - PEGAWAI] - 0:00:00.000043
+INFO | 2024-09-09 | 22:15:47 | [MainSelect - PEGAWAI] - 0:00:00.004125
+INFO | 2024-09-09 | 22:15:47 | [PostSelect - PEGAWAI - 0:00:00.021568
+INFO | 2024-09-09 | 22:15:47 | [SelectStatementBlock - PEGAWAI] - 0:00:00.026505
+INFO | 2024-09-09 | 22:15:47 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.MSDE_CRecordPegawai object at 0x71089c219420>, <__main__.MSDE_CRecordPegawai object at 0x71089c218ee0>, <__main__.MSDE_CRecordPegawai object at 0x71089c218fa0>, <__main__.MSDE_CRecordPegawai object at 0x71089c368eb0>, <__main__.MSDE_CRecordPegawai object at 0x71089c368490>]
+INFO | 2024-09-09 | 22:15:47 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.029052
+INFO | 2024-09-09 | 22:15:53 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-09-09 | 22:15:53 | 2209116 | BERHASIL UPDATE DATA |
+INFO | 2024-09-09 | 22:15:53 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'deptid': '3', 'deptname': 'IT', 'deptkepala': 'SINTA DEWI', 'deptlokasi': 'BANDUNG', 'deptkeuangan': '17500000', 'deptnomortelp': '1234567890', 'deptemail': 'it@company.com', 'deptdesc': 'INFORMATION TECHNOLOGY DEPARTMENT'}} - PEGAWAI - 0:00:00.005517
+INFO | 2024-09-09 | 22:15:53 | 2209116 | BERHASIL UPDATE DATA|
+INFO | 2024-09-09 | 22:15:53 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'deptid': '3', 'deptname': 'IT', 'deptkepala': 'SINTA DEWI', 'deptlokasi': 'BANDUNG', 'deptkeuangan': '17500000', 'deptnomortelp': '1234567890', 'deptemail': 'it@company.com', 'deptdesc': 'INFORMATION TECHNOLOGY DEPARTMENT'}} - 0:00:00.040817

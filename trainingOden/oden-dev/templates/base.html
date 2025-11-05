@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Oden Webix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="static/webix/webix.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/webix/webix.min.css" />
+    <link rel="shortcut icon" href="static/custom/images/iconalfamart.jpg" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="static/webix/skins/materialdesignicon.css"
+    />
+    <script src="static/custom/js/element.js"></script>
+    <script src="static/custom/js/lov.js"></script>
+    <script src="static/custom/js/restApi.js"></script>
+    <script src="static/custom/js/form.js"></script>
+    <script src="static/custom/js/layouts.js"></script>
+    <script src="static/custom/js/event.js"></script>
+    <script src="static/custom/js/datatable.js"></script>
+    <script src="static/custom/js/multiview.js"></script>
+    <script src="static/custom/js/form/[formId].js"></script>
+    <script src="static/moment.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://hocdnoden0201.sat.co.id/css-dev/style.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <script>
+      if (screen.width < 450) {
+        var viewport = document.querySelector("meta[name=viewport]");
+        viewport.parentNode.removeChild(viewport);
+
+        var newViewport = document.createElement("meta");
+        newViewport.setAttribute("name", "viewport");
+        newViewport.setAttribute("content", "width=500");
+        document.head.appendChild(newViewport);
+      }
+
+      function zoom() {
+        document.body.style.zoom = "90%";
+      }
+      // untuk mencari besaran width dan height yang sesuai
+      function setWidthSizeByPercent(size) {
+        let widthWindow = document.body.offsetWidth;
+        return (size / 100) * widthWindow;
+      }
+      function setWidthSize(size, fullSize) {
+        return setWidthSizeByPercent((size / fullSize) * 100);
+      }
+      function setHeightSizeByPercent(size) {
+        let heightWindow = window.screen.height;
+        return (size / 100) * heightWindow;
+      }
+      function setHeightSize(size, fullSize) {
+        return setHeightSizeByPercent((size / fullSize) * 100);
+      }
+
+      if (!webix.env.touch && webix.env.scrollSize) webix.CustomScroll.init();
+
+      webix.ui({
+        id: "app",
+        scroll: true,
+        rows: [
+          {
+            //Menu toolbar berada paling atas digunakan untuk membuat head layout
+            view: "toolbar",
+            padding: 3,
+            height: 55,
+            css: "backgroudHeader",
+            elements: [
+              {
+                view: "icon",
+                type: "icon",
+                icon: "mdi mdi-light mdi-menu",
+                width: 37,
+                align: "left",
+                css: "app_button",
+                click: function () {
+                  $$("sidefilter").show();
+                  $$("$sidebar1").toggle();
+                },
+              },
+              {
+                view: "label",
+                label:
+                  "<img src='../static/img/logo alfamart.png' style='height:90%;padding:2px;'>",
+                width: 120,
+              },
+              {
+                id: "textApp",
+                view: "label",
+                label: "<div style='font-size: 1.2em;'>Oden Webix</div>",
+                css: "white_color",
+              },
+              {},
+              {
+                autowidth: true,
+                view: "label",
+                label: `<span class='white_color_font'>[NIK_SSO]&nbsp;&nbsp;|&nbsp;&nbsp;[NAMA_SSO]       &nbsp;&nbsp;&nbsp;</span>`,
+                align: "left",
+              },
+              {
+                autowidth: true,
+                view: "label",
+                label: `<span class='webix_icon mdi mdi-logout'></span>`,
+                css: "white_color pointer_cursor",
+                align: "left",
+                on: {
+                  onItemClick: function () {
+                    webix.send({ urllogout }, null, "GET");
+                  },
+                },
+              },
+              {
+                width: 25,
+              },
+            ],
+          },
+          {
+            cols: [
+              {
+                id: "sidefilter",
+                rows: [
+                  {
+                    id: "filterSidebar",
+                    view: "search",
+                    placeholder: "Search item on sidebar...",
+                  },
+                  {
+                    view: "sidebar",
+                    collapsedWidth: 60,
+                    multipleOpen: true,
+                    scroll: "xy",
+                    data: [sidebarCustom],
+                    autoHeight: true,
+                    on: {
+                      onItemClick: function (id) {
+                        let menuSelected = this.getItem(id);
+                        if (!menuSelected.href) return;
+                        webix.send(menuSelected.href, null, "GET");
+                      },
+                    },
+                  },
+                  { height: 30 },
+                ],
+              },
+              content(),
+            ],
+          },
+        ],
+      });
+
+      webix.extend($$(menuId), webix.ProgressBar);
+      $$(menuId).showProgress({ type: "icon", hide: false }); //loading
+      $$(menuId).disable(); //enable
+
+      webix.event(window, "resize", function () {
+        widthWindow = document.body.offsetWidth;
+        if (widthWindow < 1366) {
+          $$("filterSidebar").hide();
+          $$("$sidebar1").collapse();
+        } else if (widthWindow >= 1366) {
+          $$("$sidebar1").expand();
+        }
+        if (widthWindow < 900) {
+          $$("sidefilter").hide();
+          $$("textApp").hide();
+        } else if (widthWindow >= 900) {
+          $$("sidefilter").show();
+          $$("textApp").show();
+        }
+      });
+
+      if (renderLov()) {
+        renderLov().forEach(function (objLov) {
+          webix.ui(objLov);
+        });
+      }
+      webix.ready(function () {
+        webix.UIManager.removeHotKey("tab", null);
+        $$("filterSidebar").attachEvent("onTimedKeyPress", function () {
+          $$("$sidebar1").filter("#value#", this.getValue());
+          if (this.getValue() == "") {
+            $$("$sidebar1").closeAll();
+          }
+        });
+        $$("$sidebar1").sort("#value#");
+      });
+      // webix.ready(function(){
+      //     webix.UIManager.addHotKey("ctrl+b", function(code,e) {
+      //         e.preventDefault()
+      //     });
+      // })
+      // webix.ui(renderLov())
+      // function renderLovFunction(){
+      //     renderLov.foreach()
+      // }
+      // webix.ui(lov.lovField("BranchHeadLOV",["othlivtextlovmulticols", "branchdeschead"], ["Branch Code Head", "Branch Desc Head"],2))
+      // webix.ui(lov.lovField("BranchDetLOV",["otdlivtextlovmulticols", "branchdescdet"], ["Branch Code Det", "Branch Desc Det"],2))
+    </script>
+  </body>
+</html>

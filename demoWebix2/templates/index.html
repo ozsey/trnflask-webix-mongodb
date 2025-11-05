@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://cdn.webix.com/edge/webix.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdn.webix.com/edge/webix.css" type="text/css">
+</head>
+<body>
+    <div id="login_form"></div>
+
+    <script>
+        webix.ui({
+            view: "form",
+            id: "login_form",
+            width: 300,
+            elements:[
+                { view: "text", label: "Email", name: "email"},
+                { view: "text", type: "password", label: "Password", name: "password"},
+                { margin: 5, cols:[
+                    { view: "button", value: "Login", css: "webix_primary", click: "login"},
+                    { view: "button", value: "Cancel"}  
+
+                    
+                ]}
+            ]
+        });
+
+        function login(){
+            var form = $$("login_form");
+            var formData = form.getValues();
+
+            webix.ajax().post("/login", formData, {
+                success: function(text, data, xhr){
+                    var response = JSON.parse(text);
+                    if(response.success){
+                        webix.message({type: "success", text: response.message});
+                    } else {
+                        webix.message({type: "error", text: response.message});
+                    }
+                },
+                error: function(text, data, xhr){
+                    webix.message({type: "error", text: "Failed to login. Please try again later."});
+                }
+            });
+        }
+    </script>
+</body>
+</html>

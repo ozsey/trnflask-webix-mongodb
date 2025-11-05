@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan1 - 672021159</title>
+</head>
+<body>
+    <h1>Input Data Mahasiswa</h1>
+    <form id="inputForm">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        <label for="nim">NIM:</label><br>
+        <input type="text" id="nim" name="nim"><br><br>
+        <label for="alamat">Alamat:</label><br>
+        <input type="text" id="alamat" name="alamat"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>Data Mahasiswa</h1>
+    <ul id="dataMahasiswa"></ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        // Mengirim data ke server saat form disubmit
+        $('#inputForm').submit(function(event) {
+            event.preventDefault(); // Mencegah form submit secara default
+            
+            let formData = {
+                'nama': $('#nama').val(),
+                'nim': $('#nim').val(),
+                'alamat': $('#alamat').val()
+            };
+
+            $.ajax({
+                type: 'POST',
+                url: '/input-data',
+                data: formData,
+                success: function(response) {
+                    alert(response.message);
+                },
+                error: function(xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        });
+
+        // Mengambil data dari server saat halaman dimuat
+        $(document).ready(function() {
+            $.ajax({
+                type: 'GET',
+                url: '/get-data',
+                success: function(response) {
+                    let dataMahasiswa = $('#dataMahasiswa');
+                    response.data.forEach(function(mahasiswa) {
+                        dataMahasiswa.append(`<li><strong>Nama:</strong> ${mahasiswa.nama}, <strong>NIM:</strong> ${mahasiswa.nim}, <strong>Alamat:</strong> ${mahasiswa.alamat}</li>`);
+                    });
+                },
+                error: function(xhr, status, error) {
+                    console.error(error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

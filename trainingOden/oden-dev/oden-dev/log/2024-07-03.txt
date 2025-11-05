@@ -1,0 +1,681 @@
+ERROR | 2024-07-03 | 02:12:51 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 02:12:51 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000038
+INFO | 2024-07-03 | 02:12:51 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004340
+INFO | 2024-07-03 | 02:12:51 | [PostSelect - ODENTABLEHEAD - 0:00:00.000061
+INFO | 2024-07-03 | 02:12:51 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004956
+INFO | 2024-07-03 | 02:12:51 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x77d252225f70>]
+INFO | 2024-07-03 | 02:12:51 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005341
+INFO | 2024-07-03 | 02:12:51 | [PreSelect - ODENTABLEDET] - 0:00:00.000028
+INFO | 2024-07-03 | 02:12:51 | [MainSelect - ODENTABLEDET] - 0:00:00.004807
+INFO | 2024-07-03 | 02:12:51 | [PostSelect - ODENTABLEDET - 0:00:00.000030
+INFO | 2024-07-03 | 02:12:51 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005400
+INFO | 2024-07-03 | 02:12:51 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 02:12:51 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005674
+ERROR | 2024-07-03 | 02:15:39 | Log Error PGCode : 42P01 - query: select mbr_code as lovDisplayCode, mbr_desc as lovDisplayDesc from ms_branch where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 1: ...s lovDisplayCode, mbr_desc as lovDisplayDesc from ms_branch ...
+                                                             ^
+ 
+ERROR | 2024-07-03 | 02:22:56 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 02:22:56 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000031
+INFO | 2024-07-03 | 02:22:56 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003238
+INFO | 2024-07-03 | 02:22:56 | [PostSelect - ODENTABLEHEAD - 0:00:00.000029
+INFO | 2024-07-03 | 02:22:56 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.003850
+INFO | 2024-07-03 | 02:22:56 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x77d2522464e0>]
+INFO | 2024-07-03 | 02:22:56 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004220
+INFO | 2024-07-03 | 02:22:56 | [PreSelect - ODENTABLEDET] - 0:00:00.000030
+INFO | 2024-07-03 | 02:22:56 | [MainSelect - ODENTABLEDET] - 0:00:00.003645
+INFO | 2024-07-03 | 02:22:56 | [PostSelect - ODENTABLEDET - 0:00:00.000026
+INFO | 2024-07-03 | 02:22:56 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004203
+INFO | 2024-07-03 | 02:22:56 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 02:22:56 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004442
+ERROR | 2024-07-03 | 02:23:42 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 02:23:42 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000028
+INFO | 2024-07-03 | 02:23:42 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003773
+INFO | 2024-07-03 | 02:23:42 | [PostSelect - ODENTABLEHEAD - 0:00:00.000027
+INFO | 2024-07-03 | 02:23:42 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004361
+INFO | 2024-07-03 | 02:23:42 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x77d2522ab560>]
+INFO | 2024-07-03 | 02:23:42 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004707
+INFO | 2024-07-03 | 02:23:43 | [PreSelect - ODENTABLEDET] - 0:00:00.000028
+INFO | 2024-07-03 | 02:23:43 | [MainSelect - ODENTABLEDET] - 0:00:00.003700
+INFO | 2024-07-03 | 02:23:43 | [PostSelect - ODENTABLEDET - 0:00:00.000022
+INFO | 2024-07-03 | 02:23:43 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004220
+INFO | 2024-07-03 | 02:23:43 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 02:23:43 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004470
+INFO | 2024-07-03 | 02:24:03 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000034
+INFO | 2024-07-03 | 02:24:03 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003921
+INFO | 2024-07-03 | 02:24:03 | [PostSelect - ODENTABLEHEAD - 0:00:00.000027
+INFO | 2024-07-03 | 02:24:03 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004489
+INFO | 2024-07-03 | 02:24:03 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x77d2522bbfe0>]
+INFO | 2024-07-03 | 02:24:03 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004769
+INFO | 2024-07-03 | 02:24:03 | [PreSelect - ODENTABLEDET] - 0:00:00.000028
+INFO | 2024-07-03 | 02:24:03 | [MainSelect - ODENTABLEDET] - 0:00:00.003475
+INFO | 2024-07-03 | 02:24:03 | [PostSelect - ODENTABLEDET - 0:00:00.000025
+INFO | 2024-07-03 | 02:24:03 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004024
+INFO | 2024-07-03 | 02:24:03 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 02:24:03 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004289
+ERROR | 2024-07-03 | 03:00:11 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 03:00:11 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000045
+INFO | 2024-07-03 | 03:00:11 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005514
+INFO | 2024-07-03 | 03:00:11 | [PostSelect - ODENTABLEHEAD - 0:00:00.000041
+INFO | 2024-07-03 | 03:00:11 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006245
+INFO | 2024-07-03 | 03:00:11 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x7b356b5b2720>]
+INFO | 2024-07-03 | 03:00:11 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006676
+INFO | 2024-07-03 | 03:00:11 | [PreSelect - ODENTABLEDET] - 0:00:00.000029
+INFO | 2024-07-03 | 03:00:11 | [MainSelect - ODENTABLEDET] - 0:00:00.006125
+INFO | 2024-07-03 | 03:00:11 | [PostSelect - ODENTABLEDET - 0:00:00.000029
+INFO | 2024-07-03 | 03:00:11 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.006704
+INFO | 2024-07-03 | 03:00:11 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 03:00:11 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.006972
+ERROR | 2024-07-03 | 03:16:17 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 03:16:18 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000034
+INFO | 2024-07-03 | 03:16:18 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003737
+INFO | 2024-07-03 | 03:16:18 | [PostSelect - ODENTABLEHEAD - 0:00:00.000037
+INFO | 2024-07-03 | 03:16:18 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004372
+INFO | 2024-07-03 | 03:16:18 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x7d037d5bac60>]
+INFO | 2024-07-03 | 03:16:18 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004798
+INFO | 2024-07-03 | 03:16:18 | [PreSelect - ODENTABLEDET] - 0:00:00.000033
+INFO | 2024-07-03 | 03:16:18 | [MainSelect - ODENTABLEDET] - 0:00:00.005053
+INFO | 2024-07-03 | 03:16:18 | [PostSelect - ODENTABLEDET - 0:00:00.000037
+INFO | 2024-07-03 | 03:16:18 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005779
+INFO | 2024-07-03 | 03:16:18 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 03:16:18 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.006112
+INFO | 2024-07-03 | 03:16:19 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000030
+ERROR | 2024-07-03 | 03:16:19 | Log Error PGCode : 42P01 - query: SELECT oth_textnormal as othtextnormal, oth_textdisplay as othtextdisplay, oth_textupper as othtextupper, oth_textlower as othtextlower, oth_textarea as othtextarea, oth_numericnormal as othnumericnormal, oth_currency as othcurrency, oth_livtextlovmulticols as othlivtextlovmulticols, oth_radiobutton as othradiobutton, oth_combolistdefault as othcombolistdefault, oth_combolistapi as othcombolistapi, oth_combolistapidata as othcombolistapidata, oth_normalcheckbox as othnormalcheckbox, oth_normalcheckboxinteger as othnormalcheckboxinteger, oth_ddmmyy as othddmmyy, oth_mmyy as othmmyy, oth_yy as othyy, oth_sequence_file as othsequencefile, oth_old_filename as otholdfilename
+            FROM dmhr.odentablehead
+            
+            
+            limit 1
+            offset %(offsetNumber)s
+             - PGError : ERROR:  relation "dmhr.odentablehead" does not exist
+LINE 2:             FROM dmhr.odentablehead
+                         ^
+ 
+INFO | 2024-07-03 | 03:16:19 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004310
+ERROR | 2024-07-03 | 03:16:19 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-03 | 03:16:19 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004774
+INFO | 2024-07-03 | 03:16:19 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004891
+INFO | 2024-07-03 | 03:17:05 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000065
+INFO | 2024-07-03 | 03:17:05 | [MainSelect - ODENTABLEHEAD] - 0:00:00.008565
+INFO | 2024-07-03 | 03:17:05 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-03 | 03:17:05 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.009519
+INFO | 2024-07-03 | 03:17:05 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7fe042399070>]
+INFO | 2024-07-03 | 03:17:05 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.010051
+INFO | 2024-07-03 | 03:45:40 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000080
+INFO | 2024-07-03 | 03:45:40 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004360
+INFO | 2024-07-03 | 03:45:40 | [PostSelect - ODENTABLEHEAD - 0:00:00.000032
+INFO | 2024-07-03 | 03:45:40 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005148
+INFO | 2024-07-03 | 03:45:40 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7fe04239a900>]
+INFO | 2024-07-03 | 03:45:40 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006208
+INFO | 2024-07-03 | 04:15:37 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000037
+INFO | 2024-07-03 | 04:15:37 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005305
+INFO | 2024-07-03 | 04:15:37 | [PostSelect - ODENTABLEHEAD - 0:00:00.000034
+INFO | 2024-07-03 | 04:15:37 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005986
+INFO | 2024-07-03 | 04:15:37 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x78820f7bda60>]
+INFO | 2024-07-03 | 04:15:37 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006790
+ERROR | 2024-07-03 | 04:15:40 | [SATBUCKET] Fail Upload File | 403 POST https://storage.googleapis.com/upload/storage/v1/b/sat-oden-upload/o?uploadType=multipart: {
+  "error": {
+    "code": 403,
+    "message": "training-oden-2024@training-python-internal-2020.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "training-oden-2024@training-python-internal-2020.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>) | (<class 'google.api_core.exceptions.Forbidden'>, Forbidden('POST https://storage.googleapis.com/upload/storage/v1/b/sat-oden-upload/o?uploadType=multipart: {\n  "error": {\n    "code": 403,\n    "message": "training-oden-2024@training-python-internal-2020.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission \'storage.objects.create\' denied on resource (or it may not exist).",\n    "errors": [\n      {\n        "message": "training-oden-2024@training-python-internal-2020.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission \'storage.objects.create\' denied on resource (or it may not exist).",\n        "domain": "global",\n        "reason": "forbidden"\n      }\n    ]\n  }\n}\n: (\'Request failed with status code\', 403, \'Expected one of\', <HTTPStatus.OK: 200>)'), <traceback object at 0x78820f7b4980>) |
+INFO | 2024-07-03 | 04:19:42 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000034
+INFO | 2024-07-03 | 04:19:42 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004734
+INFO | 2024-07-03 | 04:19:42 | [PostSelect - ODENTABLEHEAD - 0:00:00.000031
+INFO | 2024-07-03 | 04:19:42 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005568
+INFO | 2024-07-03 | 04:19:42 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7085c519ee10>]
+INFO | 2024-07-03 | 04:19:42 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006173
+ERROR | 2024-07-03 | 04:19:45 | [SATBUCKET] Fail Upload File | 404 POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>) | (<class 'google.api_core.exceptions.NotFound'>, NotFound('POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {\n  "error": {\n    "code": 404,\n    "message": "The specified bucket does not exist.",\n    "errors": [\n      {\n        "message": "The specified bucket does not exist.",\n        "domain": "global",\n        "reason": "notFound"\n      }\n    ]\n  }\n}\n: (\'Request failed with status code\', 404, \'Expected one of\', <HTTPStatus.OK: 200>)'), <traceback object at 0x7085c51ab1c0>) |
+INFO | 2024-07-03 | 04:20:17 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000032
+INFO | 2024-07-03 | 04:20:17 | [MainSelect - ODENTABLEHEAD] - 0:00:00.006055
+INFO | 2024-07-03 | 04:20:17 | [PostSelect - ODENTABLEHEAD - 0:00:00.000029
+INFO | 2024-07-03 | 04:20:17 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006634
+INFO | 2024-07-03 | 04:20:17 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7085c51bee40>]
+INFO | 2024-07-03 | 04:20:17 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007226
+ERROR | 2024-07-03 | 04:20:20 | [SATBUCKET] Fail Upload File | 404 POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>) | (<class 'google.api_core.exceptions.NotFound'>, NotFound('POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {\n  "error": {\n    "code": 404,\n    "message": "The specified bucket does not exist.",\n    "errors": [\n      {\n        "message": "The specified bucket does not exist.",\n        "domain": "global",\n        "reason": "notFound"\n      }\n    ]\n  }\n}\n: (\'Request failed with status code\', 404, \'Expected one of\', <HTTPStatus.OK: 200>)'), <traceback object at 0x7085c4d26640>) |
+INFO | 2024-07-03 | 04:20:43 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000029
+INFO | 2024-07-03 | 04:20:43 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004362
+INFO | 2024-07-03 | 04:20:43 | [PostSelect - ODENTABLEHEAD - 0:00:00.000027
+INFO | 2024-07-03 | 04:20:43 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004943
+INFO | 2024-07-03 | 04:20:43 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7085c4d6dcd0>]
+INFO | 2024-07-03 | 04:20:43 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005433
+ERROR | 2024-07-03 | 04:20:47 | [SATBUCKET] Fail Upload File | 404 POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>) | (<class 'google.api_core.exceptions.NotFound'>, NotFound('POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {\n  "error": {\n    "code": 404,\n    "message": "The specified bucket does not exist.",\n    "errors": [\n      {\n        "message": "The specified bucket does not exist.",\n        "domain": "global",\n        "reason": "notFound"\n      }\n    ]\n  }\n}\n: (\'Request failed with status code\', 404, \'Expected one of\', <HTTPStatus.OK: 200>)'), <traceback object at 0x7085c4d71d40>) |
+INFO | 2024-07-03 | 04:21:26 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000037
+INFO | 2024-07-03 | 04:21:26 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004801
+INFO | 2024-07-03 | 04:21:26 | [PostSelect - ODENTABLEHEAD - 0:00:00.000057
+INFO | 2024-07-03 | 04:21:26 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005516
+INFO | 2024-07-03 | 04:21:26 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7fe1b23a70e0>]
+INFO | 2024-07-03 | 04:21:26 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006141
+ERROR | 2024-07-03 | 04:21:28 | [SATBUCKET] Fail Upload File | 404 POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>) | (<class 'google.api_core.exceptions.NotFound'>, NotFound('POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {\n  "error": {\n    "code": 404,\n    "message": "The specified bucket does not exist.",\n    "errors": [\n      {\n        "message": "The specified bucket does not exist.",\n        "domain": "global",\n        "reason": "notFound"\n      }\n    ]\n  }\n}\n: (\'Request failed with status code\', 404, \'Expected one of\', <HTTPStatus.OK: 200>)'), <traceback object at 0x7fe1b23b6600>) |
+INFO | 2024-07-03 | 04:22:08 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000038
+INFO | 2024-07-03 | 04:22:08 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004795
+INFO | 2024-07-03 | 04:22:08 | [PostSelect - ODENTABLEHEAD - 0:00:00.000031
+INFO | 2024-07-03 | 04:22:08 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005589
+INFO | 2024-07-03 | 04:22:08 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x70f69d2bfbf0>]
+INFO | 2024-07-03 | 04:22:08 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006185
+ERROR | 2024-07-03 | 04:22:11 | [SATBUCKET] Fail Upload File | 404 POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {
+  "error": {
+    "code": 404,
+    "message": "The specified bucket does not exist.",
+    "errors": [
+      {
+        "message": "The specified bucket does not exist.",
+        "domain": "global",
+        "reason": "notFound"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>) | (<class 'google.api_core.exceptions.NotFound'>, NotFound('POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload/o?uploadType=multipart: {\n  "error": {\n    "code": 404,\n    "message": "The specified bucket does not exist.",\n    "errors": [\n      {\n        "message": "The specified bucket does not exist.",\n        "domain": "global",\n        "reason": "notFound"\n      }\n    ]\n  }\n}\n: (\'Request failed with status code\', 404, \'Expected one of\', <HTTPStatus.OK: 200>)'), <traceback object at 0x70f69bf9bc00>) |
+INFO | 2024-07-03 | 04:23:00 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000036
+INFO | 2024-07-03 | 04:23:00 | [MainSelect - ODENTABLEHEAD] - 0:00:00.007454
+INFO | 2024-07-03 | 04:23:00 | [PostSelect - ODENTABLEHEAD - 0:00:00.000050
+INFO | 2024-07-03 | 04:23:00 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.008305
+INFO | 2024-07-03 | 04:23:00 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x739343a92ae0>]
+INFO | 2024-07-03 | 04:23:00 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.009042
+ERROR | 2024-07-03 | 04:23:02 | [SATBUCKET] Fail Upload File | 403 POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload-training/o?uploadType=multipart: {
+  "error": {
+    "code": 403,
+    "message": "training-oden-2024@training-python-internal-2020.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "training-oden-2024@training-python-internal-2020.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>) | (<class 'google.api_core.exceptions.Forbidden'>, Forbidden('POST https://storage.googleapis.com/upload/storage/v1/b/oden-upload-training/o?uploadType=multipart: {\n  "error": {\n    "code": 403,\n    "message": "training-oden-2024@training-python-internal-2020.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission \'storage.objects.create\' denied on resource (or it may not exist).",\n    "errors": [\n      {\n        "message": "training-oden-2024@training-python-internal-2020.iam.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission \'storage.objects.create\' denied on resource (or it may not exist).",\n        "domain": "global",\n        "reason": "forbidden"\n      }\n    ]\n  }\n}\n: (\'Request failed with status code\', 403, \'Expected one of\', <HTTPStatus.OK: 200>)'), <traceback object at 0x739343a2f840>) |
+INFO | 2024-07-03 | 04:26:26 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000035
+INFO | 2024-07-03 | 04:26:26 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005843
+INFO | 2024-07-03 | 04:26:26 | [PostSelect - ODENTABLEHEAD - 0:00:00.000036
+INFO | 2024-07-03 | 04:26:26 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006542
+INFO | 2024-07-03 | 04:26:26 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x739343a91d00>]
+INFO | 2024-07-03 | 04:26:26 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007153
+INFO | 2024-07-03 | 04:27:16 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000037
+INFO | 2024-07-03 | 04:27:16 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004473
+INFO | 2024-07-03 | 04:27:16 | [PostSelect - ODENTABLEHEAD - 0:00:00.000030
+INFO | 2024-07-03 | 04:27:16 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005086
+INFO | 2024-07-03 | 04:27:16 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x79f266f9ffe0>]
+INFO | 2024-07-03 | 04:27:16 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005663
+INFO | 2024-07-03 | 04:27:59 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000038
+INFO | 2024-07-03 | 04:27:59 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004422
+INFO | 2024-07-03 | 04:27:59 | [PostSelect - ODENTABLEHEAD - 0:00:00.000036
+INFO | 2024-07-03 | 04:27:59 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005109
+INFO | 2024-07-03 | 04:27:59 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7aa619fa1a30>]
+INFO | 2024-07-03 | 04:27:59 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005730
+INFO | 2024-07-03 | 06:06:46 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000054
+INFO | 2024-07-03 | 06:06:46 | [MainSelect - ODENTABLEHEAD] - 0:00:00.008222
+INFO | 2024-07-03 | 06:06:46 | [PostSelect - ODENTABLEHEAD - 0:00:00.000032
+INFO | 2024-07-03 | 06:06:46 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.009031
+INFO | 2024-07-03 | 06:06:46 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7f761bbad640>]
+INFO | 2024-07-03 | 06:06:46 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.009649
+ERROR | 2024-07-03 | 06:13:46 | 2209116 | GAGAL GET VFORM IN CONTAINER | Error on line 25, ('KeyError',) 'vForm' session:47d5e957-27ca-4d0f-be36-52e9e2119c26
+ERROR | 2024-07-03 | 06:13:46 | 2209116 | GAGAL SELECT DATA IN CONTAINER | Error on line 50, ('AttributeError',) 'dict' object has no attribute 'dataBlocks'
+INFO | 2024-07-03 | 06:13:49 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000038
+INFO | 2024-07-03 | 06:13:49 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004652
+INFO | 2024-07-03 | 06:13:49 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-03 | 06:13:49 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005401
+INFO | 2024-07-03 | 06:13:49 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x78fb8d7e66f0>]
+INFO | 2024-07-03 | 06:13:49 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006069
+ERROR | 2024-07-03 | 06:14:47 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 06:14:47 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000039
+INFO | 2024-07-03 | 06:14:47 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004860
+INFO | 2024-07-03 | 06:14:47 | [PostSelect - ODENTABLEHEAD - 0:00:00.000032
+INFO | 2024-07-03 | 06:14:47 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005527
+INFO | 2024-07-03 | 06:14:47 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7e02ebdb32c0>]
+INFO | 2024-07-03 | 06:14:47 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006037
+INFO | 2024-07-03 | 06:14:47 | [PreSelect - ODENTABLEDET] - 0:00:00.000037
+INFO | 2024-07-03 | 06:14:47 | [MainSelect - ODENTABLEDET] - 0:00:00.005002
+INFO | 2024-07-03 | 06:14:47 | [PostSelect - ODENTABLEDET - 0:00:00.000027
+INFO | 2024-07-03 | 06:14:47 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005544
+INFO | 2024-07-03 | 06:14:47 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 06:14:47 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005796
+INFO | 2024-07-03 | 06:15:03 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000028
+INFO | 2024-07-03 | 06:15:03 | [MainSelect - ODENTABLEHEAD] - 0:00:00.006657
+INFO | 2024-07-03 | 06:15:03 | [PostSelect - ODENTABLEHEAD - 0:00:00.000028
+INFO | 2024-07-03 | 06:15:03 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.007281
+INFO | 2024-07-03 | 06:15:03 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e02ebdd8530>]
+INFO | 2024-07-03 | 06:15:03 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007807
+ERROR | 2024-07-03 | 06:15:04 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 06:15:04 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000026
+INFO | 2024-07-03 | 06:15:04 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003111
+INFO | 2024-07-03 | 06:15:04 | [PostSelect - ODENTABLEHEAD - 0:00:00.000024
+INFO | 2024-07-03 | 06:15:04 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.003631
+INFO | 2024-07-03 | 06:15:04 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7e02ebdb8a70>]
+INFO | 2024-07-03 | 06:15:04 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004025
+INFO | 2024-07-03 | 06:15:04 | [PreSelect - ODENTABLEDET] - 0:00:00.000026
+INFO | 2024-07-03 | 06:15:04 | [MainSelect - ODENTABLEDET] - 0:00:00.003152
+INFO | 2024-07-03 | 06:15:04 | [PostSelect - ODENTABLEDET - 0:00:00.000024
+INFO | 2024-07-03 | 06:15:04 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.003663
+INFO | 2024-07-03 | 06:15:04 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 06:15:04 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.003874
+INFO | 2024-07-03 | 06:15:05 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000027
+INFO | 2024-07-03 | 06:15:05 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004234
+INFO | 2024-07-03 | 06:15:05 | [PostSelect - ODENTABLEHEAD - 0:00:00.000025
+INFO | 2024-07-03 | 06:15:05 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004919
+INFO | 2024-07-03 | 06:15:05 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e02eee808c0>]
+INFO | 2024-07-03 | 06:15:05 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005458
+INFO | 2024-07-03 | 06:15:30 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000036
+INFO | 2024-07-03 | 06:15:30 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004453
+INFO | 2024-07-03 | 06:15:30 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-03 | 06:15:30 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005115
+INFO | 2024-07-03 | 06:15:30 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e02ebdb3920>]
+INFO | 2024-07-03 | 06:15:30 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005604
+ERROR | 2024-07-03 | 06:15:31 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 06:15:31 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000027
+INFO | 2024-07-03 | 06:15:31 | [MainSelect - ODENTABLEHEAD] - 0:00:00.002945
+INFO | 2024-07-03 | 06:15:31 | [PostSelect - ODENTABLEHEAD - 0:00:00.000028
+INFO | 2024-07-03 | 06:15:31 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.003672
+INFO | 2024-07-03 | 06:15:31 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7e02ebdda210>]
+INFO | 2024-07-03 | 06:15:31 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004078
+INFO | 2024-07-03 | 06:15:31 | [PreSelect - ODENTABLEDET] - 0:00:00.000026
+INFO | 2024-07-03 | 06:15:31 | [MainSelect - ODENTABLEDET] - 0:00:00.004084
+INFO | 2024-07-03 | 06:15:31 | [PostSelect - ODENTABLEDET - 0:00:00.000027
+INFO | 2024-07-03 | 06:15:31 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004597
+INFO | 2024-07-03 | 06:15:31 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 06:15:31 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004820
+ERROR | 2024-07-03 | 06:39:11 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 06:39:11 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000036
+INFO | 2024-07-03 | 06:39:11 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005309
+INFO | 2024-07-03 | 06:39:11 | [PostSelect - ODENTABLEHEAD - 0:00:00.000032
+INFO | 2024-07-03 | 06:39:11 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006052
+INFO | 2024-07-03 | 06:39:11 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7606629af500>]
+INFO | 2024-07-03 | 06:39:11 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006380
+INFO | 2024-07-03 | 06:39:12 | [PreSelect - ODENTABLEDET] - 0:00:00.000030
+INFO | 2024-07-03 | 06:39:12 | [MainSelect - ODENTABLEDET] - 0:00:00.004665
+INFO | 2024-07-03 | 06:39:12 | [PostSelect - ODENTABLEDET - 0:00:00.000034
+INFO | 2024-07-03 | 06:39:12 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005381
+INFO | 2024-07-03 | 06:39:12 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 06:39:12 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005614
+ERROR | 2024-07-03 | 07:06:56 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 07:06:56 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000039
+INFO | 2024-07-03 | 07:06:56 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004596
+INFO | 2024-07-03 | 07:06:56 | [PostSelect - ODENTABLEHEAD - 0:00:00.000032
+INFO | 2024-07-03 | 07:06:56 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005304
+INFO | 2024-07-03 | 07:06:56 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7429160a3a70>]
+INFO | 2024-07-03 | 07:06:56 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005745
+INFO | 2024-07-03 | 07:06:56 | [PreSelect - ODENTABLEDET] - 0:00:00.000033
+INFO | 2024-07-03 | 07:06:56 | [MainSelect - ODENTABLEDET] - 0:00:00.004557
+INFO | 2024-07-03 | 07:06:56 | [PostSelect - ODENTABLEDET - 0:00:00.000032
+INFO | 2024-07-03 | 07:06:56 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005324
+INFO | 2024-07-03 | 07:06:56 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 07:06:56 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005718
+INFO | 2024-07-03 | 07:08:02 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000032
+INFO | 2024-07-03 | 07:08:02 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004016
+INFO | 2024-07-03 | 07:08:02 | [PostSelect - ODENTABLEHEAD - 0:00:00.000031
+INFO | 2024-07-03 | 07:08:02 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004646
+INFO | 2024-07-03 | 07:08:02 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x74291606bad0>]
+INFO | 2024-07-03 | 07:08:02 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005231
+ERROR | 2024-07-03 | 07:08:11 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 07:08:11 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000031
+INFO | 2024-07-03 | 07:08:11 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005977
+INFO | 2024-07-03 | 07:08:11 | [PostSelect - ODENTABLEHEAD - 0:00:00.000034
+INFO | 2024-07-03 | 07:08:11 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006721
+INFO | 2024-07-03 | 07:08:11 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x742916082900>]
+INFO | 2024-07-03 | 07:08:11 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007159
+INFO | 2024-07-03 | 07:08:11 | [PreSelect - ODENTABLEDET] - 0:00:00.000040
+INFO | 2024-07-03 | 07:08:11 | [MainSelect - ODENTABLEDET] - 0:00:00.005280
+INFO | 2024-07-03 | 07:08:11 | [PostSelect - ODENTABLEDET - 0:00:00.000027
+INFO | 2024-07-03 | 07:08:11 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005864
+INFO | 2024-07-03 | 07:08:11 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 07:08:11 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.006090
+INFO | 2024-07-03 | 07:08:13 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000038
+INFO | 2024-07-03 | 07:08:13 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004216
+INFO | 2024-07-03 | 07:08:13 | [PostSelect - ODENTABLEHEAD - 0:00:00.000028
+INFO | 2024-07-03 | 07:08:13 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004789
+INFO | 2024-07-03 | 07:08:13 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7429161a7f20>]
+INFO | 2024-07-03 | 07:08:13 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005372
+INFO | 2024-07-03 | 07:09:40 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000041
+INFO | 2024-07-03 | 07:09:40 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004391
+INFO | 2024-07-03 | 07:09:40 | [PostSelect - ODENTABLEHEAD - 0:00:00.000037
+INFO | 2024-07-03 | 07:09:40 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005088
+INFO | 2024-07-03 | 07:09:40 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7826147afd10>]
+INFO | 2024-07-03 | 07:09:40 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005656
+INFO | 2024-07-03 | 07:09:44 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000032
+INFO | 2024-07-03 | 07:09:44 | [MainSelect - ODENTABLEHEAD] - 0:00:00.002973
+INFO | 2024-07-03 | 07:09:44 | [PostSelect - ODENTABLEHEAD - 0:00:00.000041
+INFO | 2024-07-03 | 07:09:44 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.003732
+INFO | 2024-07-03 | 07:09:44 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | []
+INFO | 2024-07-03 | 07:09:44 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.003970
+INFO | 2024-07-03 | 07:09:45 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000035
+INFO | 2024-07-03 | 07:09:45 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005083
+INFO | 2024-07-03 | 07:09:45 | [PostSelect - ODENTABLEHEAD - 0:00:00.000098
+INFO | 2024-07-03 | 07:09:45 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006643
+INFO | 2024-07-03 | 07:09:45 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7826146933e0>]
+INFO | 2024-07-03 | 07:09:45 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007306
+INFO | 2024-07-03 | 07:10:23 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000038
+INFO | 2024-07-03 | 07:10:23 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005274
+INFO | 2024-07-03 | 07:10:23 | [PostSelect - ODENTABLEHEAD - 0:00:00.000031
+INFO | 2024-07-03 | 07:10:23 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005944
+INFO | 2024-07-03 | 07:10:23 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x70b43e4246b0>]
+INFO | 2024-07-03 | 07:10:23 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006611
+INFO | 2024-07-03 | 07:10:53 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000044
+INFO | 2024-07-03 | 07:10:53 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004382
+INFO | 2024-07-03 | 07:10:53 | [PostSelect - ODENTABLEHEAD - 0:00:00.000041
+INFO | 2024-07-03 | 07:10:53 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005121
+INFO | 2024-07-03 | 07:10:53 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x792c20c668a0>]
+INFO | 2024-07-03 | 07:10:53 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005763
+INFO | 2024-07-03 | 07:10:56 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000033
+INFO | 2024-07-03 | 07:10:56 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004343
+INFO | 2024-07-03 | 07:10:56 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-03 | 07:10:56 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005025
+INFO | 2024-07-03 | 07:10:56 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x792c2057ae70>]
+INFO | 2024-07-03 | 07:10:56 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005542
+INFO | 2024-07-03 | 07:11:52 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000036
+INFO | 2024-07-03 | 07:11:52 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004082
+INFO | 2024-07-03 | 07:11:52 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-03 | 07:11:52 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004811
+INFO | 2024-07-03 | 07:11:52 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e0fbd25a300>]
+INFO | 2024-07-03 | 07:11:52 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005465
+INFO | 2024-07-03 | 07:20:41 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000037
+INFO | 2024-07-03 | 07:20:41 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004581
+INFO | 2024-07-03 | 07:20:41 | [PostSelect - ODENTABLEHEAD - 0:00:00.000042
+INFO | 2024-07-03 | 07:20:41 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005304
+INFO | 2024-07-03 | 07:20:41 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e0fbd1bdd90>]
+INFO | 2024-07-03 | 07:20:41 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006005
+ERROR | 2024-07-03 | 07:22:05 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 07:22:05 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000053
+INFO | 2024-07-03 | 07:22:05 | [MainSelect - ODENTABLEHEAD] - 0:00:00.006213
+INFO | 2024-07-03 | 07:22:05 | [PostSelect - ODENTABLEHEAD - 0:00:00.000036
+INFO | 2024-07-03 | 07:22:05 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.007018
+INFO | 2024-07-03 | 07:22:05 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7e0fbcd21040>]
+INFO | 2024-07-03 | 07:22:05 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007401
+INFO | 2024-07-03 | 07:22:05 | [PreSelect - ODENTABLEDET] - 0:00:00.000029
+INFO | 2024-07-03 | 07:22:05 | [MainSelect - ODENTABLEDET] - 0:00:00.005326
+INFO | 2024-07-03 | 07:22:05 | [PostSelect - ODENTABLEDET - 0:00:00.000026
+INFO | 2024-07-03 | 07:22:05 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005859
+INFO | 2024-07-03 | 07:22:05 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 07:22:05 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.006143
+ERROR | 2024-07-03 | 07:22:11 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 07:22:11 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000030
+INFO | 2024-07-03 | 07:22:11 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003802
+INFO | 2024-07-03 | 07:22:11 | [PostSelect - ODENTABLEHEAD - 0:00:00.000025
+INFO | 2024-07-03 | 07:22:11 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004360
+INFO | 2024-07-03 | 07:22:11 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7e0fbd1bf1d0>]
+INFO | 2024-07-03 | 07:22:11 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004697
+INFO | 2024-07-03 | 07:22:11 | [PreSelect - ODENTABLEDET] - 0:00:00.000028
+INFO | 2024-07-03 | 07:22:11 | [MainSelect - ODENTABLEDET] - 0:00:00.003748
+INFO | 2024-07-03 | 07:22:11 | [PostSelect - ODENTABLEDET - 0:00:00.000038
+INFO | 2024-07-03 | 07:22:11 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004553
+INFO | 2024-07-03 | 07:22:11 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 07:22:11 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005077
+INFO | 2024-07-03 | 07:22:25 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000032
+INFO | 2024-07-03 | 07:22:25 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005642
+INFO | 2024-07-03 | 07:22:25 | [PostSelect - ODENTABLEHEAD - 0:00:00.000027
+INFO | 2024-07-03 | 07:22:25 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006603
+INFO | 2024-07-03 | 07:22:25 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e0fbcd5d640>]
+INFO | 2024-07-03 | 07:22:25 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007150
+INFO | 2024-07-03 | 07:25:24 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000031
+INFO | 2024-07-03 | 07:25:24 | [MainSelect - ODENTABLEHEAD] - 0:00:00.006416
+INFO | 2024-07-03 | 07:25:24 | [PostSelect - ODENTABLEHEAD - 0:00:00.000031
+INFO | 2024-07-03 | 07:25:24 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.007067
+INFO | 2024-07-03 | 07:25:24 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e0fbcd1fa70>]
+INFO | 2024-07-03 | 07:25:24 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007577
+INFO | 2024-07-03 | 07:26:49 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000032
+INFO | 2024-07-03 | 07:26:49 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004320
+INFO | 2024-07-03 | 07:26:49 | [PostSelect - ODENTABLEHEAD - 0:00:00.000035
+INFO | 2024-07-03 | 07:26:49 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005026
+INFO | 2024-07-03 | 07:26:49 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e0fbcd3b4d0>]
+INFO | 2024-07-03 | 07:26:49 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005612
+INFO | 2024-07-03 | 07:28:07 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000029
+INFO | 2024-07-03 | 07:28:07 | [MainSelect - ODENTABLEHEAD] - 0:00:00.007594
+INFO | 2024-07-03 | 07:28:07 | [PostSelect - ODENTABLEHEAD - 0:00:00.000034
+INFO | 2024-07-03 | 07:28:07 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.008287
+INFO | 2024-07-03 | 07:28:07 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7e0fbcd5e600>]
+INFO | 2024-07-03 | 07:28:07 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.008776
+INFO | 2024-07-03 | 07:30:55 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000037
+INFO | 2024-07-03 | 07:30:55 | [MainSelect - ODENTABLEHEAD] - 0:00:00.006485
+INFO | 2024-07-03 | 07:30:55 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-03 | 07:30:55 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.007210
+INFO | 2024-07-03 | 07:30:55 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7c2eb81a7230>]
+INFO | 2024-07-03 | 07:30:55 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007749
+ERROR | 2024-07-03 | 07:30:57 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 07:30:57 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000030
+INFO | 2024-07-03 | 07:30:57 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004719
+INFO | 2024-07-03 | 07:30:57 | [PostSelect - ODENTABLEHEAD - 0:00:00.000032
+INFO | 2024-07-03 | 07:30:57 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005396
+INFO | 2024-07-03 | 07:30:57 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.MULTIVIEW_CRecord object at 0x7c2eb81c5100>]
+INFO | 2024-07-03 | 07:30:57 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005740
+INFO | 2024-07-03 | 07:30:58 | [PreSelect - ODENTABLEDET] - 0:00:00.000029
+INFO | 2024-07-03 | 07:30:58 | [MainSelect - ODENTABLEDET] - 0:00:00.004715
+INFO | 2024-07-03 | 07:30:58 | [PostSelect - ODENTABLEDET - 0:00:00.000026
+INFO | 2024-07-03 | 07:30:58 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005251
+INFO | 2024-07-03 | 07:30:58 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 07:30:58 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005503
+INFO | 2024-07-03 | 07:40:27 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000044
+INFO | 2024-07-03 | 07:40:27 | [MainSelect - ODENTABLEHEAD] - 0:00:00.007208
+INFO | 2024-07-03 | 07:40:27 | [PostSelect - ODENTABLEHEAD - 0:00:00.000030
+INFO | 2024-07-03 | 07:40:27 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.007874
+INFO | 2024-07-03 | 07:40:27 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x731c0c99fb90>]
+INFO | 2024-07-03 | 07:40:27 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.008506
+ERROR | 2024-07-03 | 07:40:56 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-03 | 07:40:56 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000039
+INFO | 2024-07-03 | 07:40:56 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004545
+INFO | 2024-07-03 | 07:40:56 | [PostSelect - ODENTABLEHEAD - 0:00:00.000036
+INFO | 2024-07-03 | 07:40:56 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005342
+INFO | 2024-07-03 | 07:40:56 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.MULTIVIEW_CRecord object at 0x731c0c513560>]
+INFO | 2024-07-03 | 07:40:56 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005796
+INFO | 2024-07-03 | 07:40:57 | [PreSelect - ODENTABLEDET] - 0:00:00.000031
+INFO | 2024-07-03 | 07:40:57 | [MainSelect - ODENTABLEDET] - 0:00:00.006144
+INFO | 2024-07-03 | 07:40:57 | [PostSelect - ODENTABLEDET - 0:00:00.000029
+INFO | 2024-07-03 | 07:40:57 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.006869
+INFO | 2024-07-03 | 07:40:57 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-03 | 07:40:57 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.007100
+ERROR | 2024-07-03 | 08:01:38 | 2209116 | GAGAL MENGUBAH FILE MENJADI BENTUK STRING | Error on line 114, ('FileNotFoundError',) [Errno 2] No such file or directory: './static/application/multiview.js'
+INFO | 2024-07-03 | 08:02:38 | [PreSelect - RC_GROUPING_POSISI] - 0:00:00.000039
+ERROR | 2024-07-03 | 08:02:38 | Log Error PGCode : 42P01 - query: SELECT rcgp_code as rcgpcode, rcgp_div_code as rcgpdivcode, rcgp_desc as rcgpdesc, rcgp_job_desc as rcgpjobdesc, rcgp_jenis_kelamin as rcgpjeniskelamin, rcgp_usia_min as rcgpusiamin, rcgp_usia_max as rcgpusiamax, rcgp_pendidikan as rcgppendidikan, rcgp_jurusan as rcgpjurusan, rcgp_no_sim as rcgpnosim, rcgp_pengalaman as rcgppengalaman, rcgp_kualifikasi as rcgpkualifikasi, rcgp_bahasa as rcgpbahasa, rcgp_rckpo_code as rcgprckpocode, rcgp_ipk as rcgpipk
+            FROM dmhr.rc_grouping_posisi
+             WHERE rcgp_jenis_kelamin = 'C'
+            
+            limit 1
+            offset %(offsetNumber)s
+             - PGError : ERROR:  relation "dmhr.rc_grouping_posisi" does not exist
+LINE 2:             FROM dmhr.rc_grouping_posisi
+                         ^
+ 
+INFO | 2024-07-03 | 08:02:38 | [MainSelect - RC_GROUPING_POSISI] - 0:00:00.004880
+ERROR | 2024-07-03 | 08:02:38 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-03 | 08:02:38 | [SelectStatementBlock - RC_GROUPING_POSISI] - 0:00:00.005462
+INFO | 2024-07-03 | 08:02:38 | [Total SelectDataStatement] - RC_GROUPING_POSISI - 0:00:00.005612
+INFO | 2024-07-03 | 09:06:52 | [PreSelect - RC_GROUPING_POSISI] - 0:00:00.000041
+ERROR | 2024-07-03 | 09:06:52 | Log Error PGCode : 42P01 - query: SELECT rcgp_code as rcgpcode, rcgp_div_code as rcgpdivcode, rcgp_desc as rcgpdesc, rcgp_job_desc as rcgpjobdesc, rcgp_jenis_kelamin as rcgpjeniskelamin, rcgp_usia_min as rcgpusiamin, rcgp_usia_max as rcgpusiamax, rcgp_pendidikan as rcgppendidikan, rcgp_jurusan as rcgpjurusan, rcgp_no_sim as rcgpnosim, rcgp_pengalaman as rcgppengalaman, rcgp_kualifikasi as rcgpkualifikasi, rcgp_bahasa as rcgpbahasa, rcgp_rckpo_code as rcgprckpocode, rcgp_ipk as rcgpipk
+            FROM dmhr.rc_grouping_posisi
+             WHERE rcgp_jenis_kelamin = 'C'
+            
+            limit 1
+            offset %(offsetNumber)s
+             - PGError : ERROR:  relation "dmhr.rc_grouping_posisi" does not exist
+LINE 2:             FROM dmhr.rc_grouping_posisi
+                         ^
+ 
+INFO | 2024-07-03 | 09:06:52 | [MainSelect - RC_GROUPING_POSISI] - 0:00:00.005523
+ERROR | 2024-07-03 | 09:06:52 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-03 | 09:06:52 | [SelectStatementBlock - RC_GROUPING_POSISI] - 0:00:00.006027
+INFO | 2024-07-03 | 09:06:52 | [Total SelectDataStatement] - RC_GROUPING_POSISI - 0:00:00.006199
+INFO | 2024-07-03 | 09:07:33 | [PreSelect - RC_GROUPING_POSISI] - 0:00:00.000031
+ERROR | 2024-07-03 | 09:07:33 | Log Error PGCode : 42P01 - query: SELECT rcgp_code as rcgpcode, rcgp_div_code as rcgpdivcode, rcgp_desc as rcgpdesc, rcgp_job_desc as rcgpjobdesc, rcgp_jenis_kelamin as rcgpjeniskelamin, rcgp_usia_min as rcgpusiamin, rcgp_usia_max as rcgpusiamax, rcgp_pendidikan as rcgppendidikan, rcgp_jurusan as rcgpjurusan, rcgp_no_sim as rcgpnosim, rcgp_pengalaman as rcgppengalaman, rcgp_kualifikasi as rcgpkualifikasi, rcgp_bahasa as rcgpbahasa, rcgp_rckpo_code as rcgprckpocode, rcgp_ipk as rcgpipk
+            FROM dmhr.rc_grouping_posisi
+             WHERE rcgp_jenis_kelamin = 'C'
+            
+            limit 1
+            offset %(offsetNumber)s
+             - PGError : ERROR:  relation "dmhr.rc_grouping_posisi" does not exist
+LINE 2:             FROM dmhr.rc_grouping_posisi
+                         ^
+ 
+INFO | 2024-07-03 | 09:07:33 | [MainSelect - RC_GROUPING_POSISI] - 0:00:00.005964
+ERROR | 2024-07-03 | 09:07:33 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-03 | 09:07:33 | [SelectStatementBlock - RC_GROUPING_POSISI] - 0:00:00.006479
+INFO | 2024-07-03 | 09:07:33 | [Total SelectDataStatement] - RC_GROUPING_POSISI - 0:00:00.006630
+INFO | 2024-07-03 | 09:09:21 | [PreSelect - RC_GROUPING_POSISI] - 0:00:00.000035
+ERROR | 2024-07-03 | 09:09:21 | Log Error PGCode : 42P01 - query: SELECT rcgp_code as rcgpcode, rcgp_div_code as rcgpdivcode, rcgp_desc as rcgpdesc, rcgp_job_desc as rcgpjobdesc, rcgp_jenis_kelamin as rcgpjeniskelamin, rcgp_usia_min as rcgpusiamin, rcgp_usia_max as rcgpusiamax, rcgp_pendidikan as rcgppendidikan, rcgp_jurusan as rcgpjurusan, rcgp_no_sim as rcgpnosim, rcgp_pengalaman as rcgppengalaman, rcgp_kualifikasi as rcgpkualifikasi, rcgp_bahasa as rcgpbahasa, rcgp_rckpo_code as rcgprckpocode, rcgp_ipk as rcgpipk
+            FROM dmhr.rc_grouping_posisi
+             WHERE rcgp_jenis_kelamin = 'C'
+            
+            limit 1
+            offset %(offsetNumber)s
+             - PGError : ERROR:  relation "dmhr.rc_grouping_posisi" does not exist
+LINE 2:             FROM dmhr.rc_grouping_posisi
+                         ^
+ 
+INFO | 2024-07-03 | 09:09:21 | [MainSelect - RC_GROUPING_POSISI] - 0:00:00.005874
+ERROR | 2024-07-03 | 09:09:21 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-03 | 09:09:21 | [SelectStatementBlock - RC_GROUPING_POSISI] - 0:00:00.006411
+INFO | 2024-07-03 | 09:09:21 | [Total SelectDataStatement] - RC_GROUPING_POSISI - 0:00:00.006561
+INFO | 2024-07-03 | 09:10:02 | [PreSelect - RC_GROUPING_POSISI] - 0:00:00.000034
+INFO | 2024-07-03 | 09:10:02 | [MainSelect - RC_GROUPING_POSISI] - 0:00:00.008179
+INFO | 2024-07-03 | 09:10:02 | [PostSelect - RC_GROUPING_POSISI - 0:00:00.000030
+INFO | 2024-07-03 | 09:10:02 | [SelectStatementBlock - RC_GROUPING_POSISI] - 0:00:00.008919
+INFO | 2024-07-03 | 09:10:02 | 2209116 | BERHASIL SELECT DATA RC_GROUPING_POSISI | []
+INFO | 2024-07-03 | 09:10:02 | [Total SelectDataStatement] - RC_GROUPING_POSISI - 0:00:00.009141

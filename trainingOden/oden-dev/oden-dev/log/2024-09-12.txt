@@ -1,0 +1,1 @@
+ERROR | 2024-09-12 | 23:29:42 | 2209116 | GAGAL MENGUBAH FILE MENJADI BENTUK STRING | Error on line 114, ('FileNotFoundError',) [Errno 2] No such file or directory: './application/MENU_DEV.py'

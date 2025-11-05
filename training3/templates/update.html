@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="update-container">
+        <h2>Update Data</h2>
+        <form method="post" action="{{ url_for('update', id=id) }}">
+            <input type="text" name="id" value="{{ data['id'] }}" readonly><br>
+            <input type="text" name="name" value="{{ data['name'] }}" required><br>
+            <input type="number" name="price" value="{{ data['price'] }}" required><br>
+            <button type="submit">Update Data</button>
+        </form>
+        <br>
+        <a href="{{ url_for('data') }}">Back to Data</a>
+    </div>
+</body>
+</html>

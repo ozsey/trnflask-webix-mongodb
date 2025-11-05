@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="data-container">
+        <h1>BocoMart</h1>
+        <p>Halaman ini menampilkan sebuah tabel yang berisi daftar item yang tersedia di Bocomart.
+            Setiap item ditampilkan dengan detail seperti ID, nama, dan harga. 
+            Pengguna dapat dengan mudah melihat dan menjelajahi daftar item yang tersedia. 
+            Selain itu, pengguna juga dapat melakukan tindakan seperti penambahan, pengeditan, dan penghapusan item sesuai kebutuhan mereka. 
+            Fitur navigasi yang disediakan memungkinkan pengguna untuk kembali ke halaman data setelah melakukan tindakan tertentu. 
+            Ini adalah pusat informasi utama untuk manajemen data item di Bocomart.</p>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            {% for row in data %}
+            <tr>
+                <td><b>{{ row['id'] }}</b></td>
+                <td>{{ row['name'] }}</td>
+                <td>{{ row['price'] }}</td>
+                <td class="action-links">
+                    <a href="{{ url_for('update', id=row['id']) }}">Update</a>
+                    <a href="{{ url_for('delete', id=row['id']) }}" class="delete">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        <div class="action-buttons">
+            <a href="{{ url_for('insert') }}" class="btn">Add New Data</a>
+            <a href="{{ url_for('logout') }}" class="btn btn-logout">Logout</a>
+        </div>
+    </div>
+</body>
+</html>

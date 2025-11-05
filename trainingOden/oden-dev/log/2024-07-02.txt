@@ -1,0 +1,307 @@
+ERROR | 2024-07-02 | 09:57:00 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 09:57:01 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 09:57:54 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 09:57:55 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:00:31 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:00:32 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:02:50 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:02:50 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:09:39 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:09:40 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:12:22 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:12:23 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:14:40 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:14:41 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:16:03 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:16:04 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:19:26 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:19:26 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:23:33 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:23:34 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:27:30 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:27:31 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:28:16 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:28:17 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:28:34 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:28:35 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:29:33 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:29:34 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+INFO | 2024-07-02 | 10:29:35 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000033
+INFO | 2024-07-02 | 10:29:35 | [MainSelect - ODENTABLEHEAD] - 0:00:00.000150
+ERROR | 2024-07-02 | 10:29:35 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-02 | 10:29:35 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.000781
+INFO | 2024-07-02 | 10:29:35 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.001028
+ERROR | 2024-07-02 | 10:29:52 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:29:53 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:30:36 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:30:37 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:30:50 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:30:51 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:31:24 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:31:25 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+INFO | 2024-07-02 | 10:31:26 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000041
+INFO | 2024-07-02 | 10:31:26 | [MainSelect - ODENTABLEHEAD] - 0:00:00.000145
+ERROR | 2024-07-02 | 10:31:26 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-02 | 10:31:26 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.000646
+INFO | 2024-07-02 | 10:31:26 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.000794
+INFO | 2024-07-02 | 10:31:35 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000028
+INFO | 2024-07-02 | 10:31:35 | [MainSelect - ODENTABLEHEAD] - 0:00:00.000081
+ERROR | 2024-07-02 | 10:31:35 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-02 | 10:31:35 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.000581
+INFO | 2024-07-02 | 10:31:35 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.000740
+ERROR | 2024-07-02 | 10:31:46 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+ERROR | 2024-07-02 | 10:31:47 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+INFO | 2024-07-02 | 10:31:48 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000061
+INFO | 2024-07-02 | 10:31:48 | [MainSelect - ODENTABLEHEAD] - 0:00:00.000112
+ERROR | 2024-07-02 | 10:31:48 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-02 | 10:31:48 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.000667
+INFO | 2024-07-02 | 10:31:48 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.000806
+INFO | 2024-07-02 | 10:32:06 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000031
+INFO | 2024-07-02 | 10:32:06 | [MainSelect - ODENTABLEHEAD] - 0:00:00.000130
+ERROR | 2024-07-02 | 10:32:06 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-02 | 10:32:06 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.000863
+INFO | 2024-07-02 | 10:32:06 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.001016
+ERROR | 2024-07-02 | 10:32:11 | could not translate host name "satbi-dev-pg" to address: Temporary failure in name resolution
+
+INFO | 2024-07-02 | 10:32:15 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000033
+INFO | 2024-07-02 | 10:32:15 | [MainSelect - ODENTABLEHEAD] - 0:00:00.000102
+ERROR | 2024-07-02 | 10:32:15 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 482, ('KeyError',) 'errorcode'
+INFO | 2024-07-02 | 10:32:15 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.000702
+INFO | 2024-07-02 | 10:32:15 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.000832
+ERROR | 2024-07-02 | 10:33:54 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:33:54 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000053
+INFO | 2024-07-02 | 10:33:54 | [MainSelect - ODENTABLEHEAD] - 0:00:00.007647
+INFO | 2024-07-02 | 10:33:54 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-02 | 10:33:54 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.008345
+INFO | 2024-07-02 | 10:33:54 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | []
+INFO | 2024-07-02 | 10:33:54 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.008654
+INFO | 2024-07-02 | 10:34:09 | 2209116 | BERHASIL SET DATA INSERT |
+INFO | 2024-07-02 | 10:34:09 | 2209116 | BERHASIL INSERT DATA |
+INFO | 2024-07-02 | 10:34:09 | [Insert Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'othtextnormal': 'ODEN001', 'othtextupper': 'TEST'}} - ODENTABLEHEAD - 0:00:00.003898
+INFO | 2024-07-02 | 10:34:09 | [Total InsertDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'othtextnormal': 'ODEN001', 'othtextupper': 'TEST'}} - 0:00:00.029172
+INFO | 2024-07-02 | 10:34:09 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000033
+INFO | 2024-07-02 | 10:34:09 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005720
+INFO | 2024-07-02 | 10:34:09 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-02 | 10:34:09 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006373
+INFO | 2024-07-02 | 10:34:09 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf5494470>]
+INFO | 2024-07-02 | 10:34:09 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006895
+INFO | 2024-07-02 | 10:34:09 | [PreSelect - ODENTABLEDET] - 0:00:00.000039
+INFO | 2024-07-02 | 10:34:09 | [MainSelect - ODENTABLEDET] - 0:00:00.005732
+INFO | 2024-07-02 | 10:34:09 | [PostSelect - ODENTABLEDET - 0:00:00.000030
+INFO | 2024-07-02 | 10:34:09 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.006413
+INFO | 2024-07-02 | 10:34:09 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:09 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.006686
+ERROR | 2024-07-02 | 10:34:13 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:34:13 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000028
+INFO | 2024-07-02 | 10:34:13 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003229
+INFO | 2024-07-02 | 10:34:13 | [PostSelect - ODENTABLEHEAD - 0:00:00.000028
+INFO | 2024-07-02 | 10:34:13 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.003739
+INFO | 2024-07-02 | 10:34:13 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf4786450>]
+INFO | 2024-07-02 | 10:34:13 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004104
+INFO | 2024-07-02 | 10:34:13 | [PreSelect - ODENTABLEDET] - 0:00:00.000027
+INFO | 2024-07-02 | 10:34:13 | [MainSelect - ODENTABLEDET] - 0:00:00.003504
+INFO | 2024-07-02 | 10:34:13 | [PostSelect - ODENTABLEDET - 0:00:00.000026
+INFO | 2024-07-02 | 10:34:13 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004084
+INFO | 2024-07-02 | 10:34:13 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:13 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004379
+INFO | 2024-07-02 | 10:34:15 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000026
+INFO | 2024-07-02 | 10:34:15 | [MainSelect - ODENTABLEHEAD] - 0:00:00.002011
+INFO | 2024-07-02 | 10:34:15 | [PostSelect - ODENTABLEHEAD - 0:00:00.000021
+INFO | 2024-07-02 | 10:34:15 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.002505
+INFO | 2024-07-02 | 10:34:15 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | []
+INFO | 2024-07-02 | 10:34:15 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.002748
+INFO | 2024-07-02 | 10:34:16 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000030
+INFO | 2024-07-02 | 10:34:16 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003960
+INFO | 2024-07-02 | 10:34:16 | [PostSelect - ODENTABLEHEAD - 0:00:00.000024
+INFO | 2024-07-02 | 10:34:16 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004551
+INFO | 2024-07-02 | 10:34:16 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf4786cf0>]
+INFO | 2024-07-02 | 10:34:16 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004989
+INFO | 2024-07-02 | 10:34:16 | [PreSelect - ODENTABLEDET] - 0:00:00.000031
+INFO | 2024-07-02 | 10:34:16 | [MainSelect - ODENTABLEDET] - 0:00:00.003650
+INFO | 2024-07-02 | 10:34:16 | [PostSelect - ODENTABLEDET - 0:00:00.000034
+INFO | 2024-07-02 | 10:34:16 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004300
+INFO | 2024-07-02 | 10:34:16 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:16 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004628
+ERROR | 2024-07-02 | 10:34:26 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:34:26 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000029
+INFO | 2024-07-02 | 10:34:26 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003290
+INFO | 2024-07-02 | 10:34:26 | [PostSelect - ODENTABLEHEAD - 0:00:00.000033
+INFO | 2024-07-02 | 10:34:26 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.003927
+INFO | 2024-07-02 | 10:34:26 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf4786a50>]
+INFO | 2024-07-02 | 10:34:26 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004187
+INFO | 2024-07-02 | 10:34:26 | [PreSelect - ODENTABLEDET] - 0:00:00.000029
+INFO | 2024-07-02 | 10:34:26 | [MainSelect - ODENTABLEDET] - 0:00:00.003499
+INFO | 2024-07-02 | 10:34:26 | [PostSelect - ODENTABLEDET - 0:00:00.000028
+INFO | 2024-07-02 | 10:34:26 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004090
+INFO | 2024-07-02 | 10:34:26 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:26 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004502
+ERROR | 2024-07-02 | 10:34:32 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:34:32 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000044
+INFO | 2024-07-02 | 10:34:32 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003590
+INFO | 2024-07-02 | 10:34:32 | [PostSelect - ODENTABLEHEAD - 0:00:00.000026
+INFO | 2024-07-02 | 10:34:32 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004144
+INFO | 2024-07-02 | 10:34:32 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf4785cd0>]
+INFO | 2024-07-02 | 10:34:32 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004507
+INFO | 2024-07-02 | 10:34:32 | [PreSelect - ODENTABLEDET] - 0:00:00.000025
+INFO | 2024-07-02 | 10:34:32 | [MainSelect - ODENTABLEDET] - 0:00:00.003837
+INFO | 2024-07-02 | 10:34:32 | [PostSelect - ODENTABLEDET - 0:00:00.000025
+INFO | 2024-07-02 | 10:34:32 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004409
+INFO | 2024-07-02 | 10:34:32 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:32 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004661
+ERROR | 2024-07-02 | 10:34:35 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:34:36 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000032
+INFO | 2024-07-02 | 10:34:36 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004515
+INFO | 2024-07-02 | 10:34:36 | [PostSelect - ODENTABLEHEAD - 0:00:00.000027
+INFO | 2024-07-02 | 10:34:36 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005152
+INFO | 2024-07-02 | 10:34:36 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf4784da0>]
+INFO | 2024-07-02 | 10:34:36 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005530
+INFO | 2024-07-02 | 10:34:36 | [PreSelect - ODENTABLEDET] - 0:00:00.000029
+INFO | 2024-07-02 | 10:34:36 | [MainSelect - ODENTABLEDET] - 0:00:00.003771
+INFO | 2024-07-02 | 10:34:36 | [PostSelect - ODENTABLEDET - 0:00:00.000027
+INFO | 2024-07-02 | 10:34:36 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004336
+INFO | 2024-07-02 | 10:34:36 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:36 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004551
+ERROR | 2024-07-02 | 10:34:40 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:34:40 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000030
+INFO | 2024-07-02 | 10:34:40 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003576
+INFO | 2024-07-02 | 10:34:40 | [PostSelect - ODENTABLEHEAD - 0:00:00.000028
+INFO | 2024-07-02 | 10:34:40 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004305
+INFO | 2024-07-02 | 10:34:40 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf59adc40>]
+INFO | 2024-07-02 | 10:34:40 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004680
+INFO | 2024-07-02 | 10:34:40 | [PreSelect - ODENTABLEDET] - 0:00:00.000028
+INFO | 2024-07-02 | 10:34:40 | [MainSelect - ODENTABLEDET] - 0:00:00.003923
+INFO | 2024-07-02 | 10:34:40 | [PostSelect - ODENTABLEDET - 0:00:00.000024
+INFO | 2024-07-02 | 10:34:40 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004531
+INFO | 2024-07-02 | 10:34:40 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:40 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004783
+ERROR | 2024-07-02 | 10:34:41 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:34:41 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000031
+INFO | 2024-07-02 | 10:34:41 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003397
+INFO | 2024-07-02 | 10:34:41 | [PostSelect - ODENTABLEHEAD - 0:00:00.000028
+INFO | 2024-07-02 | 10:34:41 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004076
+INFO | 2024-07-02 | 10:34:41 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf47dd400>]
+INFO | 2024-07-02 | 10:34:41 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004468
+INFO | 2024-07-02 | 10:34:41 | [PreSelect - ODENTABLEDET] - 0:00:00.000028
+INFO | 2024-07-02 | 10:34:41 | [MainSelect - ODENTABLEDET] - 0:00:00.003661
+INFO | 2024-07-02 | 10:34:41 | [PostSelect - ODENTABLEDET - 0:00:00.000033
+INFO | 2024-07-02 | 10:34:41 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004296
+INFO | 2024-07-02 | 10:34:41 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:41 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004601
+ERROR | 2024-07-02 | 10:34:42 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:34:42 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000030
+INFO | 2024-07-02 | 10:34:42 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003511
+INFO | 2024-07-02 | 10:34:42 | [PostSelect - ODENTABLEHEAD - 0:00:00.000042
+INFO | 2024-07-02 | 10:34:42 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004164
+INFO | 2024-07-02 | 10:34:42 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf47cbf20>]
+INFO | 2024-07-02 | 10:34:42 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004555
+INFO | 2024-07-02 | 10:34:42 | [PreSelect - ODENTABLEDET] - 0:00:00.000026
+INFO | 2024-07-02 | 10:34:43 | [MainSelect - ODENTABLEDET] - 0:00:00.003595
+INFO | 2024-07-02 | 10:34:43 | [PostSelect - ODENTABLEDET - 0:00:00.000027
+INFO | 2024-07-02 | 10:34:43 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004090
+INFO | 2024-07-02 | 10:34:43 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:43 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004343
+ERROR | 2024-07-02 | 10:34:44 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-02 | 10:34:44 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000027
+INFO | 2024-07-02 | 10:34:44 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003704
+INFO | 2024-07-02 | 10:34:44 | [PostSelect - ODENTABLEHEAD - 0:00:00.000030
+INFO | 2024-07-02 | 10:34:44 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004295
+INFO | 2024-07-02 | 10:34:44 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecord object at 0x71ebf4785d90>]
+INFO | 2024-07-02 | 10:34:44 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.004607
+INFO | 2024-07-02 | 10:34:44 | [PreSelect - ODENTABLEDET] - 0:00:00.000050
+INFO | 2024-07-02 | 10:34:44 | [MainSelect - ODENTABLEDET] - 0:00:00.003575
+INFO | 2024-07-02 | 10:34:44 | [PostSelect - ODENTABLEDET - 0:00:00.000025
+INFO | 2024-07-02 | 10:34:44 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004129
+INFO | 2024-07-02 | 10:34:44 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-02 | 10:34:44 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004353

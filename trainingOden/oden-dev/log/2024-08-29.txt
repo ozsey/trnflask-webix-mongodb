@@ -1,0 +1,173 @@
+INFO | 2024-08-29 | 09:48:09 | t[odenAuthorize       ] => 0.002364n
+INFO | 2024-08-29 | 09:48:14 | t[odenAuthorize       ] => 0.000026n
+INFO | 2024-08-29 | 09:48:14 | t[odenAuthorize       ] => 0.000023n
+INFO | 2024-08-29 | 09:48:14 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000027
+INFO | 2024-08-29 | 09:48:14 | [MainSelect - ODENTABLEHEAD] - 0:00:00.025667
+INFO | 2024-08-29 | 09:48:14 | [PostSelect - ODENTABLEHEAD - 0:00:00.023131
+INFO | 2024-08-29 | 09:48:14 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.049573
+INFO | 2024-08-29 | 09:48:14 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTHD_CRecordOdentablehead object at 0x7b3c2b9e4670>]
+INFO | 2024-08-29 | 09:48:14 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.050246
+INFO | 2024-08-29 | 09:48:17 | t[odenAuthorize       ] => 0.000043n
+INFO | 2024-08-29 | 09:48:31 | t[odenAuthorize       ] => 0.000500n
+INFO | 2024-08-29 | 09:48:33 | t[odenAuthorize       ] => 0.000025n
+INFO | 2024-08-29 | 09:49:16 | t[odenAuthorize       ] => 0.000440n
+INFO | 2024-08-29 | 09:49:28 | t[odenAuthorize       ] => 0.000382n
+INFO | 2024-08-29 | 09:49:29 | t[odenAuthorize       ] => 0.000023n
+INFO | 2024-08-29 | 09:49:29 | [PreSelect - DEPARTEMEN] - 0:00:00.000030
+INFO | 2024-08-29 | 09:49:29 | [MainSelect - DEPARTEMEN] - 0:00:00.016535
+INFO | 2024-08-29 | 09:49:29 | [PostSelect - DEPARTEMEN - 0:00:00.000028
+INFO | 2024-08-29 | 09:49:29 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.017276
+INFO | 2024-08-29 | 09:49:29 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7b6b0c074430>]
+INFO | 2024-08-29 | 09:49:29 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.020738
+INFO | 2024-08-29 | 09:49:29 | t[odenAuthorize       ] => 0.000022n
+INFO | 2024-08-29 | 09:49:29 | [PreSelect - PEGAWAI] - 0:00:00.000028
+ERROR | 2024-08-29 | 09:49:29 | Log Error PGCode : 'None' - query: SELECT pg_id as pgid, pg_first_name as pgfirstname, pg_last_name as pglastname, pg_tgl_lahir as pgtgllahir, pg_tgl_kerja as pgtglkerja, pg_jabatan as pgjabatan, pg_gaji as pggaji, pg_dept_id as pgdeptid, pg_email as pgemail, pg_nomor_telp as pgnomortelp, pg_alamat as pgalamat, pg_status as pgstatus, dept_create_date as deptcreatedate, dept_create_user as deptcreateuser, dept_update_date as deptupdatedate, dept_update_user as deptupdateuser
+            FROM public.pegawai
+             WHERE None = %(None)s
+            
+            offset %(offsetNumber)s
+            limit 500
+             - PGError : 'None' 
+INFO | 2024-08-29 | 09:49:29 | [MainSelect - PEGAWAI] - 0:00:00.001274
+ERROR | 2024-08-29 | 09:49:29 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 493, ('KeyError',) 'errorcode'
+INFO | 2024-08-29 | 09:49:29 | [SelectStatementBlock - PEGAWAI] - 0:00:00.001757
+INFO | 2024-08-29 | 09:49:29 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.001912
+INFO | 2024-08-29 | 09:50:35 | t[odenAuthorize       ] => 0.000033n
+INFO | 2024-08-29 | 09:50:35 | t[odenAuthorize       ] => 0.000030n
+INFO | 2024-08-29 | 09:50:35 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000030
+INFO | 2024-08-29 | 09:50:35 | [MainSelect - ODENTABLEHEAD] - 0:00:00.011462
+INFO | 2024-08-29 | 09:50:35 | [PostSelect - ODENTABLEHEAD - 0:00:00.000028
+INFO | 2024-08-29 | 09:50:35 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.012266
+INFO | 2024-08-29 | 09:50:35 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTMD_CRecordOdentablehead object at 0x7b6b0c076650>]
+INFO | 2024-08-29 | 09:50:35 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.012817
+INFO | 2024-08-29 | 09:50:35 | t[odenAuthorize       ] => 0.000033n
+INFO | 2024-08-29 | 09:50:35 | [PreSelect - ODENTABLEDET] - 0:00:00.000048
+INFO | 2024-08-29 | 09:50:35 | [MainSelect - ODENTABLEDET] - 0:00:00.011762
+INFO | 2024-08-29 | 09:50:35 | [PostSelect - ODENTABLEDET - 0:00:00.000032
+INFO | 2024-08-29 | 09:50:35 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.012600
+INFO | 2024-08-29 | 09:50:35 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-08-29 | 09:50:35 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.013028
+INFO | 2024-08-29 | 09:50:38 | t[odenAuthorize       ] => 0.000027n
+INFO | 2024-08-29 | 09:50:39 | t[odenAuthorize       ] => 0.000024n
+INFO | 2024-08-29 | 09:50:39 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000024
+INFO | 2024-08-29 | 09:50:39 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003095
+INFO | 2024-08-29 | 09:50:39 | [PostSelect - ODENTABLEHEAD - 0:00:00.004691
+INFO | 2024-08-29 | 09:50:39 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.008454
+INFO | 2024-08-29 | 09:50:39 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTHD_CRecordOdentablehead object at 0x7b6b0c0753c0>]
+INFO | 2024-08-29 | 09:50:39 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.009012
+INFO | 2024-08-29 | 09:50:43 | t[odenAuthorize       ] => 0.000026n
+INFO | 2024-08-29 | 09:50:43 | t[odenAuthorize       ] => 0.000023n
+ERROR | 2024-08-29 | 09:50:43 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-08-29 | 09:50:43 | t[odenAuthorize       ] => 0.000026n
+INFO | 2024-08-29 | 09:50:43 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000042
+INFO | 2024-08-29 | 09:50:43 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004376
+INFO | 2024-08-29 | 09:50:43 | [PostSelect - ODENTABLEHEAD - 0:00:00.000030
+INFO | 2024-08-29 | 09:50:43 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005265
+INFO | 2024-08-29 | 09:50:43 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7b6b0bf79b70>]
+INFO | 2024-08-29 | 09:50:43 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005765
+INFO | 2024-08-29 | 09:50:44 | t[odenAuthorize       ] => 0.000024n
+INFO | 2024-08-29 | 09:50:44 | [PreSelect - ODENTABLEDET] - 0:00:00.000024
+INFO | 2024-08-29 | 09:50:44 | [MainSelect - ODENTABLEDET] - 0:00:00.004074
+INFO | 2024-08-29 | 09:50:44 | [PostSelect - ODENTABLEDET - 0:00:00.000030
+INFO | 2024-08-29 | 09:50:44 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.004655
+INFO | 2024-08-29 | 09:50:44 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-08-29 | 09:50:44 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005078
+INFO | 2024-08-29 | 09:50:46 | t[odenAuthorize       ] => 0.000032n
+INFO | 2024-08-29 | 09:50:46 | t[odenAuthorize       ] => 0.000048n
+INFO | 2024-08-29 | 09:50:46 | [PreSelect - DEPARTEMEN] - 0:00:00.000033
+INFO | 2024-08-29 | 09:50:46 | [MainSelect - DEPARTEMEN] - 0:00:00.004980
+INFO | 2024-08-29 | 09:50:46 | [PostSelect - DEPARTEMEN - 0:00:00.000027
+INFO | 2024-08-29 | 09:50:46 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005840
+INFO | 2024-08-29 | 09:50:46 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7b6b0c074b50>]
+INFO | 2024-08-29 | 09:50:46 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006637
+INFO | 2024-08-29 | 09:50:46 | t[odenAuthorize       ] => 0.000027n
+INFO | 2024-08-29 | 09:50:46 | [PreSelect - PEGAWAI] - 0:00:00.000027
+ERROR | 2024-08-29 | 09:50:46 | Log Error PGCode : 'None' - query: SELECT pg_id as pgid, pg_first_name as pgfirstname, pg_last_name as pglastname, pg_tgl_lahir as pgtgllahir, pg_tgl_kerja as pgtglkerja, pg_jabatan as pgjabatan, pg_gaji as pggaji, pg_dept_id as pgdeptid, pg_email as pgemail, pg_nomor_telp as pgnomortelp, pg_alamat as pgalamat, pg_status as pgstatus, dept_create_date as deptcreatedate, dept_create_user as deptcreateuser, dept_update_date as deptupdatedate, dept_update_user as deptupdateuser
+            FROM public.pegawai
+             WHERE None = %(None)s
+            
+            offset %(offsetNumber)s
+            limit 500
+             - PGError : 'None' 
+INFO | 2024-08-29 | 09:50:46 | [MainSelect - PEGAWAI] - 0:00:00.001218
+ERROR | 2024-08-29 | 09:50:46 | 2209116 | GAGAL SELECT DATA IN MAIN BLOCK | Error on line 493, ('KeyError',) 'errorcode'
+INFO | 2024-08-29 | 09:50:46 | [SelectStatementBlock - PEGAWAI] - 0:00:00.001684
+INFO | 2024-08-29 | 09:50:46 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.001899
+INFO | 2024-08-29 | 09:52:25 | t[odenAuthorize       ] => 0.000378n
+INFO | 2024-08-29 | 09:52:26 | t[odenAuthorize       ] => 0.000033n
+INFO | 2024-08-29 | 09:52:26 | [PreSelect - DEPARTEMEN] - 0:00:00.000034
+INFO | 2024-08-29 | 09:52:26 | [MainSelect - DEPARTEMEN] - 0:00:00.008100
+INFO | 2024-08-29 | 09:52:26 | [PostSelect - DEPARTEMEN - 0:00:00.000030
+INFO | 2024-08-29 | 09:52:26 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.008982
+INFO | 2024-08-29 | 09:52:26 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7d413496cac0>]
+INFO | 2024-08-29 | 09:52:26 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.009591
+INFO | 2024-08-29 | 09:52:26 | t[odenAuthorize       ] => 0.000033n
+INFO | 2024-08-29 | 09:52:26 | [PreSelect - PEGAWAI] - 0:00:00.000029
+INFO | 2024-08-29 | 09:52:26 | [MainSelect - PEGAWAI] - 0:00:00.011250
+INFO | 2024-08-29 | 09:52:26 | [PostSelect - PEGAWAI - 0:00:00.000032
+INFO | 2024-08-29 | 09:52:26 | [SelectStatementBlock - PEGAWAI] - 0:00:00.011980
+INFO | 2024-08-29 | 09:52:26 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x7d4134801e10>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134801600>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134801f00>, <__main__.ODENTR_CRecordPegawai object at 0x7d41348021a0>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134802440>, <__main__.ODENTR_CRecordPegawai object at 0x7d41348026e0>]
+INFO | 2024-08-29 | 09:52:26 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.016092
+INFO | 2024-08-29 | 09:52:31 | t[odenAuthorize       ] => 0.000032n
+INFO | 2024-08-29 | 09:52:31 | [PreSelect - DEPARTEMEN] - 0:00:00.000020
+INFO | 2024-08-29 | 09:52:31 | [MainSelect - DEPARTEMEN] - 0:00:00.003263
+INFO | 2024-08-29 | 09:52:31 | [PostSelect - DEPARTEMEN - 0:00:00.000034
+INFO | 2024-08-29 | 09:52:31 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004099
+INFO | 2024-08-29 | 09:52:31 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7d4134803520>]
+INFO | 2024-08-29 | 09:52:31 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004548
+INFO | 2024-08-29 | 09:52:31 | t[odenAuthorize       ] => 0.000032n
+INFO | 2024-08-29 | 09:52:31 | [PreSelect - PEGAWAI] - 0:00:00.000030
+INFO | 2024-08-29 | 09:52:31 | [MainSelect - PEGAWAI] - 0:00:00.004671
+INFO | 2024-08-29 | 09:52:31 | [PostSelect - PEGAWAI - 0:00:00.000035
+INFO | 2024-08-29 | 09:52:31 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005399
+INFO | 2024-08-29 | 09:52:31 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x7d4134801090>, <__main__.ODENTR_CRecordPegawai object at 0x7d41348010c0>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134803490>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134802f80>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134800df0>]
+INFO | 2024-08-29 | 09:52:31 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006551
+INFO | 2024-08-29 | 09:52:33 | t[odenAuthorize       ] => 0.000028n
+INFO | 2024-08-29 | 09:52:33 | [PreSelect - DEPARTEMEN] - 0:00:00.000051
+INFO | 2024-08-29 | 09:52:33 | [MainSelect - DEPARTEMEN] - 0:00:00.003478
+INFO | 2024-08-29 | 09:52:33 | [PostSelect - DEPARTEMEN - 0:00:00.000023
+INFO | 2024-08-29 | 09:52:33 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004090
+INFO | 2024-08-29 | 09:52:33 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7d4134809570>]
+INFO | 2024-08-29 | 09:52:33 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.004583
+INFO | 2024-08-29 | 09:52:33 | t[odenAuthorize       ] => 0.000024n
+INFO | 2024-08-29 | 09:52:33 | [PreSelect - PEGAWAI] - 0:00:00.000022
+INFO | 2024-08-29 | 09:52:33 | [MainSelect - PEGAWAI] - 0:00:00.003166
+INFO | 2024-08-29 | 09:52:33 | [PostSelect - PEGAWAI - 0:00:00.000022
+INFO | 2024-08-29 | 09:52:33 | [SelectStatementBlock - PEGAWAI] - 0:00:00.003777
+INFO | 2024-08-29 | 09:52:33 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x7d41348035b0>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134801090>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134801e40>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134803460>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134803e50>]
+INFO | 2024-08-29 | 09:52:33 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.004816
+INFO | 2024-08-29 | 09:52:34 | t[odenAuthorize       ] => 0.000023n
+INFO | 2024-08-29 | 09:52:34 | [PreSelect - DEPARTEMEN] - 0:00:00.000019
+INFO | 2024-08-29 | 09:52:34 | [MainSelect - DEPARTEMEN] - 0:00:00.004633
+INFO | 2024-08-29 | 09:52:34 | [PostSelect - DEPARTEMEN - 0:00:00.000026
+INFO | 2024-08-29 | 09:52:34 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005213
+INFO | 2024-08-29 | 09:52:34 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7d413496f820>]
+INFO | 2024-08-29 | 09:52:34 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005641
+INFO | 2024-08-29 | 09:52:34 | t[odenAuthorize       ] => 0.000023n
+INFO | 2024-08-29 | 09:52:34 | [PreSelect - PEGAWAI] - 0:00:00.000025
+INFO | 2024-08-29 | 09:52:34 | [MainSelect - PEGAWAI] - 0:00:00.002806
+INFO | 2024-08-29 | 09:52:34 | [PostSelect - PEGAWAI - 0:00:00.000032
+INFO | 2024-08-29 | 09:52:34 | [SelectStatementBlock - PEGAWAI] - 0:00:00.003399
+INFO | 2024-08-29 | 09:52:34 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x7d4134802cb0>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134803970>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134803700>, <__main__.ODENTR_CRecordPegawai object at 0x7d41348031c0>, <__main__.ODENTR_CRecordPegawai object at 0x7d4134800f40>]
+INFO | 2024-08-29 | 09:52:34 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.004426
+INFO | 2024-08-29 | 10:09:05 | t[odenAuthorize       ] => 0.000509n
+INFO | 2024-08-29 | 10:09:06 | t[odenAuthorize       ] => 0.000025n
+INFO | 2024-08-29 | 10:09:06 | [PreSelect - DEPARTEMEN] - 0:00:00.000024
+INFO | 2024-08-29 | 10:09:06 | [MainSelect - DEPARTEMEN] - 0:00:00.004030
+INFO | 2024-08-29 | 10:09:06 | [PostSelect - DEPARTEMEN - 0:00:00.000044
+INFO | 2024-08-29 | 10:09:06 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.004632
+INFO | 2024-08-29 | 10:09:06 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x76fa4c964a60>]
+INFO | 2024-08-29 | 10:09:06 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.005055
+INFO | 2024-08-29 | 10:09:06 | t[odenAuthorize       ] => 0.000025n
+INFO | 2024-08-29 | 10:09:06 | [PreSelect - PEGAWAI] - 0:00:00.000022
+INFO | 2024-08-29 | 10:09:06 | [MainSelect - PEGAWAI] - 0:00:00.005617
+INFO | 2024-08-29 | 10:09:06 | [PostSelect - PEGAWAI - 0:00:00.000026
+INFO | 2024-08-29 | 10:09:06 | [SelectStatementBlock - PEGAWAI] - 0:00:00.006335
+INFO | 2024-08-29 | 10:09:06 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x76fa4c9ff3a0>, <__main__.ODENTR_CRecordPegawai object at 0x76fa4c907340>, <__main__.ODENTR_CRecordPegawai object at 0x76fa4c907af0>, <__main__.ODENTR_CRecordPegawai object at 0x76fa4c9067a0>, <__main__.ODENTR_CRecordPegawai object at 0x76fa4c9640a0>, <__main__.ODENTR_CRecordPegawai object at 0x76fa4c9661a0>]
+INFO | 2024-08-29 | 10:09:06 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.009664

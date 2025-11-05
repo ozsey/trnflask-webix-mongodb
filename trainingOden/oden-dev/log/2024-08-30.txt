@@ -1,0 +1,167 @@
+INFO | 2024-08-30 | 02:33:47 | t[odenAuthorize       ] => 0.001527n
+INFO | 2024-08-30 | 02:34:11 | t[odenAuthorize       ] => 0.000030n
+INFO | 2024-08-30 | 02:34:20 | t[odenAuthorize       ] => 0.000025n
+INFO | 2024-08-30 | 02:34:26 | t[odenAuthorize       ] => 0.000026n
+INFO | 2024-08-30 | 02:34:26 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000025
+INFO | 2024-08-30 | 02:34:26 | [MainSelect - ODENTABLEHEAD] - 0:00:00.022444
+INFO | 2024-08-30 | 02:34:26 | [PostSelect - ODENTABLEHEAD - 0:00:00.011736
+INFO | 2024-08-30 | 02:34:26 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.034877
+INFO | 2024-08-30 | 02:34:26 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTHD_CRecordOdentablehead object at 0x7d1ec520e290>]
+INFO | 2024-08-30 | 02:34:26 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.035468
+INFO | 2024-08-30 | 02:34:35 | t[odenAuthorize       ] => 0.000046n
+INFO | 2024-08-30 | 02:34:37 | t[odenAuthorize       ] => 0.000034n
+INFO | 2024-08-30 | 02:34:37 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000021
+INFO | 2024-08-30 | 02:34:37 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004096
+INFO | 2024-08-30 | 02:34:37 | [PostSelect - ODENTABLEHEAD - 0:00:00.000029
+INFO | 2024-08-30 | 02:34:37 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004848
+INFO | 2024-08-30 | 02:34:37 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTMD_CRecordOdentablehead object at 0x7d1ec5306bf0>]
+INFO | 2024-08-30 | 02:34:37 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005399
+INFO | 2024-08-30 | 02:34:37 | t[odenAuthorize       ] => 0.000026n
+INFO | 2024-08-30 | 02:34:37 | [PreSelect - ODENTABLEDET] - 0:00:00.000026
+INFO | 2024-08-30 | 02:34:37 | [MainSelect - ODENTABLEDET] - 0:00:00.009764
+INFO | 2024-08-30 | 02:34:37 | [PostSelect - ODENTABLEDET - 0:00:00.000031
+INFO | 2024-08-30 | 02:34:37 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.010447
+INFO | 2024-08-30 | 02:34:37 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-08-30 | 02:34:37 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.010712
+INFO | 2024-08-30 | 02:34:49 | t[odenAuthorize       ] => 0.000027n
+INFO | 2024-08-30 | 02:34:49 | 2209116 | BERHASIL SET DATA UPDATE |
+INFO | 2024-08-30 | 02:34:49 | 2209116 | VALIDATE UPDATE - VAL {'status': True, 'msg': ''} - CHANGE STATUS FORM - True
+INFO | 2024-08-30 | 02:34:49 | 2209116 | BEFORE STATEMENT RECORD | UPDATE DATA
+INFO | 2024-08-30 | 02:34:49 | 2209116 | BEFORE EXECUTE DATA RECORD | UPDATE DATA - {'othtextnormal': 'SUGA AJA', 'othtextdisplay': 'Z', 'updateUser': '2209116'}
+INFO | 2024-08-30 | 02:34:49 | 2209116 | AFTER EXECUTE DATA RECORD | UPDATE DATA - {'othtextnormal': 'SUGA AJA', 'othtextdisplay': 'Z', 'updateUser': '2209116'}
+INFO | 2024-08-30 | 02:34:49 | 2209116 | UPDATE DATA | {'othtextnormal': 'SUGA AJA', 'othtextdisplay': 'Z', 'updateUser': '2209116'}
+INFO | 2024-08-30 | 02:34:49 | 2209116 | UPDATE STATEMENT BLOCK | UPDATE DATA - {'status': True, 'msg': 'execute statement berhasil', 'data': {'othtextnormal': 'SUGA AJA', 'othtextdisplay': 'Z', 'othcurrency': '56000000'}}
+INFO | 2024-08-30 | 02:34:49 | [Update Block] - {'status': True, 'msg': 'execute statement berhasil', 'data': {'othtextnormal': 'SUGA AJA', 'othtextdisplay': 'Z', 'othcurrency': '56000000'}} - ODENTABLEHEAD - 0:00:00.012691
+INFO | 2024-08-30 | 02:34:49 | 2209116 | {'status': True, 'msg': 'execute statement berhasil', 'data': {'othtextnormal': 'SUGA AJA', 'othtextdisplay': 'Z', 'othcurrency': '56000000'}}
+INFO | 2024-08-30 | 02:34:49 | 2209116 | UPDATE STATEMENT FORM | BERHASIL UPDATE DATA |
+INFO | 2024-08-30 | 02:34:49 | [Total UpdateDataStatement] - {'status': True, 'msg': 'commit berhasil', 'data': {'othtextnormal': 'SUGA AJA', 'othtextdisplay': 'Z', 'othcurrency': '56000000'}} - 0:00:00.039797
+INFO | 2024-08-30 | 02:34:51 | t[odenAuthorize       ] => 0.000025n
+INFO | 2024-08-30 | 02:34:53 | t[odenAuthorize       ] => 0.000024n
+INFO | 2024-08-30 | 02:34:53 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000019
+INFO | 2024-08-30 | 02:34:53 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004283
+INFO | 2024-08-30 | 02:34:53 | [PostSelect - ODENTABLEHEAD - 0:00:00.000025
+INFO | 2024-08-30 | 02:34:53 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005797
+INFO | 2024-08-30 | 02:34:53 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTMD_CRecordOdentablehead object at 0x7d1ec53fc5b0>]
+INFO | 2024-08-30 | 02:34:53 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006358
+INFO | 2024-08-30 | 02:34:53 | t[odenAuthorize       ] => 0.000026n
+INFO | 2024-08-30 | 02:34:53 | [PreSelect - ODENTABLEDET] - 0:00:00.000019
+INFO | 2024-08-30 | 02:34:53 | [MainSelect - ODENTABLEDET] - 0:00:00.003381
+INFO | 2024-08-30 | 02:34:53 | [PostSelect - ODENTABLEDET - 0:00:00.000024
+INFO | 2024-08-30 | 02:34:53 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.003894
+INFO | 2024-08-30 | 02:34:53 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-08-30 | 02:34:53 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.004127
+INFO | 2024-08-30 | 04:07:50 | t[odenAuthorize       ] => 0.000594n
+INFO | 2024-08-30 | 04:13:31 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000085
+INFO | 2024-08-30 | 04:13:31 | [MainSelect - ODENTABLEHEAD] - 0:00:00.018593
+INFO | 2024-08-30 | 04:13:31 | [PostSelect - ODENTABLEHEAD - 0:00:00.000027
+INFO | 2024-08-30 | 04:13:31 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.025599
+INFO | 2024-08-30 | 04:13:31 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTMD_CRecordOdentablehead object at 0x7ca707e02470>]
+INFO | 2024-08-30 | 04:13:31 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.026269
+INFO | 2024-08-30 | 04:13:31 | [PreSelect - ODENTABLEDET] - 0:00:00.000032
+INFO | 2024-08-30 | 04:13:31 | [MainSelect - ODENTABLEDET] - 0:00:00.011579
+INFO | 2024-08-30 | 04:13:31 | [PostSelect - ODENTABLEDET - 0:00:00.000031
+INFO | 2024-08-30 | 04:13:31 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.012174
+INFO | 2024-08-30 | 04:13:31 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-08-30 | 04:13:31 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.012391
+INFO | 2024-08-30 | 04:13:34 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000033
+INFO | 2024-08-30 | 04:13:34 | [MainSelect - ODENTABLEHEAD] - 0:00:00.003642
+INFO | 2024-08-30 | 04:13:34 | [PostSelect - ODENTABLEHEAD - 0:00:00.000039
+INFO | 2024-08-30 | 04:13:34 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004571
+INFO | 2024-08-30 | 04:13:34 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTMD_CRecordOdentablehead object at 0x7ca707e43ee0>]
+INFO | 2024-08-30 | 04:13:34 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005409
+INFO | 2024-08-30 | 04:13:34 | [PreSelect - ODENTABLEDET] - 0:00:00.000041
+INFO | 2024-08-30 | 04:13:34 | [MainSelect - ODENTABLEDET] - 0:00:00.004231
+INFO | 2024-08-30 | 04:13:34 | [PostSelect - ODENTABLEDET - 0:00:00.000032
+INFO | 2024-08-30 | 04:13:34 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005126
+INFO | 2024-08-30 | 04:13:34 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | [<__main__.OTMD_CRecordOdentabledet object at 0x7ca707e42f80>]
+INFO | 2024-08-30 | 04:13:34 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005780
+INFO | 2024-08-30 | 04:13:35 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000032
+INFO | 2024-08-30 | 04:13:35 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004406
+INFO | 2024-08-30 | 04:13:35 | [PostSelect - ODENTABLEHEAD - 0:00:00.000026
+INFO | 2024-08-30 | 04:13:35 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004984
+INFO | 2024-08-30 | 04:13:35 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTMD_CRecordOdentablehead object at 0x7ca707e41c90>]
+INFO | 2024-08-30 | 04:13:35 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005457
+INFO | 2024-08-30 | 04:13:35 | [PreSelect - ODENTABLEDET] - 0:00:00.000030
+INFO | 2024-08-30 | 04:13:35 | [MainSelect - ODENTABLEDET] - 0:00:00.004660
+INFO | 2024-08-30 | 04:13:35 | [PostSelect - ODENTABLEDET - 0:00:00.000029
+INFO | 2024-08-30 | 04:13:35 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005265
+INFO | 2024-08-30 | 04:13:35 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | [<__main__.OTMD_CRecordOdentabledet object at 0x7ca707e01930>]
+INFO | 2024-08-30 | 04:13:35 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005873
+INFO | 2024-08-30 | 04:13:36 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000028
+INFO | 2024-08-30 | 04:13:36 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005522
+INFO | 2024-08-30 | 04:13:36 | [PostSelect - ODENTABLEHEAD - 0:00:00.000025
+INFO | 2024-08-30 | 04:13:36 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006032
+INFO | 2024-08-30 | 04:13:36 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTMD_CRecordOdentablehead object at 0x7ca707e03af0>]
+INFO | 2024-08-30 | 04:13:36 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006616
+INFO | 2024-08-30 | 04:13:36 | [PreSelect - ODENTABLEDET] - 0:00:00.000049
+INFO | 2024-08-30 | 04:13:36 | [MainSelect - ODENTABLEDET] - 0:00:00.004817
+INFO | 2024-08-30 | 04:13:36 | [PostSelect - ODENTABLEDET - 0:00:00.000021
+INFO | 2024-08-30 | 04:13:36 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005358
+INFO | 2024-08-30 | 04:13:36 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-08-30 | 04:13:36 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005681
+INFO | 2024-08-30 | 10:55:59 | [PreSelect - DEPARTEMEN] - 0:00:00.000035
+INFO | 2024-08-30 | 10:55:59 | [MainSelect - DEPARTEMEN] - 0:00:00.021232
+INFO | 2024-08-30 | 10:55:59 | [PostSelect - DEPARTEMEN - 0:00:00.000060
+INFO | 2024-08-30 | 10:55:59 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.023113
+INFO | 2024-08-30 | 10:55:59 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7ea6397fdf60>]
+INFO | 2024-08-30 | 10:55:59 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.023615
+INFO | 2024-08-30 | 10:56:00 | [PreSelect - PEGAWAI] - 0:00:00.000034
+INFO | 2024-08-30 | 10:56:00 | [MainSelect - PEGAWAI] - 0:00:00.019562
+INFO | 2024-08-30 | 10:56:00 | [PostSelect - PEGAWAI - 0:00:00.000029
+INFO | 2024-08-30 | 10:56:00 | [SelectStatementBlock - PEGAWAI] - 0:00:00.020304
+INFO | 2024-08-30 | 10:56:00 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x7ea639600df0>, <__main__.ODENTR_CRecordPegawai object at 0x7ea639601600>, <__main__.ODENTR_CRecordPegawai object at 0x7ea639600be0>, <__main__.ODENTR_CRecordPegawai object at 0x7ea639600940>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6397fec50>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6397fe9b0>]
+INFO | 2024-08-30 | 10:56:00 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.026364
+INFO | 2024-08-30 | 10:56:04 | [PreSelect - DEPARTEMEN] - 0:00:00.000038
+INFO | 2024-08-30 | 10:56:04 | [MainSelect - DEPARTEMEN] - 0:00:00.005189
+INFO | 2024-08-30 | 10:56:04 | [PostSelect - DEPARTEMEN - 0:00:00.000030
+INFO | 2024-08-30 | 10:56:04 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.005906
+INFO | 2024-08-30 | 10:56:04 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7ea63961cbb0>]
+INFO | 2024-08-30 | 10:56:04 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006713
+INFO | 2024-08-30 | 10:56:04 | [PreSelect - PEGAWAI] - 0:00:00.000035
+INFO | 2024-08-30 | 10:56:04 | [MainSelect - PEGAWAI] - 0:00:00.004026
+INFO | 2024-08-30 | 10:56:04 | [PostSelect - PEGAWAI - 0:00:00.000035
+INFO | 2024-08-30 | 10:56:04 | [SelectStatementBlock - PEGAWAI] - 0:00:00.004706
+INFO | 2024-08-30 | 10:56:04 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x7ea639601d20>, <__main__.ODENTR_CRecordPegawai object at 0x7ea639601bd0>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6397fef50>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6397ff250>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6397fe740>]
+INFO | 2024-08-30 | 10:56:04 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.005925
+INFO | 2024-08-30 | 10:56:04 | [PreSelect - DEPARTEMEN] - 0:00:00.000033
+INFO | 2024-08-30 | 10:56:04 | [MainSelect - DEPARTEMEN] - 0:00:00.005468
+INFO | 2024-08-30 | 10:56:04 | [PostSelect - DEPARTEMEN - 0:00:00.000030
+INFO | 2024-08-30 | 10:56:04 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.006161
+INFO | 2024-08-30 | 10:56:04 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7ea63961ebf0>]
+INFO | 2024-08-30 | 10:56:04 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.006837
+INFO | 2024-08-30 | 10:56:04 | [PreSelect - PEGAWAI] - 0:00:00.000035
+INFO | 2024-08-30 | 10:56:04 | [MainSelect - PEGAWAI] - 0:00:00.004903
+INFO | 2024-08-30 | 10:56:04 | [PostSelect - PEGAWAI - 0:00:00.000039
+INFO | 2024-08-30 | 10:56:04 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005738
+INFO | 2024-08-30 | 10:56:04 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x7ea639601210>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6396018d0>, <__main__.ODENTR_CRecordPegawai object at 0x7ea639600820>, <__main__.ODENTR_CRecordPegawai object at 0x7ea639600a60>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6396019c0>]
+INFO | 2024-08-30 | 10:56:04 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.007244
+INFO | 2024-08-30 | 10:57:07 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000032
+INFO | 2024-08-30 | 10:57:07 | [MainSelect - ODENTABLEHEAD] - 0:00:00.007754
+INFO | 2024-08-30 | 10:57:07 | [PostSelect - ODENTABLEHEAD - 0:00:00.000029
+INFO | 2024-08-30 | 10:57:07 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.008477
+INFO | 2024-08-30 | 10:57:07 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTMD_CRecordOdentablehead object at 0x7ea6396646a0>]
+INFO | 2024-08-30 | 10:57:07 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.009168
+INFO | 2024-08-30 | 10:57:07 | [PreSelect - ODENTABLEDET] - 0:00:00.000032
+INFO | 2024-08-30 | 10:57:07 | [MainSelect - ODENTABLEDET] - 0:00:00.017476
+INFO | 2024-08-30 | 10:57:07 | [PostSelect - ODENTABLEDET - 0:00:00.000128
+INFO | 2024-08-30 | 10:57:07 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.018266
+INFO | 2024-08-30 | 10:57:07 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-08-30 | 10:57:07 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.018531
+INFO | 2024-08-30 | 10:57:14 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000034
+INFO | 2024-08-30 | 10:57:14 | [MainSelect - ODENTABLEHEAD] - 0:00:00.009155
+INFO | 2024-08-30 | 10:57:14 | [PostSelect - ODENTABLEHEAD - 0:00:00.004266
+INFO | 2024-08-30 | 10:57:14 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.014118
+INFO | 2024-08-30 | 10:57:14 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTHD_CRecordOdentablehead object at 0x7ea639651fc0>]
+INFO | 2024-08-30 | 10:57:14 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.014633
+INFO | 2024-08-30 | 10:57:23 | [PreSelect - DEPARTEMEN] - 0:00:00.000031
+INFO | 2024-08-30 | 10:57:23 | [MainSelect - DEPARTEMEN] - 0:00:00.007151
+INFO | 2024-08-30 | 10:57:23 | [PostSelect - DEPARTEMEN - 0:00:00.000025
+INFO | 2024-08-30 | 10:57:23 | [SelectStatementBlock - DEPARTEMEN] - 0:00:00.007747
+INFO | 2024-08-30 | 10:57:23 | 2209116 | BERHASIL SELECT DATA DEPARTEMEN | [<__main__.ODENTR_CRecordDepartemen object at 0x7ea6396514e0>]
+INFO | 2024-08-30 | 10:57:23 | [Total SelectDataStatement] - DEPARTEMEN - 0:00:00.008282
+INFO | 2024-08-30 | 10:57:23 | [PreSelect - PEGAWAI] - 0:00:00.000027
+INFO | 2024-08-30 | 10:57:23 | [MainSelect - PEGAWAI] - 0:00:00.004527
+INFO | 2024-08-30 | 10:57:23 | [PostSelect - PEGAWAI - 0:00:00.000027
+INFO | 2024-08-30 | 10:57:23 | [SelectStatementBlock - PEGAWAI] - 0:00:00.005160
+INFO | 2024-08-30 | 10:57:23 | 2209116 | BERHASIL SELECT DATA PEGAWAI | [<__main__.ODENTR_CRecordPegawai object at 0x7ea6396526e0>, <__main__.ODENTR_CRecordPegawai object at 0x7ea639653700>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6396531f0>, <__main__.ODENTR_CRecordPegawai object at 0x7ea639652f20>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6397fce80>, <__main__.ODENTR_CRecordPegawai object at 0x7ea6397ff2e0>]
+INFO | 2024-08-30 | 10:57:23 | [Total SelectDataStatement] - PEGAWAI - 0:00:00.006828

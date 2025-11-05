@@ -1,0 +1,62 @@
+INFO | 2024-07-16 | 04:32:34 | t[odenAuthorize       ] => 0.000681n
+INFO | 2024-07-16 | 04:32:54 | t[odenAuthorize       ] => 0.000027n
+INFO | 2024-07-16 | 04:32:54 | t[odenAuthorize       ] => 0.000028n
+INFO | 2024-07-16 | 04:32:54 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000058
+INFO | 2024-07-16 | 04:32:54 | [MainSelect - ODENTABLEHEAD] - 0:00:00.009354
+INFO | 2024-07-16 | 04:32:54 | [PostSelect - ODENTABLEHEAD - 0:00:00.007030
+INFO | 2024-07-16 | 04:32:54 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.017211
+INFO | 2024-07-16 | 04:32:54 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.OTHD_CRecordOdentablehead object at 0x7129f378c110>]
+INFO | 2024-07-16 | 04:32:54 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.017832
+INFO | 2024-07-16 | 04:32:57 | t[odenAuthorize       ] => 0.000025n
+INFO | 2024-07-16 | 04:32:57 | t[odenAuthorize       ] => 0.000036n
+ERROR | 2024-07-16 | 04:32:57 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-16 | 04:32:57 | t[odenAuthorize       ] => 0.000028n
+INFO | 2024-07-16 | 04:32:57 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000030
+INFO | 2024-07-16 | 04:32:57 | [MainSelect - ODENTABLEHEAD] - 0:00:00.006024
+INFO | 2024-07-16 | 04:32:57 | [PostSelect - ODENTABLEHEAD - 0:00:00.000060
+INFO | 2024-07-16 | 04:32:57 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.006835
+INFO | 2024-07-16 | 04:32:57 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x7129f37c0440>]
+INFO | 2024-07-16 | 04:32:57 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.007368
+INFO | 2024-07-16 | 04:32:58 | t[odenAuthorize       ] => 0.000029n
+INFO | 2024-07-16 | 04:32:58 | [PreSelect - ODENTABLEDET] - 0:00:00.000021
+INFO | 2024-07-16 | 04:32:58 | [MainSelect - ODENTABLEDET] - 0:00:00.004457
+INFO | 2024-07-16 | 04:32:58 | [PostSelect - ODENTABLEDET - 0:00:00.000055
+INFO | 2024-07-16 | 04:32:58 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.005192
+INFO | 2024-07-16 | 04:32:58 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | [<__main__.SAMPLE_CRecord object at 0x7129f375e0c0>, <__main__.SAMPLE_CRecord object at 0x7129f4347500>, <__main__.SAMPLE_CRecord object at 0x7129f37c2690>]
+INFO | 2024-07-16 | 04:32:58 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.005803
+INFO | 2024-07-16 | 04:33:00 | t[odenAuthorize       ] => 0.000028n
+INFO | 2024-07-16 | 04:33:01 | t[odenAuthorize       ] => 0.000037n
+INFO | 2024-07-16 | 04:33:01 | [PreSelect - RC_GROUPING_POSISI] - 0:00:00.000022
+INFO | 2024-07-16 | 04:33:01 | [MainSelect - RC_GROUPING_POSISI] - 0:00:00.007252
+INFO | 2024-07-16 | 04:33:01 | [PostSelect - RC_GROUPING_POSISI - 0:00:00.000033
+INFO | 2024-07-16 | 04:33:01 | [SelectStatementBlock - RC_GROUPING_POSISI] - 0:00:00.007938
+INFO | 2024-07-16 | 04:33:01 | 2209116 | BERHASIL SELECT DATA RC_GROUPING_POSISI | [<__main__.MSTREC18_CRecordRc_Grouping_Posisi object at 0x7129f37cfc20>]
+INFO | 2024-07-16 | 04:33:01 | [Total SelectDataStatement] - RC_GROUPING_POSISI - 0:00:00.008479
+INFO | 2024-07-16 | 04:33:01 | t[odenAuthorize       ] => 0.000030n
+INFO | 2024-07-16 | 04:33:01 | t[odenAuthorize       ] => 0.000039n
+INFO | 2024-07-16 | 04:33:01 | [PreSelect - RC_GROUP_POSISI_STATUS_NIKAH] - 0:00:00.000035
+INFO | 2024-07-16 | 04:33:01 | [PreSelect - RC_GROUP_POSISI_SIM] - 0:00:00.000033
+INFO | 2024-07-16 | 04:33:01 | [MainSelect - RC_GROUP_POSISI_STATUS_NIKAH] - 0:00:00.007166
+INFO | 2024-07-16 | 04:33:01 | [MainSelect - RC_GROUP_POSISI_SIM] - 0:00:00.009992
+INFO | 2024-07-16 | 04:33:01 | [PostSelect - RC_GROUP_POSISI_STATUS_NIKAH - 0:00:00.009119
+INFO | 2024-07-16 | 04:33:01 | [SelectStatementBlock - RC_GROUP_POSISI_STATUS_NIKAH] - 0:00:00.017604
+INFO | 2024-07-16 | 04:33:01 | 2209116 | BERHASIL SELECT DATA RC_GROUP_POSISI_STATUS_NIKAH | [<__main__.MSTREC18_CRecordRc_Group_Posisi_Status_Nikah object at 0x7129f376b470>, <__main__.MSTREC18_CRecordRc_Group_Posisi_Status_Nikah object at 0x7129f3768d40>, <__main__.MSTREC18_CRecordRc_Group_Posisi_Status_Nikah object at 0x7129f37cd310>, <__main__.MSTREC18_CRecordRc_Group_Posisi_Status_Nikah object at 0x7129f37cfc20>, <__main__.MSTREC18_CRecordRc_Group_Posisi_Status_Nikah object at 0x7129f37cfa40>]
+INFO | 2024-07-16 | 04:33:01 | [Total SelectDataStatement] - RC_GROUP_POSISI_STATUS_NIKAH - 0:00:00.018341
+INFO | 2024-07-16 | 04:33:01 | [PostSelect - RC_GROUP_POSISI_SIM - 0:00:00.018426
+INFO | 2024-07-16 | 04:33:01 | [SelectStatementBlock - RC_GROUP_POSISI_SIM] - 0:00:00.029754
+INFO | 2024-07-16 | 04:33:01 | 2209116 | BERHASIL SELECT DATA RC_GROUP_POSISI_SIM | [<__main__.MSTREC18_CRecordRc_Group_Posisi_Sim object at 0x7129f376b0b0>, <__main__.MSTREC18_CRecordRc_Group_Posisi_Sim object at 0x7129f4320e30>, <__main__.MSTREC18_CRecordRc_Group_Posisi_Sim object at 0x7129f37cf920>, <__main__.MSTREC18_CRecordRc_Group_Posisi_Sim object at 0x7129f37cf0b0>]
+INFO | 2024-07-16 | 04:33:01 | [Total SelectDataStatement] - RC_GROUP_POSISI_SIM - 0:00:00.030320
+INFO | 2024-07-16 | 04:33:05 | t[odenAuthorize       ] => 0.000029n
+INFO | 2024-07-16 | 04:33:06 | t[odenAuthorize       ] => 0.000030n
+INFO | 2024-07-16 | 04:33:06 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000024
+INFO | 2024-07-16 | 04:33:06 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004194
+INFO | 2024-07-16 | 04:33:06 | [PostSelect - ODENTABLEHEAD - 0:00:00.000056
+INFO | 2024-07-16 | 04:33:06 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.004868
+INFO | 2024-07-16 | 04:33:06 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x7129f3346ba0>]
+INFO | 2024-07-16 | 04:33:06 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.005486

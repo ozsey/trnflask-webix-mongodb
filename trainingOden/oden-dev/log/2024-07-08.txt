@@ -1,0 +1,25 @@
+ERROR | 2024-07-08 | 01:57:39 | Log Error PGCode : 42P01 - query: 
+                select mbr_code as id, mbr_desc as value 
+                from ms_branch 
+                where mbr_status_aktif = 'Y' and mbr_msc_code = '01'  - PGError : ERROR:  relation "ms_branch" does not exist
+LINE 3:                 from ms_branch 
+                             ^
+ 
+INFO | 2024-07-08 | 01:57:39 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000046
+INFO | 2024-07-08 | 01:57:39 | [MainSelect - ODENTABLEHEAD] - 0:00:00.005064
+INFO | 2024-07-08 | 01:57:39 | [PostSelect - ODENTABLEHEAD - 0:00:00.000029
+INFO | 2024-07-08 | 01:57:39 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005704
+INFO | 2024-07-08 | 01:57:39 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.SAMPLE_CRecord object at 0x715535265250>]
+INFO | 2024-07-08 | 01:57:39 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006099
+INFO | 2024-07-08 | 01:57:39 | [PreSelect - ODENTABLEDET] - 0:00:00.000039
+INFO | 2024-07-08 | 01:57:39 | [MainSelect - ODENTABLEDET] - 0:00:00.006535
+INFO | 2024-07-08 | 01:57:39 | [PostSelect - ODENTABLEDET - 0:00:00.000033
+INFO | 2024-07-08 | 01:57:39 | [SelectStatementBlock - ODENTABLEDET] - 0:00:00.007145
+INFO | 2024-07-08 | 01:57:39 | 2209116 | BERHASIL SELECT DATA ODENTABLEDET | []
+INFO | 2024-07-08 | 01:57:39 | [Total SelectDataStatement] - ODENTABLEDET - 0:00:00.007405
+INFO | 2024-07-08 | 07:17:05 | [PreSelect - ODENTABLEHEAD] - 0:00:00.000043
+INFO | 2024-07-08 | 07:17:05 | [MainSelect - ODENTABLEHEAD] - 0:00:00.004206
+INFO | 2024-07-08 | 07:17:05 | [PostSelect - ODENTABLEHEAD - 0:00:00.000045
+INFO | 2024-07-08 | 07:17:05 | [SelectStatementBlock - ODENTABLEHEAD] - 0:00:00.005903
+INFO | 2024-07-08 | 07:17:05 | 2209116 | BERHASIL SELECT DATA ODENTABLEHEAD | [<__main__.CRecordOdentablehead object at 0x77ed4b07d880>]
+INFO | 2024-07-08 | 07:17:05 | [Total SelectDataStatement] - ODENTABLEHEAD - 0:00:00.006686
